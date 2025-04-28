@@ -201,11 +201,12 @@
     let selectedDate = '';
     let currentLevel = 'venue';
 
-    async function fetchData() {
-      const response = await fetch('attendance_data.json');
-      const data = await response.json();
-      return data;
-    }
+ async function fetchData() {
+  const response = await fetch('https://raw.githubusercontent.com/MaramAlmagadi/DigitalClassScreen/main/attendance_data.json?timestamp=' + new Date().getTime());
+  const data = await response.json();
+  return data;
+}
+
 
     async function init() {
       scheduleData = await fetchData();
