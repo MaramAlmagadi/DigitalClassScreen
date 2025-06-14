@@ -1,38 +1,14 @@
 {
-    "2025-06-01": {
+    "2025-06-15": {
         "day": "Sunday",
         "classes": {
-            "26017": {
-                "title": "Dangerous Goods Regulations for Personnel Responsible for transporting cargo loading and unloading ULDs and aircraft cargo compartments",
-                "start_time": "6/1/2025 16:00:00",
-                "end_time": "6/1/2025 23:00:00",
+            "26209": {
+                "title": "Passenger Stairs",
+                "start_time": "6/15/2025 08:30:00",
+                "end_time": "6/15/2025 15:30:00",
                 "venue": "HQ-Training Acadmey",
-                "instructor": "Ahmed Alkhanbashi",
+                "instructor": "Prakash Balram",
                 "students": [
-                    {
-                        "User ID": 15041957,
-                        "First Name": "NATHANIEL",
-                        "Middle Name": "",
-                        "Last Name": "VILLA"
-                    },
-                    {
-                        "User ID": 15041958,
-                        "First Name": "REGIE",
-                        "Middle Name": "",
-                        "Last Name": "CAPUNPON"
-                    },
-                    {
-                        "User ID": 15041971,
-                        "First Name": "EDWARD",
-                        "Middle Name": "VENTURA",
-                        "Last Name": "NAVARRO"
-                    },
-                    {
-                        "User ID": 15042013,
-                        "First Name": "SUHAELI",
-                        "Middle Name": "ATIAH",
-                        "Last Name": "KALIM"
-                    },
                     {
                         "User ID": 15042093,
                         "First Name": "EUGENE",
@@ -44,75 +20,33 @@
                         "First Name": "JOHN",
                         "Middle Name": "MATTHEW",
                         "Last Name": "VILLAMIL"
-                    },
-                    {
-                        "User ID": 2206117315,
-                        "First Name": "MD Mosin",
-                        "Middle Name": "",
-                        "Last Name": "Bilal"
                     }
                 ],
-                "student_count": 7
+                "student_count": 2
             },
-            "26213": {
-                "title": "Water Truck",
-                "start_time": "6/1/2025 08:30:00",
-                "end_time": "6/1/2025 12:30:00",
-                "venue": "HQ-Training Acadmey",
-                "instructor": "Joseph Mencias",
-                "students": [
-                    {
-                        "User ID": 15042095,
-                        "First Name": "JOMARI",
-                        "Middle Name": "",
-                        "Last Name": "SALUNGA"
-                    }
-                ],
-                "student_count": 1
-            },
-            "26220": {
-                "title": "Baggage Tractor and Non-Motorized GSE",
-                "start_time": "6/1/2025 08:30:00",
-                "end_time": "6/1/2025 15:30:00",
+            "26222": {
+                "title": "Ground Power Unit",
+                "start_time": "6/15/2025 08:30:00",
+                "end_time": "6/15/2025 15:30:00",
                 "venue": "HQ-Training Acadmey",
                 "instructor": "Mohammed Alsamti",
                 "students": [
-                    {
-                        "User ID": 15041964,
-                        "First Name": "RENZ",
-                        "Middle Name": "AARON",
-                        "Last Name": "LOPEZ"
-                    },
-                    {
-                        "User ID": 15041965,
-                        "First Name": "ROGELIO",
-                        "Middle Name": "JUNIOR",
-                        "Last Name": "TUQUIB"
-                    },
-                    {
-                        "User ID": 15042007,
-                        "First Name": "HERI",
-                        "Middle Name": "SUSANTO",
-                        "Last Name": "MARSUDI"
-                    },
-                    {
-                        "User ID": 15042012,
-                        "First Name": "PRASTIWA",
-                        "Middle Name": "AGENG",
-                        "Last Name": "PRATAMA"
-                    },
-                    {
-                        "User ID": 15042013,
-                        "First Name": "SUHAELI",
-                        "Middle Name": "ATIAH",
-                        "Last Name": "KALIM"
-                    },
                     {
                         "User ID": 15042091,
                         "First Name": "CHARLTON JHON",
                         "Middle Name": "",
                         "Last Name": "TERNIDA RELUCANO"
-                    },
+                    }
+                ],
+                "student_count": 1
+            },
+            "26325": {
+                "title": "Dangerous Goods Regulations for Personnel Responsible for transporting cargo loading and unloading ULDs and aircraft cargo compartments",
+                "start_time": "6/15/2025 08:30:00",
+                "end_time": "6/15/2025 15:30:00",
+                "venue": "HQ-Training Acadmey",
+                "instructor": "Ahmed Alkhanbashi",
+                "students": [
                     {
                         "User ID": 15042097,
                         "First Name": "CRESENCIO",
@@ -120,257 +54,79 @@
                         "Last Name": "AMIO"
                     }
                 ],
-                "student_count": 7
-            },
-            "26366": {
-                "title": "Aviation Basics and Safety",
-                "start_time": "6/1/2025 16:00:00",
-                "end_time": "6/1/2025 23:00:00",
-                "venue": "HQ-Training Acadmey",
-                "instructor": "Bader Khan",
-                "students": [
-                    {
-                        "User ID": 2350535924,
-                        "First Name": "ARMAND",
-                        "Middle Name": "FELISAN",
-                        "Last Name": "ESTACIO"
-                    },
-                    {
-                        "User ID": 2507189948,
-                        "First Name": "DARWIN",
-                        "Middle Name": "RAMAS",
-                        "Last Name": "MANDALUNES"
-                    }
-                ],
-                "student_count": 2
+                "student_count": 1
             }
         }
     },
-    "2025-06-02": {
+    "2025-06-16": {
         "day": "Monday",
         "classes": {
-            "26017": {
+            "26209": {
+                "title": "Passenger Stairs",
+                "start_time": "6/16/2025 08:30:00",
+                "end_time": "6/16/2025 15:30:00",
+                "venue": "Ramp Area",
+                "instructor": "Prakash Balram",
+                "students": [
+                    {
+                        "User ID": 15042093,
+                        "First Name": "EUGENE",
+                        "Middle Name": "",
+                        "Last Name": "BANSIL"
+                    },
+                    {
+                        "User ID": 15042094,
+                        "First Name": "JOHN",
+                        "Middle Name": "MATTHEW",
+                        "Last Name": "VILLAMIL"
+                    }
+                ],
+                "student_count": 2
+            },
+            "26222": {
+                "title": "Ground Power Unit",
+                "start_time": "6/16/2025 08:30:00",
+                "end_time": "6/16/2025 15:30:00",
+                "venue": "Ramp Area",
+                "instructor": "Mohammed Alsamti",
+                "students": [
+                    {
+                        "User ID": 15042091,
+                        "First Name": "CHARLTON JHON",
+                        "Middle Name": "",
+                        "Last Name": "TERNIDA RELUCANO"
+                    }
+                ],
+                "student_count": 1
+            },
+            "26325": {
                 "title": "Dangerous Goods Regulations for Personnel Responsible for transporting cargo loading and unloading ULDs and aircraft cargo compartments",
-                "start_time": "6/2/2025 16:00:00",
-                "end_time": "6/2/2025 23:00:00",
+                "start_time": "6/16/2025 08:30:00",
+                "end_time": "6/16/2025 15:30:00",
                 "venue": "HQ-Training Acadmey",
                 "instructor": "Ahmed Alkhanbashi",
                 "students": [
                     {
-                        "User ID": 15041957,
-                        "First Name": "NATHANIEL",
-                        "Middle Name": "",
-                        "Last Name": "VILLA"
-                    },
-                    {
-                        "User ID": 15041958,
-                        "First Name": "REGIE",
-                        "Middle Name": "",
-                        "Last Name": "CAPUNPON"
-                    },
-                    {
-                        "User ID": 15041971,
-                        "First Name": "EDWARD",
-                        "Middle Name": "VENTURA",
-                        "Last Name": "NAVARRO"
-                    },
-                    {
-                        "User ID": 15042013,
-                        "First Name": "SUHAELI",
-                        "Middle Name": "ATIAH",
-                        "Last Name": "KALIM"
-                    },
-                    {
-                        "User ID": 15042093,
-                        "First Name": "EUGENE",
-                        "Middle Name": "",
-                        "Last Name": "BANSIL"
-                    },
-                    {
-                        "User ID": 15042094,
-                        "First Name": "JOHN",
-                        "Middle Name": "MATTHEW",
-                        "Last Name": "VILLAMIL"
-                    },
-                    {
-                        "User ID": 2206117315,
-                        "First Name": "MD Mosin",
-                        "Middle Name": "",
-                        "Last Name": "Bilal"
-                    }
-                ],
-                "student_count": 7
-            },
-            "26213": {
-                "title": "Water Truck",
-                "start_time": "6/2/2025 08:30:00",
-                "end_time": "6/2/2025 15:30:00",
-                "venue": "Ramp Area",
-                "instructor": "Joseph Mencias",
-                "students": [
-                    {
-                        "User ID": 15042095,
-                        "First Name": "JOMARI",
-                        "Middle Name": "",
-                        "Last Name": "SALUNGA"
-                    }
-                ],
-                "student_count": 1
-            },
-            "26220": {
-                "title": "Baggage Tractor and Non-Motorized GSE",
-                "start_time": "6/2/2025 08:30:00",
-                "end_time": "6/2/2025 15:30:00",
-                "venue": "Ramp Area",
-                "instructor": "Mohammed Alsamti",
-                "students": [
-                    {
-                        "User ID": 15041964,
-                        "First Name": "RENZ",
-                        "Middle Name": "AARON",
-                        "Last Name": "LOPEZ"
-                    },
-                    {
-                        "User ID": 15041965,
-                        "First Name": "ROGELIO",
-                        "Middle Name": "JUNIOR",
-                        "Last Name": "TUQUIB"
-                    },
-                    {
-                        "User ID": 15042007,
-                        "First Name": "HERI",
-                        "Middle Name": "SUSANTO",
-                        "Last Name": "MARSUDI"
-                    },
-                    {
-                        "User ID": 15042012,
-                        "First Name": "PRASTIWA",
-                        "Middle Name": "AGENG",
-                        "Last Name": "PRATAMA"
-                    },
-                    {
-                        "User ID": 15042013,
-                        "First Name": "SUHAELI",
-                        "Middle Name": "ATIAH",
-                        "Last Name": "KALIM"
-                    },
-                    {
-                        "User ID": 15042091,
-                        "First Name": "CHARLTON JHON",
-                        "Middle Name": "",
-                        "Last Name": "TERNIDA RELUCANO"
-                    },
-                    {
                         "User ID": 15042097,
                         "First Name": "CRESENCIO",
                         "Middle Name": "ANSUS",
                         "Last Name": "AMIO"
                     }
                 ],
-                "student_count": 7
-            },
-            "26367": {
-                "title": "Ramp Airside Safety",
-                "start_time": "6/2/2025 16:00:00",
-                "end_time": "6/2/2025 23:00:00",
-                "venue": "HQ-Training Acadmey",
-                "instructor": "Bader Khan",
-                "students": [
-                    {
-                        "User ID": 2350535924,
-                        "First Name": "ARMAND",
-                        "Middle Name": "FELISAN",
-                        "Last Name": "ESTACIO"
-                    },
-                    {
-                        "User ID": 2507189948,
-                        "First Name": "DARWIN",
-                        "Middle Name": "RAMAS",
-                        "Last Name": "MANDALUNES"
-                    }
-                ],
-                "student_count": 2
-            },
-            "26370": {
-                "title": "Dangerous Goods Regulations for Personnel Responsible for the Planning of Aircraft Loading",
-                "start_time": "6/2/2025 08:30:00",
-                "end_time": "6/2/2025 15:30:00",
-                "venue": "HQ-Training Acadmey",
-                "instructor": "Hattan Toukhi",
-                "students": [
-                    {
-                        "User ID": 15041973,
-                        "First Name": "TEJO",
-                        "Middle Name": "RAGIL",
-                        "Last Name": "SEMBODO"
-                    }
-                ],
                 "student_count": 1
-            },
-            "26374": {
-                "title": "Passenger Services Meet and Greet Principles",
-                "start_time": "6/2/2025 08:30:00",
-                "end_time": "6/2/2025 15:30:00",
-                "venue": "HQ-Training Acadmey",
-                "instructor": "Sharaf Alzahrani",
-                "students": [
-                    {
-                        "User ID": 15029552,
-                        "First Name": "SHAHAD",
-                        "Middle Name": "MASTOUR",
-                        "Last Name": "ALTHOBAITI"
-                    },
-                    {
-                        "User ID": 15037105,
-                        "First Name": "DEEMA",
-                        "Middle Name": "AYMAN",
-                        "Last Name": "ABAID"
-                    },
-                    {
-                        "User ID": 15037795,
-                        "First Name": "KHADIJAH",
-                        "Middle Name": "ALI",
-                        "Last Name": "BAOTHMAN"
-                    },
-                    {
-                        "User ID": 15040575,
-                        "First Name": "Maram",
-                        "Middle Name": "Mohammed",
-                        "Last Name": "Almagadi"
-                    }
-                ],
-                "student_count": 4
             }
         }
     },
-    "2025-06-03": {
+    "2025-06-17": {
         "day": "Tuesday",
         "classes": {
-            "26018": {
-                "title": "Aircraft Loading/Unloading",
-                "start_time": "6/3/2025 08:30:00",
-                "end_time": "6/3/2025 15:30:00",
-                "venue": "HQ-Training Acadmey",
-                "instructor": "Jamal Khan",
+            "26209": {
+                "title": "Passenger Stairs",
+                "start_time": "6/17/2025 08:30:00",
+                "end_time": "6/17/2025 15:30:00",
+                "venue": "Ramp Area",
+                "instructor": "Prakash Balram",
                 "students": [
-                    {
-                        "User ID": 15041957,
-                        "First Name": "NATHANIEL",
-                        "Middle Name": "",
-                        "Last Name": "VILLA"
-                    },
-                    {
-                        "User ID": 15041958,
-                        "First Name": "REGIE",
-                        "Middle Name": "",
-                        "Last Name": "CAPUNPON"
-                    },
-                    {
-                        "User ID": 15041971,
-                        "First Name": "EDWARD",
-                        "Middle Name": "VENTURA",
-                        "Last Name": "NAVARRO"
-                    },
                     {
                         "User ID": 15042093,
                         "First Name": "EUGENE",
@@ -382,12 +138,44 @@
                         "First Name": "JOHN",
                         "Middle Name": "MATTHEW",
                         "Last Name": "VILLAMIL"
+                    }
+                ],
+                "student_count": 2
+            },
+            "26222": {
+                "title": "Ground Power Unit",
+                "start_time": "6/17/2025 08:30:00",
+                "end_time": "6/17/2025 15:30:00",
+                "venue": "Ramp Area",
+                "instructor": "Mohammed Alsamti",
+                "students": [
+                    {
+                        "User ID": 15042091,
+                        "First Name": "CHARLTON JHON",
+                        "Middle Name": "",
+                        "Last Name": "TERNIDA RELUCANO"
+                    }
+                ],
+                "student_count": 1
+            },
+            "26326": {
+                "title": "Basic Ramp Hand Signals",
+                "start_time": "6/17/2025 08:30:00",
+                "end_time": "6/17/2025 15:30:00",
+                "venue": "HQ-Training Acadmey",
+                "instructor": "Samih Elmanasir",
+                "students": [
+                    {
+                        "User ID": 1080169491,
+                        "First Name": "SALEM KHALEF",
+                        "Middle Name": "SALEM",
+                        "Last Name": "ALSALEM"
                     },
                     {
-                        "User ID": 2206117315,
-                        "First Name": "MD Mosin",
-                        "Middle Name": "",
-                        "Last Name": "Bilal"
+                        "User ID": 15042097,
+                        "First Name": "CRESENCIO",
+                        "Middle Name": "ANSUS",
+                        "Last Name": "AMIO"
                     },
                     {
                         "User ID": 2520092335,
@@ -402,82 +190,75 @@
                         "Last Name": "HOSSAIN"
                     }
                 ],
-                "student_count": 8
-            },
-            "26213": {
-                "title": "Water Truck",
-                "start_time": "6/3/2025 08:30:00",
-                "end_time": "6/3/2025 15:30:00",
-                "venue": "Ramp Area",
-                "instructor": "Joseph Mencias",
-                "students": [
-                    {
-                        "User ID": 15042095,
-                        "First Name": "JOMARI",
-                        "Middle Name": "",
-                        "Last Name": "SALUNGA"
-                    }
-                ],
-                "student_count": 1
-            },
-            "26220": {
-                "title": "Baggage Tractor and Non-Motorized GSE",
-                "start_time": "6/3/2025 08:30:00",
-                "end_time": "6/3/2025 15:30:00",
-                "venue": "Ramp Area",
+                "student_count": 4
+            }
+        }
+    },
+    "2025-06-18": {
+        "day": "Wednesday",
+        "classes": {
+            "26223": {
+                "title": "Air Starter Unit",
+                "start_time": "6/18/2025 08:30:00",
+                "end_time": "6/18/2025 15:30:00",
+                "venue": "HQ-Training Acadmey",
                 "instructor": "Mohammed Alsamti",
                 "students": [
                     {
-                        "User ID": 15041964,
-                        "First Name": "RENZ",
-                        "Middle Name": "AARON",
-                        "Last Name": "LOPEZ"
-                    },
-                    {
-                        "User ID": 15041965,
-                        "First Name": "ROGELIO",
-                        "Middle Name": "JUNIOR",
-                        "Last Name": "TUQUIB"
-                    },
-                    {
-                        "User ID": 15042007,
-                        "First Name": "HERI",
-                        "Middle Name": "SUSANTO",
-                        "Last Name": "MARSUDI"
-                    },
-                    {
-                        "User ID": 15042012,
-                        "First Name": "PRASTIWA",
-                        "Middle Name": "AGENG",
-                        "Last Name": "PRATAMA"
-                    },
-                    {
-                        "User ID": 15042013,
-                        "First Name": "SUHAELI",
-                        "Middle Name": "ATIAH",
-                        "Last Name": "KALIM"
+                        "User ID": 15009747,
+                        "First Name": "AHMED",
+                        "Middle Name": "MAHMOUD",
+                        "Last Name": "FADHL"
                     },
                     {
                         "User ID": 15042091,
                         "First Name": "CHARLTON JHON",
                         "Middle Name": "",
                         "Last Name": "TERNIDA RELUCANO"
+                    }
+                ],
+                "student_count": 2
+            },
+            "26326": {
+                "title": "Basic Ramp Hand Signals",
+                "start_time": "6/18/2025 08:30:00",
+                "end_time": "6/18/2025 15:30:00",
+                "venue": "Ramp Area",
+                "instructor": "Samih Elmanasir",
+                "students": [
+                    {
+                        "User ID": 1080169491,
+                        "First Name": "SALEM KHALEF",
+                        "Middle Name": "SALEM",
+                        "Last Name": "ALSALEM"
                     },
                     {
                         "User ID": 15042097,
                         "First Name": "CRESENCIO",
                         "Middle Name": "ANSUS",
                         "Last Name": "AMIO"
+                    },
+                    {
+                        "User ID": 2520092335,
+                        "First Name": "JEWEL",
+                        "Middle Name": "",
+                        "Last Name": "MIAH"
+                    },
+                    {
+                        "User ID": 2533381170,
+                        "First Name": "AWALATH",
+                        "Middle Name": "",
+                        "Last Name": "HOSSAIN"
                     }
                 ],
-                "student_count": 7
+                "student_count": 4
             },
-            "26368": {
-                "title": "Human Factors",
-                "start_time": "6/3/2025 16:00:00",
-                "end_time": "6/3/2025 23:00:00",
+            "26369": {
+                "title": "Airport Familiarization",
+                "start_time": "6/18/2025 16:00:00",
+                "end_time": "6/18/2025 23:00:00",
                 "venue": "HQ-Training Acadmey",
-                "instructor": "Bader Khan",
+                "instructor": "Ahmed Alkhanbashi",
                 "students": [
                     {
                         "User ID": 2350535924,
@@ -493,142 +274,34 @@
                     }
                 ],
                 "student_count": 2
-            },
-            "26370": {
-                "title": "Dangerous Goods Regulations for Personnel Responsible for the Planning of Aircraft Loading",
-                "start_time": "6/3/2025 08:30:00",
-                "end_time": "6/3/2025 15:30:00",
-                "venue": "HQ-Training Acadmey",
-                "instructor": "Hattan Toukhi",
-                "students": [
-                    {
-                        "User ID": 15041973,
-                        "First Name": "TEJO",
-                        "Middle Name": "RAGIL",
-                        "Last Name": "SEMBODO"
-                    }
-                ],
-                "student_count": 1
-            },
-            "26374": {
-                "title": "Passenger Services Meet and Greet Principles",
-                "start_time": "6/3/2025 08:30:00",
-                "end_time": "6/3/2025 15:30:00",
-                "venue": "HQ-Training Acadmey",
-                "instructor": "Sharaf Alzahrani",
-                "students": [
-                    {
-                        "User ID": 15029552,
-                        "First Name": "SHAHAD",
-                        "Middle Name": "MASTOUR",
-                        "Last Name": "ALTHOBAITI"
-                    },
-                    {
-                        "User ID": 15037105,
-                        "First Name": "DEEMA",
-                        "Middle Name": "AYMAN",
-                        "Last Name": "ABAID"
-                    },
-                    {
-                        "User ID": 15037795,
-                        "First Name": "KHADIJAH",
-                        "Middle Name": "ALI",
-                        "Last Name": "BAOTHMAN"
-                    },
-                    {
-                        "User ID": 15040575,
-                        "First Name": "Maram",
-                        "Middle Name": "Mohammed",
-                        "Last Name": "Almagadi"
-                    }
-                ],
-                "student_count": 4
             }
         }
     },
-    "2025-06-04": {
-        "day": "Wednesday",
+    "2025-06-19": {
+        "day": "Thursday",
         "classes": {
-            "26018": {
-                "title": "Aircraft Loading/Unloading",
-                "start_time": "6/4/2025 08:30:00",
-                "end_time": "6/4/2025 15:30:00",
+            "26225": {
+                "title": "Air Conditioning Unit",
+                "start_time": "6/19/2025 08:30:00",
+                "end_time": "6/19/2025 15:30:00",
                 "venue": "HQ-Training Acadmey",
-                "instructor": "Jamal Khan",
+                "instructor": "Mohammed Alsamti",
                 "students": [
                     {
-                        "User ID": 15041957,
-                        "First Name": "NATHANIEL",
+                        "User ID": 15042091,
+                        "First Name": "CHARLTON JHON",
                         "Middle Name": "",
-                        "Last Name": "VILLA"
-                    },
-                    {
-                        "User ID": 15041958,
-                        "First Name": "REGIE",
-                        "Middle Name": "",
-                        "Last Name": "CAPUNPON"
-                    },
-                    {
-                        "User ID": 15041971,
-                        "First Name": "EDWARD",
-                        "Middle Name": "VENTURA",
-                        "Last Name": "NAVARRO"
-                    },
-                    {
-                        "User ID": 15042093,
-                        "First Name": "EUGENE",
-                        "Middle Name": "",
-                        "Last Name": "BANSIL"
-                    },
-                    {
-                        "User ID": 15042094,
-                        "First Name": "JOHN",
-                        "Middle Name": "MATTHEW",
-                        "Last Name": "VILLAMIL"
-                    },
-                    {
-                        "User ID": 2206117315,
-                        "First Name": "MD Mosin",
-                        "Middle Name": "",
-                        "Last Name": "Bilal"
-                    },
-                    {
-                        "User ID": 2520092335,
-                        "First Name": "JEWEL",
-                        "Middle Name": "",
-                        "Last Name": "MIAH"
-                    },
-                    {
-                        "User ID": 2533381170,
-                        "First Name": "AWALATH",
-                        "Middle Name": "",
-                        "Last Name": "HOSSAIN"
-                    }
-                ],
-                "student_count": 8
-            },
-            "26218": {
-                "title": "Lavatory Truck",
-                "start_time": "6/4/2025 08:30:00",
-                "end_time": "6/4/2025 12:30:00",
-                "venue": "HQ-Training Acadmey",
-                "instructor": "Joseph Mencias",
-                "students": [
-                    {
-                        "User ID": 15042095,
-                        "First Name": "JOMARI",
-                        "Middle Name": "",
-                        "Last Name": "SALUNGA"
+                        "Last Name": "TERNIDA RELUCANO"
                     }
                 ],
                 "student_count": 1
             },
-            "26324": {
-                "title": "Regulatory Awareness (Introduction to GACARs)",
-                "start_time": "6/4/2025 16:00:00",
-                "end_time": "6/4/2025 23:00:00",
+            "26327": {
+                "title": "Aviation Security Awareness",
+                "start_time": "6/19/2025 16:00:00",
+                "end_time": "6/19/2025 19:30:00",
                 "venue": "HQ-Training Acadmey",
-                "instructor": "Bader Khan",
+                "instructor": "Ahmed Alkhanbashi",
                 "students": [
                     {
                         "User ID": 15042097,
@@ -651,42 +324,33 @@
                 ],
                 "student_count": 3
             },
-            "26373": {
-                "title": "Basic GSE Operation Airside",
-                "start_time": "6/4/2025 16:00:00",
-                "end_time": "6/4/2025 20:00:00",
+            "26328": {
+                "title": "Emergency Response Awareness",
+                "start_time": "6/19/2025 19:30:00",
+                "end_time": "6/19/2025 23:00:00",
                 "venue": "HQ-Training Acadmey",
-                "instructor": "Musthafa Kolagote",
+                "instructor": "Ahmed Alkhanbashi",
                 "students": [
                     {
-                        "User ID": 15042013,
-                        "First Name": "SUHAELI",
-                        "Middle Name": "ATIAH",
-                        "Last Name": "KALIM"
-                    }
-                ],
-                "student_count": 1
-            }
-        }
-    },
-    "2025-06-05": {
-        "day": "Thursday",
-        "classes": {
-            "26218": {
-                "title": "Lavatory Truck",
-                "start_time": "6/5/2025 08:30:00",
-                "end_time": "6/5/2025 15:30:00",
-                "venue": "Ramp Area",
-                "instructor": "Joseph Mencias",
-                "students": [
+                        "User ID": 15042097,
+                        "First Name": "CRESENCIO",
+                        "Middle Name": "ANSUS",
+                        "Last Name": "AMIO"
+                    },
                     {
-                        "User ID": 15042095,
-                        "First Name": "JOMARI",
-                        "Middle Name": "",
-                        "Last Name": "SALUNGA"
+                        "User ID": 2350535924,
+                        "First Name": "ARMAND",
+                        "Middle Name": "FELISAN",
+                        "Last Name": "ESTACIO"
+                    },
+                    {
+                        "User ID": 2507189948,
+                        "First Name": "DARWIN",
+                        "Middle Name": "RAMAS",
+                        "Last Name": "MANDALUNES"
                     }
                 ],
-                "student_count": 1
+                "student_count": 3
             }
         }
     }
