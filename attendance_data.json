@@ -205,19 +205,13 @@
                 "instructor": "Mohammed Alsamti",
                 "students": [
                     {
-                        "User ID": 15009747,
-                        "First Name": "AHMED",
-                        "Middle Name": "MAHMOUD",
-                        "Last Name": "FADHL"
-                    },
-                    {
                         "User ID": 15042091,
                         "First Name": "CHARLTON JHON",
                         "Middle Name": "",
                         "Last Name": "TERNIDA RELUCANO"
                     }
                 ],
-                "student_count": 2
+                "student_count": 1
             },
             "26326": {
                 "title": "Basic Ramp Hand Signals",
