@@ -127,9 +127,9 @@
                     },
                     {
                         "User ID": 15042192,
-                        "First Name": "ADE",
-                        "Middle Name": "RHEZA",
-                        "Last Name": "PRATAMA"
+                        "First Name": "Ade",
+                        "Middle Name": "Rheza",
+                        "Last Name": "Pratama"
                     },
                     {
                         "User ID": 15042202,
@@ -372,9 +372,9 @@
                 "students": [
                     {
                         "User ID": 15042192,
-                        "First Name": "ADE",
-                        "Middle Name": "RHEZA",
-                        "Last Name": "PRATAMA"
+                        "First Name": "Ade",
+                        "Middle Name": "Rheza",
+                        "Last Name": "Pratama"
                     }
                 ],
                 "student_count": 1
@@ -629,9 +629,9 @@
                 "students": [
                     {
                         "User ID": 15042192,
-                        "First Name": "ADE",
-                        "Middle Name": "RHEZA",
-                        "Last Name": "PRATAMA"
+                        "First Name": "Ade",
+                        "Middle Name": "Rheza",
+                        "Last Name": "Pratama"
                     }
                 ],
                 "student_count": 1
@@ -829,15 +829,15 @@
                 "students": [
                     {
                         "User ID": 15042291,
-                        "First Name": "SENOOB",
+                        "First Name": "Senoob",
                         "Middle Name": "",
-                        "Last Name": "KUNDAPPADAN"
+                        "Last Name": "Kundappadan"
                     },
                     {
                         "User ID": 15042293,
-                        "First Name": "ABDULGAFOOR",
+                        "First Name": "Abdulgafoor",
                         "Middle Name": "",
-                        "Last Name": "VALLATHODY"
+                        "Last Name": "Vallathody"
                     }
                 ],
                 "student_count": 2
@@ -1040,15 +1040,15 @@
                 "students": [
                     {
                         "User ID": 15042291,
-                        "First Name": "SENOOB",
+                        "First Name": "Senoob",
                         "Middle Name": "",
-                        "Last Name": "KUNDAPPADAN"
+                        "Last Name": "Kundappadan"
                     },
                     {
                         "User ID": 15042293,
-                        "First Name": "ABDULGAFOOR",
+                        "First Name": "Abdulgafoor",
                         "Middle Name": "",
-                        "Last Name": "VALLATHODY"
+                        "Last Name": "Vallathody"
                     }
                 ],
                 "student_count": 2
@@ -1144,8 +1144,8 @@
             },
             "26679": {
                 "title": "Regulatory Awareness (Introduction to GACARs)",
-                "start_time": "7/3/2025 16:00:00",
-                "end_time": "7/3/2025 23:00:00",
+                "start_time": "7/3/2025 08:30:00",
+                "end_time": "7/3/2025 15:30:00",
                 "venue": "HQ-Training Acadmey",
                 "instructor": "Turki Fallatah",
                 "students": [
@@ -1181,15 +1181,15 @@
                     },
                     {
                         "User ID": 15042291,
-                        "First Name": "SENOOB",
+                        "First Name": "Senoob",
                         "Middle Name": "",
-                        "Last Name": "KUNDAPPADAN"
+                        "Last Name": "Kundappadan"
                     },
                     {
                         "User ID": 15042293,
-                        "First Name": "ABDULGAFOOR",
+                        "First Name": "Abdulgafoor",
                         "Middle Name": "",
-                        "Last Name": "VALLATHODY"
+                        "Last Name": "Vallathody"
                     }
                 ],
                 "student_count": 7
@@ -1291,6 +1291,28 @@
                     }
                 ],
                 "student_count": 3
+            },
+            "26850": {
+                "title": "Basic GSE Operation Airside",
+                "start_time": "7/3/2025 16:00:00",
+                "end_time": "7/3/2025 20:00:00",
+                "venue": "HQ-Training Acadmey",
+                "instructor": "Samih Elmanasir",
+                "students": [
+                    {
+                        "User ID": 15042348,
+                        "First Name": "Ahmed",
+                        "Middle Name": "Abdallah",
+                        "Last Name": "Abdelkader"
+                    },
+                    {
+                        "User ID": 15042350,
+                        "First Name": "Alaa",
+                        "Middle Name": "Ayman",
+                        "Last Name": "Hikal"
+                    }
+                ],
+                "student_count": 2
             }
         }
     }
