@@ -388,34 +388,6 @@
                 ],
                 "student_count": 3
             },
-            "27258": {
-                "title": "Passenger Stairs",
-                "start_time": "7/27/2025 16:00:00",
-                "end_time": "7/27/2025 23:00:00",
-                "venue": "HQ-Training Acadmey",
-                "instructor": "Prakash Balram",
-                "students": [
-                    {
-                        "User ID": 15042381,
-                        "First Name": "Cyruz",
-                        "Middle Name": "Shalom",
-                        "Last Name": "Guiares"
-                    },
-                    {
-                        "User ID": 15042383,
-                        "First Name": "Achmadin",
-                        "Middle Name": "bin",
-                        "Last Name": "Syamsuri"
-                    },
-                    {
-                        "User ID": 15042384,
-                        "First Name": "Riky",
-                        "Middle Name": "Yusuf",
-                        "Last Name": "Damuri"
-                    }
-                ],
-                "student_count": 3
-            },
             "27516": {
                 "title": "Emirates Ramp Operation Training (EROT)",
                 "start_time": "7/27/2025 08:30:00",
@@ -1031,34 +1003,6 @@
                 ],
                 "student_count": 3
             },
-            "27258": {
-                "title": "Passenger Stairs",
-                "start_time": "7/28/2025 16:00:00",
-                "end_time": "7/28/2025 23:00:00",
-                "venue": "Ramp Area",
-                "instructor": "Prakash Balram",
-                "students": [
-                    {
-                        "User ID": 15042381,
-                        "First Name": "Cyruz",
-                        "Middle Name": "Shalom",
-                        "Last Name": "Guiares"
-                    },
-                    {
-                        "User ID": 15042383,
-                        "First Name": "Achmadin",
-                        "Middle Name": "bin",
-                        "Last Name": "Syamsuri"
-                    },
-                    {
-                        "User ID": 15042384,
-                        "First Name": "Riky",
-                        "Middle Name": "Yusuf",
-                        "Last Name": "Damuri"
-                    }
-                ],
-                "student_count": 3
-            },
             "27501": {
                 "title": "Mindset and Hospitality Workshop",
                 "start_time": "7/28/2025 08:30:00",
@@ -1107,12 +1051,6 @@
                         "First Name": "Jomana",
                         "Middle Name": "Abdullah",
                         "Last Name": "Alhebshi"
-                    },
-                    {
-                        "User ID": 15037065,
-                        "First Name": "Asrar",
-                        "Middle Name": "Ali",
-                        "Last Name": "Bahumaysh 15037065"
                     },
                     {
                         "User ID": 15038026,
@@ -1175,7 +1113,7 @@
                         "Last Name": "Shalabi"
                     }
                 ],
-                "student_count": 18
+                "student_count": 17
             },
             "27502": {
                 "title": "Mindset and Hospitality Workshop",
@@ -1736,41 +1674,133 @@
                 "instructor": "Samih Elmanasir",
                 "students": [
                     {
+                        "User ID": 15002089,
+                        "First Name": "HATTAN",
+                        "Middle Name": "IBRAHEM",
+                        "Last Name": "BABATEN"
+                    },
+                    {
+                        "User ID": 15009628,
+                        "First Name": "SALEH",
+                        "Middle Name": "MOHSEN",
+                        "Last Name": "ALGHAMDI"
+                    },
+                    {
+                        "User ID": 15011439,
+                        "First Name": "AHMED",
+                        "Middle Name": "KAMAL",
+                        "Last Name": "SALEM"
+                    },
+                    {
+                        "User ID": 15012234,
+                        "First Name": "ANAS",
+                        "Middle Name": "ABDULFATAH",
+                        "Last Name": "ALKHUDHARI"
+                    },
+                    {
+                        "User ID": 15017254,
+                        "First Name": "YASSER",
+                        "Middle Name": "ABDULHAMEED",
+                        "Last Name": "TAMAR"
+                    },
+                    {
+                        "User ID": 15017262,
+                        "First Name": "OMRAN",
+                        "Middle Name": "ALI",
+                        "Last Name": "FALATAH"
+                    },
+                    {
+                        "User ID": 15018540,
+                        "First Name": "NELSON",
+                        "Middle Name": "SORIANO",
+                        "Last Name": "QUEJADO"
+                    },
+                    {
+                        "User ID": 15024385,
+                        "First Name": "WALEED",
+                        "Middle Name": "KHALID",
+                        "Last Name": "ALQULAITY"
+                    },
+                    {
+                        "User ID": 15025520,
+                        "First Name": "FAISAL",
+                        "Middle Name": "KHALED",
+                        "Last Name": "SANTALY"
+                    },
+                    {
+                        "User ID": 15025744,
+                        "First Name": "ABDULAZIZ IBRAHEM",
+                        "Middle Name": "IBRAHEEM",
+                        "Last Name": "ALHARBI"
+                    },
+                    {
+                        "User ID": 15026461,
+                        "First Name": "ABDULAZIZ",
+                        "Middle Name": "SALEM",
+                        "Last Name": "ALMUTAIRI"
+                    },
+                    {
+                        "User ID": 15026759,
+                        "First Name": "ALI",
+                        "Middle Name": "BADR",
+                        "Last Name": "KOKO"
+                    },
+                    {
+                        "User ID": 15026791,
+                        "First Name": "RIYAD",
+                        "Middle Name": "BASEM",
+                        "Last Name": "BAJOH"
+                    },
+                    {
+                        "User ID": 15027963,
+                        "First Name": "BASIM",
+                        "Middle Name": "ABDURAZAQ",
+                        "Last Name": "ALSORMI"
+                    },
+                    {
+                        "User ID": 15028198,
+                        "First Name": "MOUTH",
+                        "Middle Name": "ABDULALLI",
+                        "Last Name": "ALHINDI"
+                    },
+                    {
+                        "User ID": 15030370,
+                        "First Name": "Basel",
+                        "Middle Name": "Khalil",
+                        "Last Name": "Alhazmi"
+                    },
+                    {
+                        "User ID": 15032749,
+                        "First Name": "PARDEEP",
+                        "Middle Name": "",
+                        "Last Name": "KRISHAN"
+                    },
+                    {
+                        "User ID": 15033072,
+                        "First Name": "JOSELITO",
+                        "Middle Name": "",
+                        "Last Name": "CALILONG"
+                    },
+                    {
+                        "User ID": 15033145,
+                        "First Name": "Maan",
+                        "Middle Name": "Abdulaah",
+                        "Last Name": "Aljohani"
+                    },
+                    {
+                        "User ID": 15034653,
+                        "First Name": "CHRISTIAN",
+                        "Middle Name": "VON",
+                        "Last Name": "MENDOZA"
+                    },
+                    {
                         "User ID": 2523432694,
                         "First Name": "Sundar",
                         "Middle Name": "",
                         "Last Name": "Muktan"
                     }
                 ],
-                "student_count": 1
-            },
-            "27258": {
-                "title": "Passenger Stairs",
-                "start_time": "7/29/2025 16:00:00",
-                "end_time": "7/29/2025 19:30:00",
-                "venue": "Ramp Area",
-                "instructor": "Prakash Balram",
-                "students": [
-                    {
-                        "User ID": 15042381,
-                        "First Name": "Cyruz",
-                        "Middle Name": "Shalom",
-                        "Last Name": "Guiares"
-                    },
-                    {
-                        "User ID": 15042383,
-                        "First Name": "Achmadin",
-                        "Middle Name": "bin",
-                        "Last Name": "Syamsuri"
-                    },
-                    {
-                        "User ID": 15042384,
-                        "First Name": "Riky",
-                        "Middle Name": "Yusuf",
-                        "Last Name": "Damuri"
-                    }
-                ],
-                "student_count": 3
+                "student_count": 21
             },
             "27501": {
                 "title": "Mindset and Hospitality Workshop",
@@ -1820,12 +1850,6 @@
                         "First Name": "Jomana",
                         "Middle Name": "Abdullah",
                         "Last Name": "Alhebshi"
-                    },
-                    {
-                        "User ID": 15037065,
-                        "First Name": "Asrar",
-                        "Middle Name": "Ali",
-                        "Last Name": "Bahumaysh 15037065"
                     },
                     {
                         "User ID": 15038026,
@@ -1888,7 +1912,7 @@
                         "Last Name": "Shalabi"
                     }
                 ],
-                "student_count": 18
+                "student_count": 17
             },
             "27502": {
                 "title": "Mindset and Hospitality Workshop",
@@ -2342,7 +2366,7 @@
                 "start_time": "7/30/2025 08:30:00",
                 "end_time": "7/30/2025 15:30:00",
                 "venue": "HQ-Training Acadmey",
-                "instructor": "Abdulaziz Trengganu",
+                "instructor": "Faris Alsaidalani",
                 "students": [
                     {
                         "User ID": 15002038,
@@ -2829,7 +2853,7 @@
                 "start_time": "7/31/2025 08:30:00",
                 "end_time": "7/31/2025 15:30:00",
                 "venue": "HQ-Training Acadmey",
-                "instructor": "Abdulaziz Trengganu",
+                "instructor": "Faris Alsaidalani",
                 "students": [
                     {
                         "User ID": 15002038,
@@ -3185,12 +3209,6 @@
                         "Last Name": "Alhebshi"
                     },
                     {
-                        "User ID": 15037065,
-                        "First Name": "Asrar",
-                        "Middle Name": "Ali",
-                        "Last Name": "Bahumaysh 15037065"
-                    },
-                    {
                         "User ID": 15038026,
                         "First Name": "Shuruq",
                         "Middle Name": "Mohammed",
@@ -3251,7 +3269,7 @@
                         "Last Name": "Shalabi"
                     }
                 ],
-                "student_count": 18
+                "student_count": 17
             },
             "27502": {
                 "title": "Mindset and Hospitality Workshop",
