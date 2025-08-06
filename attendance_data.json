@@ -160,6 +160,46 @@
                 ],
                 "student_count": 10
             },
+            "27242": {
+                "title": "Aircraft Pushback Towbarless",
+                "start_time": "8/3/2025 08:30:00",
+                "end_time": "8/3/2025 15:30:00",
+                "venue": "Aloaya Building",
+                "instructor": "Talal Khalaf",
+                "students": [
+                    {
+                        "User ID": 15038158,
+                        "First Name": "JAJIE",
+                        "Middle Name": "PEREZ",
+                        "Last Name": "MATUTINO"
+                    },
+                    {
+                        "User ID": 15038160,
+                        "First Name": "MICHAEL",
+                        "Middle Name": "PASARABA",
+                        "Last Name": "ACSON"
+                    },
+                    {
+                        "User ID": 15038162,
+                        "First Name": "SOCRATES",
+                        "Middle Name": "JR",
+                        "Last Name": "ALFARO"
+                    },
+                    {
+                        "User ID": 15038274,
+                        "First Name": "VISHNU",
+                        "Middle Name": "PATTATHI",
+                        "Last Name": "VIJAYAN"
+                    },
+                    {
+                        "User ID": 15038478,
+                        "First Name": "KUMAR",
+                        "Middle Name": "",
+                        "Last Name": "MURUGESAN"
+                    }
+                ],
+                "student_count": 5
+            },
             "27525": {
                 "title": "Airport Familiarization",
                 "start_time": "8/3/2025 16:00:00",
@@ -805,6 +845,106 @@
                 ],
                 "student_count": 23
             },
+            "26960": {
+                "title": "Supervision and Oversight",
+                "start_time": "8/4/2025 08:30:00",
+                "end_time": "8/4/2025 15:30:00",
+                "venue": "Aloaya Building",
+                "instructor": "Sultan Bassrawi",
+                "students": [
+                    {
+                        "User ID": 15003730,
+                        "First Name": "KHALED",
+                        "Middle Name": "SALEH",
+                        "Last Name": "YALDASH"
+                    },
+                    {
+                        "User ID": 15009581,
+                        "First Name": "RAYAN",
+                        "Middle Name": "MOHAMMED",
+                        "Last Name": "RADWAN"
+                    },
+                    {
+                        "User ID": 15011678,
+                        "First Name": "ADNAN",
+                        "Middle Name": "ABDULRAZZAQ",
+                        "Last Name": "AL HAZMI"
+                    },
+                    {
+                        "User ID": 15011721,
+                        "First Name": "MOHAMMED",
+                        "Middle Name": "SAEED",
+                        "Last Name": "AL SHAHRANI"
+                    },
+                    {
+                        "User ID": 15013872,
+                        "First Name": "KHALID",
+                        "Middle Name": "ASABIE",
+                        "Last Name": "ALZAHRANI"
+                    },
+                    {
+                        "User ID": 15014410,
+                        "First Name": "WAJDI",
+                        "Middle Name": "ABDULLAH",
+                        "Last Name": "ALAMUDI"
+                    },
+                    {
+                        "User ID": 15015954,
+                        "First Name": "SAMER",
+                        "Middle Name": "FAHAD",
+                        "Last Name": "ALHARBI"
+                    },
+                    {
+                        "User ID": 15016666,
+                        "First Name": "ABDULLAH",
+                        "Middle Name": "OMAR",
+                        "Last Name": "ISLAM"
+                    },
+                    {
+                        "User ID": 15020046,
+                        "First Name": "ASEEL",
+                        "Middle Name": "AHMED",
+                        "Last Name": "QANDOS"
+                    },
+                    {
+                        "User ID": 15020890,
+                        "First Name": "SULTAN",
+                        "Middle Name": "MOHAMMED",
+                        "Last Name": "AL-HARBI"
+                    },
+                    {
+                        "User ID": 15021243,
+                        "First Name": "OMAIR",
+                        "Middle Name": "ABDULRAHMAN",
+                        "Last Name": "ALFATTANI"
+                    },
+                    {
+                        "User ID": 15027200,
+                        "First Name": "MOHAMMED",
+                        "Middle Name": "GHURMULLAH",
+                        "Last Name": "ALGHAMDI"
+                    },
+                    {
+                        "User ID": 15027211,
+                        "First Name": "FAHHAD",
+                        "Middle Name": "JURAYS",
+                        "Last Name": "ALSHAMMARI"
+                    },
+                    {
+                        "User ID": 15034583,
+                        "First Name": "Safaa",
+                        "Middle Name": "Abdul Razaq",
+                        "Last Name": "Fallatah"
+                    },
+                    {
+                        "User ID": 15038117,
+                        "First Name": "SHAMEER",
+                        "Middle Name": "",
+                        "Last Name": "RAZAK"
+                    }
+                ],
+                "student_count": 15
+            },
             "26963": {
                 "title": "Aviation Security Awareness",
                 "start_time": "8/4/2025 16:00:00",
@@ -881,6 +1021,46 @@
                         "First Name": "Oday",
                         "Middle Name": "Adnan",
                         "Last Name": "Khulaidi"
+                    }
+                ],
+                "student_count": 5
+            },
+            "27242": {
+                "title": "Aircraft Pushback Towbarless",
+                "start_time": "8/4/2025 08:30:00",
+                "end_time": "8/4/2025 15:30:00",
+                "venue": "Ramp Area",
+                "instructor": "Talal Khalaf",
+                "students": [
+                    {
+                        "User ID": 15038158,
+                        "First Name": "JAJIE",
+                        "Middle Name": "PEREZ",
+                        "Last Name": "MATUTINO"
+                    },
+                    {
+                        "User ID": 15038160,
+                        "First Name": "MICHAEL",
+                        "Middle Name": "PASARABA",
+                        "Last Name": "ACSON"
+                    },
+                    {
+                        "User ID": 15038162,
+                        "First Name": "SOCRATES",
+                        "Middle Name": "JR",
+                        "Last Name": "ALFARO"
+                    },
+                    {
+                        "User ID": 15038274,
+                        "First Name": "VISHNU",
+                        "Middle Name": "PATTATHI",
+                        "Last Name": "VIJAYAN"
+                    },
+                    {
+                        "User ID": 15038478,
+                        "First Name": "KUMAR",
+                        "Middle Name": "",
+                        "Last Name": "MURUGESAN"
                     }
                 ],
                 "student_count": 5
@@ -1460,6 +1640,106 @@
                 ],
                 "student_count": 23
             },
+            "26960": {
+                "title": "Supervision and Oversight",
+                "start_time": "8/5/2025 08:30:00",
+                "end_time": "8/5/2025 15:30:00",
+                "venue": "Aloaya Building",
+                "instructor": "Sultan Bassrawi",
+                "students": [
+                    {
+                        "User ID": 15003730,
+                        "First Name": "KHALED",
+                        "Middle Name": "SALEH",
+                        "Last Name": "YALDASH"
+                    },
+                    {
+                        "User ID": 15009581,
+                        "First Name": "RAYAN",
+                        "Middle Name": "MOHAMMED",
+                        "Last Name": "RADWAN"
+                    },
+                    {
+                        "User ID": 15011678,
+                        "First Name": "ADNAN",
+                        "Middle Name": "ABDULRAZZAQ",
+                        "Last Name": "AL HAZMI"
+                    },
+                    {
+                        "User ID": 15011721,
+                        "First Name": "MOHAMMED",
+                        "Middle Name": "SAEED",
+                        "Last Name": "AL SHAHRANI"
+                    },
+                    {
+                        "User ID": 15013872,
+                        "First Name": "KHALID",
+                        "Middle Name": "ASABIE",
+                        "Last Name": "ALZAHRANI"
+                    },
+                    {
+                        "User ID": 15014410,
+                        "First Name": "WAJDI",
+                        "Middle Name": "ABDULLAH",
+                        "Last Name": "ALAMUDI"
+                    },
+                    {
+                        "User ID": 15015954,
+                        "First Name": "SAMER",
+                        "Middle Name": "FAHAD",
+                        "Last Name": "ALHARBI"
+                    },
+                    {
+                        "User ID": 15016666,
+                        "First Name": "ABDULLAH",
+                        "Middle Name": "OMAR",
+                        "Last Name": "ISLAM"
+                    },
+                    {
+                        "User ID": 15020046,
+                        "First Name": "ASEEL",
+                        "Middle Name": "AHMED",
+                        "Last Name": "QANDOS"
+                    },
+                    {
+                        "User ID": 15020890,
+                        "First Name": "SULTAN",
+                        "Middle Name": "MOHAMMED",
+                        "Last Name": "AL-HARBI"
+                    },
+                    {
+                        "User ID": 15021243,
+                        "First Name": "OMAIR",
+                        "Middle Name": "ABDULRAHMAN",
+                        "Last Name": "ALFATTANI"
+                    },
+                    {
+                        "User ID": 15027200,
+                        "First Name": "MOHAMMED",
+                        "Middle Name": "GHURMULLAH",
+                        "Last Name": "ALGHAMDI"
+                    },
+                    {
+                        "User ID": 15027211,
+                        "First Name": "FAHHAD",
+                        "Middle Name": "JURAYS",
+                        "Last Name": "ALSHAMMARI"
+                    },
+                    {
+                        "User ID": 15034583,
+                        "First Name": "Safaa",
+                        "Middle Name": "Abdul Razaq",
+                        "Last Name": "Fallatah"
+                    },
+                    {
+                        "User ID": 15038117,
+                        "First Name": "SHAMEER",
+                        "Middle Name": "",
+                        "Last Name": "RAZAK"
+                    }
+                ],
+                "student_count": 15
+            },
             "26966": {
                 "title": "Basic GSE Operation Airside",
                 "start_time": "8/5/2025 08:30:00",
@@ -1540,25 +1820,13 @@
                         "Last Name": "Alzahrani"
                     },
                     {
-                        "User ID": 2264302551,
-                        "First Name": "GAMAL",
-                        "Middle Name": "",
-                        "Last Name": "MOHAMED"
-                    },
-                    {
-                        "User ID": 2437534866,
-                        "First Name": "ABDULLAH MAMUN",
-                        "Middle Name": "",
-                        "Last Name": "Al Mamun"
-                    },
-                    {
                         "User ID": 2523432694,
                         "First Name": "Sundar",
                         "Middle Name": "",
                         "Last Name": "Muktan"
                     }
                 ],
-                "student_count": 15
+                "student_count": 13
             },
             "26970": {
                 "title": "Aircraft Marshalling - Initial",
@@ -1629,6 +1897,46 @@
                     }
                 ],
                 "student_count": 10
+            },
+            "27242": {
+                "title": "Aircraft Pushback Towbarless",
+                "start_time": "8/5/2025 08:30:00",
+                "end_time": "8/5/2025 15:30:00",
+                "venue": "Ramp Area",
+                "instructor": "Talal Khalaf",
+                "students": [
+                    {
+                        "User ID": 15038158,
+                        "First Name": "JAJIE",
+                        "Middle Name": "PEREZ",
+                        "Last Name": "MATUTINO"
+                    },
+                    {
+                        "User ID": 15038160,
+                        "First Name": "MICHAEL",
+                        "Middle Name": "PASARABA",
+                        "Last Name": "ACSON"
+                    },
+                    {
+                        "User ID": 15038162,
+                        "First Name": "SOCRATES",
+                        "Middle Name": "JR",
+                        "Last Name": "ALFARO"
+                    },
+                    {
+                        "User ID": 15038274,
+                        "First Name": "VISHNU",
+                        "Middle Name": "PATTATHI",
+                        "Last Name": "VIJAYAN"
+                    },
+                    {
+                        "User ID": 15038478,
+                        "First Name": "KUMAR",
+                        "Middle Name": "",
+                        "Last Name": "MURUGESAN"
+                    }
+                ],
+                "student_count": 5
             },
             "27764": {
                 "title": "Mindset and Hospitality Workshop",
@@ -1969,6 +2277,106 @@
                 ],
                 "student_count": 8
             },
+            "26960": {
+                "title": "Supervision and Oversight",
+                "start_time": "8/6/2025 08:30:00",
+                "end_time": "8/6/2025 15:30:00",
+                "venue": "Aloaya Building",
+                "instructor": "Sultan Bassrawi",
+                "students": [
+                    {
+                        "User ID": 15003730,
+                        "First Name": "KHALED",
+                        "Middle Name": "SALEH",
+                        "Last Name": "YALDASH"
+                    },
+                    {
+                        "User ID": 15009581,
+                        "First Name": "RAYAN",
+                        "Middle Name": "MOHAMMED",
+                        "Last Name": "RADWAN"
+                    },
+                    {
+                        "User ID": 15011678,
+                        "First Name": "ADNAN",
+                        "Middle Name": "ABDULRAZZAQ",
+                        "Last Name": "AL HAZMI"
+                    },
+                    {
+                        "User ID": 15011721,
+                        "First Name": "MOHAMMED",
+                        "Middle Name": "SAEED",
+                        "Last Name": "AL SHAHRANI"
+                    },
+                    {
+                        "User ID": 15013872,
+                        "First Name": "KHALID",
+                        "Middle Name": "ASABIE",
+                        "Last Name": "ALZAHRANI"
+                    },
+                    {
+                        "User ID": 15014410,
+                        "First Name": "WAJDI",
+                        "Middle Name": "ABDULLAH",
+                        "Last Name": "ALAMUDI"
+                    },
+                    {
+                        "User ID": 15015954,
+                        "First Name": "SAMER",
+                        "Middle Name": "FAHAD",
+                        "Last Name": "ALHARBI"
+                    },
+                    {
+                        "User ID": 15016666,
+                        "First Name": "ABDULLAH",
+                        "Middle Name": "OMAR",
+                        "Last Name": "ISLAM"
+                    },
+                    {
+                        "User ID": 15020046,
+                        "First Name": "ASEEL",
+                        "Middle Name": "AHMED",
+                        "Last Name": "QANDOS"
+                    },
+                    {
+                        "User ID": 15020890,
+                        "First Name": "SULTAN",
+                        "Middle Name": "MOHAMMED",
+                        "Last Name": "AL-HARBI"
+                    },
+                    {
+                        "User ID": 15021243,
+                        "First Name": "OMAIR",
+                        "Middle Name": "ABDULRAHMAN",
+                        "Last Name": "ALFATTANI"
+                    },
+                    {
+                        "User ID": 15027200,
+                        "First Name": "MOHAMMED",
+                        "Middle Name": "GHURMULLAH",
+                        "Last Name": "ALGHAMDI"
+                    },
+                    {
+                        "User ID": 15027211,
+                        "First Name": "FAHHAD",
+                        "Middle Name": "JURAYS",
+                        "Last Name": "ALSHAMMARI"
+                    },
+                    {
+                        "User ID": 15034583,
+                        "First Name": "Safaa",
+                        "Middle Name": "Abdul Razaq",
+                        "Last Name": "Fallatah"
+                    },
+                    {
+                        "User ID": 15038117,
+                        "First Name": "SHAMEER",
+                        "Middle Name": "",
+                        "Last Name": "RAZAK"
+                    }
+                ],
+                "student_count": 15
+            },
             "26970": {
                 "title": "Aircraft Marshalling - Initial",
                 "start_time": "8/6/2025 08:30:00",
@@ -2123,6 +2531,12 @@
                 "instructor": "Ahmed Alkhanbashi",
                 "students": [
                     {
+                        "User ID": 15010668,
+                        "First Name": "FERAS",
+                        "Middle Name": "SAEED",
+                        "Last Name": "ALGHAMDI"
+                    },
+                    {
                         "User ID": 15013614,
                         "First Name": "MOAYED",
                         "Middle Name": "IBRAHIM",
@@ -2151,6 +2565,46 @@
                         "First Name": "MOHAMMED",
                         "Middle Name": "AHMED",
                         "Last Name": "ALGARNI"
+                    }
+                ],
+                "student_count": 6
+            },
+            "27242": {
+                "title": "Aircraft Pushback Towbarless",
+                "start_time": "8/6/2025 08:30:00",
+                "end_time": "8/6/2025 15:30:00",
+                "venue": "Ramp Area",
+                "instructor": "Talal Khalaf",
+                "students": [
+                    {
+                        "User ID": 15038158,
+                        "First Name": "JAJIE",
+                        "Middle Name": "PEREZ",
+                        "Last Name": "MATUTINO"
+                    },
+                    {
+                        "User ID": 15038160,
+                        "First Name": "MICHAEL",
+                        "Middle Name": "PASARABA",
+                        "Last Name": "ACSON"
+                    },
+                    {
+                        "User ID": 15038162,
+                        "First Name": "SOCRATES",
+                        "Middle Name": "JR",
+                        "Last Name": "ALFARO"
+                    },
+                    {
+                        "User ID": 15038274,
+                        "First Name": "VISHNU",
+                        "Middle Name": "PATTATHI",
+                        "Last Name": "VIJAYAN"
+                    },
+                    {
+                        "User ID": 15038478,
+                        "First Name": "KUMAR",
+                        "Middle Name": "",
+                        "Last Name": "MURUGESAN"
                     }
                 ],
                 "student_count": 5
@@ -2436,28 +2890,6 @@
     "2025-08-07": {
         "day": "Thursday",
         "classes": {
-            "26821": {
-                "title": "Basic GSE Operation Airside",
-                "start_time": "8/7/2025 08:30:00",
-                "end_time": "8/7/2025 12:30:00",
-                "venue": "HQ-Training Acadmey",
-                "instructor": "Samih Elmanasir",
-                "students": [
-                    {
-                        "User ID": 15020890,
-                        "First Name": "SULTAN",
-                        "Middle Name": "MOHAMMED",
-                        "Last Name": "AL-HARBI"
-                    },
-                    {
-                        "User ID": 15027211,
-                        "First Name": "FAHHAD",
-                        "Middle Name": "JURAYS",
-                        "Last Name": "ALSHAMMARI"
-                    }
-                ],
-                "student_count": 2
-            },
             "26878": {
                 "title": "Dangerous Goods Regulations for Personnel Responsible for supervising loading and unloading ULDs and aircraft cargo compartments",
                 "start_time": "8/7/2025 08:30:00",
@@ -2670,6 +3102,12 @@
                 "instructor": "Ahmed Alkhanbashi",
                 "students": [
                     {
+                        "User ID": 15010668,
+                        "First Name": "FERAS",
+                        "Middle Name": "SAEED",
+                        "Last Name": "ALGHAMDI"
+                    },
+                    {
                         "User ID": 15013614,
                         "First Name": "MOAYED",
                         "Middle Name": "IBRAHIM",
@@ -2700,7 +3138,7 @@
                         "Last Name": "ALGARNI"
                     }
                 ],
-                "student_count": 5
+                "student_count": 6
             },
             "26975": {
                 "title": "Basic GSE Operation Airside",
@@ -2740,10 +3178,22 @@
                         "Last Name": "NALUVALA"
                     },
                     {
+                        "User ID": 15020890,
+                        "First Name": "SULTAN",
+                        "Middle Name": "MOHAMMED",
+                        "Last Name": "AL-HARBI"
+                    },
+                    {
                         "User ID": 15021239,
                         "First Name": "ABDULLAH",
                         "Middle Name": "MAHMMUD",
                         "Last Name": "ALSHALALI"
+                    },
+                    {
+                        "User ID": 15022609,
+                        "First Name": "SYED",
+                        "Middle Name": "FANOOS",
+                        "Last Name": "SYED IRSHAD"
                     },
                     {
                         "User ID": 15024131,
@@ -2762,6 +3212,12 @@
                         "First Name": "ALHASSAN",
                         "Middle Name": "ABDULHAMED",
                         "Last Name": "MOUSA"
+                    },
+                    {
+                        "User ID": 15027211,
+                        "First Name": "FAHHAD",
+                        "Middle Name": "JURAYS",
+                        "Last Name": "ALSHAMMARI"
                     },
                     {
                         "User ID": 15028526,
@@ -2788,7 +3244,47 @@
                         "Last Name": "PUTHANPURAYIL"
                     }
                 ],
-                "student_count": 13
+                "student_count": 16
+            },
+            "27242": {
+                "title": "Aircraft Pushback Towbarless",
+                "start_time": "8/7/2025 08:30:00",
+                "end_time": "8/7/2025 15:30:00",
+                "venue": "Ramp Area",
+                "instructor": "Talal Khalaf",
+                "students": [
+                    {
+                        "User ID": 15038158,
+                        "First Name": "JAJIE",
+                        "Middle Name": "PEREZ",
+                        "Last Name": "MATUTINO"
+                    },
+                    {
+                        "User ID": 15038160,
+                        "First Name": "MICHAEL",
+                        "Middle Name": "PASARABA",
+                        "Last Name": "ACSON"
+                    },
+                    {
+                        "User ID": 15038162,
+                        "First Name": "SOCRATES",
+                        "Middle Name": "JR",
+                        "Last Name": "ALFARO"
+                    },
+                    {
+                        "User ID": 15038274,
+                        "First Name": "VISHNU",
+                        "Middle Name": "PATTATHI",
+                        "Last Name": "VIJAYAN"
+                    },
+                    {
+                        "User ID": 15038478,
+                        "First Name": "KUMAR",
+                        "Middle Name": "",
+                        "Last Name": "MURUGESAN"
+                    }
+                ],
+                "student_count": 5
             },
             "27406": {
                 "title": "Aviation Security Awareness",
