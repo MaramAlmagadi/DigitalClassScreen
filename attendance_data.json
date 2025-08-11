@@ -88,19 +88,13 @@
                         "Last Name": "Guiares"
                     },
                     {
-                        "User ID": 15042383,
-                        "First Name": "Achmadin",
-                        "Middle Name": "bin",
-                        "Last Name": "Syamsuri"
-                    },
-                    {
                         "User ID": 15042384,
                         "First Name": "Riky",
                         "Middle Name": "Yusuf",
                         "Last Name": "Damuri"
                     }
                 ],
-                "student_count": 15
+                "student_count": 14
             },
             "26977": {
                 "title": "Dangerous Goods Regulations for Personnel Responsible for Accepting Passenger and Crew Baggage, Managing Aircraft Boarding Areas, and other Functions Involving Direct Passenger Contact at an Airport",
@@ -635,19 +629,13 @@
                         "Last Name": "Guiares"
                     },
                     {
-                        "User ID": 15042383,
-                        "First Name": "Achmadin",
-                        "Middle Name": "bin",
-                        "Last Name": "Syamsuri"
-                    },
-                    {
                         "User ID": 15042384,
                         "First Name": "Riky",
                         "Middle Name": "Yusuf",
                         "Last Name": "Damuri"
                     }
                 ],
-                "student_count": 15
+                "student_count": 14
             },
             "26977": {
                 "title": "Dangerous Goods Regulations for Personnel Responsible for Accepting Passenger and Crew Baggage, Managing Aircraft Boarding Areas, and other Functions Involving Direct Passenger Contact at an Airport",
@@ -1700,6 +1688,12 @@
                         "Last Name": "ALZAYDI"
                     },
                     {
+                        "User ID": 15024427,
+                        "First Name": "RAYAN",
+                        "Middle Name": "NASSAR",
+                        "Last Name": "ALMRWANI"
+                    },
+                    {
                         "User ID": 15025383,
                         "First Name": "MAJED",
                         "Middle Name": "MOHAMMED",
@@ -1736,7 +1730,7 @@
                         "Last Name": "Bukhari"
                     }
                 ],
-                "student_count": 15
+                "student_count": 16
             },
             "27243": {
                 "title": "Aircraft Pushback Towbarless",
@@ -1792,19 +1786,13 @@
                         "Last Name": "Guiares"
                     },
                     {
-                        "User ID": 15042383,
-                        "First Name": "Achmadin",
-                        "Middle Name": "bin",
-                        "Last Name": "Syamsuri"
-                    },
-                    {
                         "User ID": 15042384,
                         "First Name": "Riky",
                         "Middle Name": "Yusuf",
                         "Last Name": "Damuri"
                     }
                 ],
-                "student_count": 3
+                "student_count": 2
             },
             "27768": {
                 "title": "Mindset and Hospitality Workshop",
@@ -2629,19 +2617,13 @@
                         "Last Name": "Guiares"
                     },
                     {
-                        "User ID": 15042383,
-                        "First Name": "Achmadin",
-                        "Middle Name": "bin",
-                        "Last Name": "Syamsuri"
-                    },
-                    {
                         "User ID": 15042384,
                         "First Name": "Riky",
                         "Middle Name": "Yusuf",
                         "Last Name": "Damuri"
                     }
                 ],
-                "student_count": 3
+                "student_count": 2
             },
             "27607": {
                 "title": "Airside Driving (RDL)",
@@ -2663,6 +2645,12 @@
                         "Last Name": "AL-ZAHRANI"
                     },
                     {
+                        "User ID": 15024208,
+                        "First Name": "MUATH",
+                        "Middle Name": "NAWAF",
+                        "Last Name": "ALHARTHI"
+                    },
+                    {
                         "User ID": 15030325,
                         "First Name": "Sultan",
                         "Middle Name": "Muhammad",
@@ -2681,13 +2669,31 @@
                         "Last Name": "ALJEHANI"
                     },
                     {
+                        "User ID": 15031322,
+                        "First Name": "AZHARUDDIN",
+                        "Middle Name": "",
+                        "Last Name": "MOHAMMED"
+                    },
+                    {
+                        "User ID": 15033951,
+                        "First Name": "ARIF",
+                        "Middle Name": "",
+                        "Last Name": "KATTUPPARUTHY"
+                    },
+                    {
+                        "User ID": 15040339,
+                        "First Name": "Mahmoud",
+                        "Middle Name": "Ibrahim",
+                        "Last Name": "Heikal"
+                    },
+                    {
                         "User ID": 15042090,
                         "First Name": "Zainy",
                         "Middle Name": "Shaker",
                         "Last Name": "Allaial"
                     }
                 ],
-                "student_count": 6
+                "student_count": 10
             }
         }
     },
@@ -2882,6 +2888,12 @@
                         "Last Name": "AL-ZAHRANI"
                     },
                     {
+                        "User ID": 15024208,
+                        "First Name": "MUATH",
+                        "Middle Name": "NAWAF",
+                        "Last Name": "ALHARTHI"
+                    },
+                    {
                         "User ID": 15030325,
                         "First Name": "Sultan",
                         "Middle Name": "Muhammad",
@@ -2900,13 +2912,31 @@
                         "Last Name": "ALJEHANI"
                     },
                     {
+                        "User ID": 15031322,
+                        "First Name": "AZHARUDDIN",
+                        "Middle Name": "",
+                        "Last Name": "MOHAMMED"
+                    },
+                    {
+                        "User ID": 15033951,
+                        "First Name": "ARIF",
+                        "Middle Name": "",
+                        "Last Name": "KATTUPPARUTHY"
+                    },
+                    {
+                        "User ID": 15040339,
+                        "First Name": "Mahmoud",
+                        "Middle Name": "Ibrahim",
+                        "Last Name": "Heikal"
+                    },
+                    {
                         "User ID": 15042090,
                         "First Name": "Zainy",
                         "Middle Name": "Shaker",
                         "Last Name": "Allaial"
                     }
                 ],
-                "student_count": 6
+                "student_count": 10
             }
         }
     },
