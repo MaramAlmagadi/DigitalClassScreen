@@ -1,4 +1,3285 @@
 {
+    "2025-09-07": {
+        "day": "Sunday",
+        "classes": {
+            "26978": {
+                "title": "Aircraft Pushback - Conventional",
+                "start_time": "9/7/2025 08:30:00",
+                "end_time": "9/7/2025 15:30:00",
+                "venue": "Aloaya Building",
+                "instructor": "Mohammed Alsamti",
+                "students": [
+                    {
+                        "User ID": 15040680,
+                        "First Name": "Niel",
+                        "Middle Name": "Dion",
+                        "Last Name": "Bandiola"
+                    },
+                    {
+                        "User ID": 15040694,
+                        "First Name": "TROY",
+                        "Middle Name": "FREDERICK",
+                        "Last Name": "BUENAFE"
+                    },
+                    {
+                        "User ID": 15040704,
+                        "First Name": "ROBERT",
+                        "Middle Name": "TAGHOY",
+                        "Last Name": "RUIZ"
+                    },
+                    {
+                        "User ID": 15041300,
+                        "First Name": "Dudung",
+                        "Middle Name": "Andika",
+                        "Last Name": "Saputra"
+                    },
+                    {
+                        "User ID": 15041645,
+                        "First Name": "DAMIAN",
+                        "Middle Name": "SALIVIO",
+                        "Last Name": "GREGORIO"
+                    }
+                ],
+                "student_count": 5
+            },
+            "27267": {
+                "title": "Basic GSE Operation Airside",
+                "start_time": "9/7/2025 08:30:00",
+                "end_time": "9/7/2025 12:30:00",
+                "venue": "HQ-Training Acadmey",
+                "instructor": "Hazim Alhazmi",
+                "students": [
+                    {
+                        "User ID": 15012239,
+                        "First Name": "MOHAMMED",
+                        "Middle Name": "HASHIM",
+                        "Last Name": "ALMASRI"
+                    },
+                    {
+                        "User ID": 15015982,
+                        "First Name": "IBRAHIM",
+                        "Middle Name": "ABDULLAH",
+                        "Last Name": "AL-THAMALI"
+                    },
+                    {
+                        "User ID": 15016548,
+                        "First Name": "FAYEZ",
+                        "Middle Name": "HASSAN",
+                        "Last Name": "ALZAHRANI"
+                    },
+                    {
+                        "User ID": 15019226,
+                        "First Name": "MOHAMMED",
+                        "Middle Name": "YASSER",
+                        "Last Name": "SARHAN"
+                    },
+                    {
+                        "User ID": 15024459,
+                        "First Name": "ABDULRAHMAN",
+                        "Middle Name": "MOHAMMED",
+                        "Last Name": "ALSAFARI"
+                    },
+                    {
+                        "User ID": 15025950,
+                        "First Name": "ABDULELAH",
+                        "Middle Name": "ALI",
+                        "Last Name": "ALJEAID"
+                    },
+                    {
+                        "User ID": 15026216,
+                        "First Name": "ABDULRAHMAN",
+                        "Middle Name": "AHMEDRAFAT",
+                        "Last Name": "FAIRAK"
+                    },
+                    {
+                        "User ID": 15027430,
+                        "First Name": "MUNIR",
+                        "Middle Name": "HAMED",
+                        "Last Name": "ABDULAAL"
+                    },
+                    {
+                        "User ID": 15030325,
+                        "First Name": "Sultan",
+                        "Middle Name": "Muhammad",
+                        "Last Name": "Harthi"
+                    },
+                    {
+                        "User ID": 15031233,
+                        "First Name": "AMAR",
+                        "Middle Name": "DATTATRAY",
+                        "Last Name": "PATIL"
+                    },
+                    {
+                        "User ID": 15031237,
+                        "First Name": "MANGALI",
+                        "Middle Name": "",
+                        "Last Name": "BALNARSIMLU"
+                    },
+                    {
+                        "User ID": 15031322,
+                        "First Name": "AZHARUDDIN",
+                        "Middle Name": "",
+                        "Last Name": "MOHAMMED"
+                    },
+                    {
+                        "User ID": 15032220,
+                        "First Name": "YOGESH",
+                        "Middle Name": "SUSHANT",
+                        "Last Name": "MANE"
+                    },
+                    {
+                        "User ID": 15032330,
+                        "First Name": "SUNIL",
+                        "Middle Name": "",
+                        "Last Name": "RAMPHAL"
+                    },
+                    {
+                        "User ID": 15037279,
+                        "First Name": "FASIL",
+                        "Middle Name": "KOZHAKUZHIPARAMBIL",
+                        "Last Name": "BACKER"
+                    }
+                ],
+                "student_count": 15
+            },
+            "27269": {
+                "title": "Passenger Handling Course",
+                "start_time": "9/7/2025 08:30:00",
+                "end_time": "9/7/2025 15:30:00",
+                "venue": "HQ-Training Acadmey",
+                "instructor": "Sharaf Alzahrani",
+                "students": [
+                    {
+                        "User ID": 15002897,
+                        "First Name": "RAED",
+                        "Middle Name": "BADEE",
+                        "Last Name": "ALRABGHI"
+                    },
+                    {
+                        "User ID": 15011775,
+                        "First Name": "MOHAMMED",
+                        "Middle Name": "HUSSIN",
+                        "Last Name": "ABOHADI"
+                    },
+                    {
+                        "User ID": 15012251,
+                        "First Name": "MOHAMMED",
+                        "Middle Name": "HUSSIN",
+                        "Last Name": "MTWALI"
+                    },
+                    {
+                        "User ID": 15012731,
+                        "First Name": "ABDULLAH",
+                        "Middle Name": "SALEH",
+                        "Last Name": "ALGHAMDI"
+                    },
+                    {
+                        "User ID": 15012969,
+                        "First Name": "HAYTHAM",
+                        "Middle Name": "ADNAN",
+                        "Last Name": "FAQEEH"
+                    },
+                    {
+                        "User ID": 15013994,
+                        "First Name": "MOHANNAD",
+                        "Middle Name": "KHALID",
+                        "Last Name": "ALSHAREF"
+                    },
+                    {
+                        "User ID": 15014068,
+                        "First Name": "HUMAID",
+                        "Middle Name": "RAHEEM",
+                        "Last Name": "ALHARBI"
+                    },
+                    {
+                        "User ID": 15014277,
+                        "First Name": "KHALED",
+                        "Middle Name": "HUSSIN",
+                        "Last Name": "ALRAJHI"
+                    },
+                    {
+                        "User ID": 15015908,
+                        "First Name": "ABDULLAH",
+                        "Middle Name": "FAISAL",
+                        "Last Name": "ALROWITHI"
+                    },
+                    {
+                        "User ID": 15015942,
+                        "First Name": "TURKI",
+                        "Middle Name": "MUSA'AD",
+                        "Last Name": "AL MOABBADI"
+                    },
+                    {
+                        "User ID": 15015978,
+                        "First Name": "RAYAN",
+                        "Middle Name": "ABDULRAHMAN",
+                        "Last Name": "ALMOSHDAG"
+                    },
+                    {
+                        "User ID": 15016920,
+                        "First Name": "RAYAN",
+                        "Middle Name": "MOHAMMED",
+                        "Last Name": "ALTHAHARI"
+                    },
+                    {
+                        "User ID": 15020478,
+                        "First Name": "MAMDOUH",
+                        "Middle Name": "ALI",
+                        "Last Name": "ALKINANI"
+                    },
+                    {
+                        "User ID": 15023751,
+                        "First Name": "SHAHER",
+                        "Middle Name": "ESAM",
+                        "Last Name": "GHANDOURA"
+                    },
+                    {
+                        "User ID": 15024381,
+                        "First Name": "AMJAD",
+                        "Middle Name": "MOHSSEIN",
+                        "Last Name": "SABBAG"
+                    },
+                    {
+                        "User ID": 15028252,
+                        "First Name": "RABAB",
+                        "Middle Name": "ABDULAZIZ",
+                        "Last Name": "IRAQI"
+                    },
+                    {
+                        "User ID": 15031533,
+                        "First Name": "Bodour",
+                        "Middle Name": "Maatoug",
+                        "Last Name": "Flemban"
+                    },
+                    {
+                        "User ID": 15033328,
+                        "First Name": "Raghdah",
+                        "Middle Name": "RUZAYQ",
+                        "Last Name": "Alqarihi"
+                    }
+                ],
+                "student_count": 18
+            },
+            "27270": {
+                "title": "Aviation Basics and Safety",
+                "start_time": "9/7/2025 16:00:00",
+                "end_time": "9/7/2025 23:00:00",
+                "venue": "HQ-Training Acadmey",
+                "instructor": "Jamal Khan",
+                "students": [
+                    {
+                        "User ID": 15003029,
+                        "First Name": "HATTAN",
+                        "Middle Name": "ABDULLAH",
+                        "Last Name": "AL-SULIMANI"
+                    },
+                    {
+                        "User ID": 15041223,
+                        "First Name": "Shaikhah",
+                        "Middle Name": "Saeed",
+                        "Last Name": "Alshareef"
+                    },
+                    {
+                        "User ID": 15041231,
+                        "First Name": "Turki",
+                        "Middle Name": "Nasser",
+                        "Last Name": "Alosis"
+                    },
+                    {
+                        "User ID": 15041236,
+                        "First Name": "Abdulmajeed",
+                        "Middle Name": "Majdi",
+                        "Last Name": "Alaidarous"
+                    },
+                    {
+                        "User ID": 15041442,
+                        "First Name": "Abdulmohsen",
+                        "Middle Name": "Harun",
+                        "Last Name": "Abdulghani"
+                    },
+                    {
+                        "User ID": 15041458,
+                        "First Name": "Ahmed",
+                        "Middle Name": "Anas",
+                        "Last Name": "Mohmed"
+                    },
+                    {
+                        "User ID": 15042192,
+                        "First Name": "Ade",
+                        "Middle Name": "Rheza",
+                        "Last Name": "Pratama"
+                    }
+                ],
+                "student_count": 7
+            },
+            "27288": {
+                "title": "Aircraft Pushback Towbarless",
+                "start_time": "9/7/2025 16:00:00",
+                "end_time": "9/7/2025 23:00:00",
+                "venue": "Aloaya Building",
+                "instructor": "Talal Khalaf",
+                "students": [
+                    {
+                        "User ID": 15030656,
+                        "First Name": "ABDULRAHMAN",
+                        "Middle Name": "ABDULLAH",
+                        "Last Name": "ALSATI"
+                    },
+                    {
+                        "User ID": 15033734,
+                        "First Name": "UMESH",
+                        "Middle Name": "BABU",
+                        "Last Name": "NAIR"
+                    },
+                    {
+                        "User ID": 15033736,
+                        "First Name": "PRADEESH",
+                        "Middle Name": "",
+                        "Last Name": "KALLADASSERI"
+                    },
+                    {
+                        "User ID": 15033836,
+                        "First Name": "SUSHANT",
+                        "Middle Name": "",
+                        "Last Name": "HURNEKAR"
+                    },
+                    {
+                        "User ID": 15033839,
+                        "First Name": "SADIKHALI",
+                        "Middle Name": "",
+                        "Last Name": "ALUNGAL"
+                    },
+                    {
+                        "User ID": 15038270,
+                        "First Name": "JOBY",
+                        "Middle Name": "CHIRACKAL",
+                        "Last Name": "PAULOSE"
+                    },
+                    {
+                        "User ID": 15038283,
+                        "First Name": "PARTHEEBAN",
+                        "Middle Name": "",
+                        "Last Name": "SEKAR"
+                    },
+                    {
+                        "User ID": 15038332,
+                        "First Name": "ABDUL RASEED",
+                        "Middle Name": "",
+                        "Last Name": "ABDUL MAJEED"
+                    },
+                    {
+                        "User ID": 15038368,
+                        "First Name": "ROCKWELL",
+                        "Middle Name": "HERNANDEZ",
+                        "Last Name": "JARMIN"
+                    },
+                    {
+                        "User ID": 15038691,
+                        "First Name": "DEXTER",
+                        "Middle Name": "LUMANTAS",
+                        "Last Name": "CASTANO"
+                    }
+                ],
+                "student_count": 10
+            },
+            "27945": {
+                "title": "Dangerous Goods Regulations for Personnel Responsible for Accepting Passenger and Crew Baggage, Managing Aircraft Boarding Areas, and other Functions Involving Direct Passenger Contact at an Airport",
+                "start_time": "9/7/2025 16:00:00",
+                "end_time": "9/7/2025 23:00:00",
+                "venue": "HQ-Training Acadmey",
+                "instructor": "Raed Felemban",
+                "students": [
+                    {
+                        "User ID": 15042510,
+                        "First Name": "Raghad",
+                        "Middle Name": "Saleh",
+                        "Last Name": "Alghamdi"
+                    },
+                    {
+                        "User ID": 15042511,
+                        "First Name": "Shahad",
+                        "Middle Name": "Ahmed",
+                        "Last Name": "Alghamdi"
+                    },
+                    {
+                        "User ID": 15042512,
+                        "First Name": "yazeed",
+                        "Middle Name": "Fahad",
+                        "Last Name": "Aldahri"
+                    },
+                    {
+                        "User ID": 15042513,
+                        "First Name": "Renad",
+                        "Middle Name": "Ahmed",
+                        "Last Name": "Almaqadi"
+                    },
+                    {
+                        "User ID": 15042514,
+                        "First Name": "Ruaa",
+                        "Middle Name": "Ali",
+                        "Last Name": "Alshamrani"
+                    },
+                    {
+                        "User ID": 15042515,
+                        "First Name": "Reem",
+                        "Middle Name": "Yousef",
+                        "Last Name": "Alrimi"
+                    },
+                    {
+                        "User ID": 15042516,
+                        "First Name": "Raghad",
+                        "Middle Name": "Mohammad",
+                        "Last Name": "Alzhrani"
+                    },
+                    {
+                        "User ID": 15042517,
+                        "First Name": "Rawan",
+                        "Middle Name": "Ahmad",
+                        "Last Name": "Alzhrani"
+                    },
+                    {
+                        "User ID": 15042518,
+                        "First Name": "Rahaf",
+                        "Middle Name": "Ali",
+                        "Last Name": "Alshehri"
+                    },
+                    {
+                        "User ID": 15042519,
+                        "First Name": "Lamya",
+                        "Middle Name": "Saleh",
+                        "Last Name": "Algohribi"
+                    },
+                    {
+                        "User ID": 15042520,
+                        "First Name": "Areej",
+                        "Middle Name": "Omair",
+                        "Last Name": "Alharbi"
+                    },
+                    {
+                        "User ID": 15042521,
+                        "First Name": "Halah",
+                        "Middle Name": "Fawzi",
+                        "Last Name": "Almalki"
+                    },
+                    {
+                        "User ID": 15042523,
+                        "First Name": "Afnan",
+                        "Middle Name": "Ibrahim",
+                        "Last Name": "Alkhamisi"
+                    },
+                    {
+                        "User ID": 15042524,
+                        "First Name": "Ahmed",
+                        "Middle Name": "Abdulrahman",
+                        "Last Name": "Barasheed"
+                    },
+                    {
+                        "User ID": 15042525,
+                        "First Name": "Abdulaziz",
+                        "Middle Name": "Homoud",
+                        "Last Name": "Almaymuni"
+                    },
+                    {
+                        "User ID": 15042526,
+                        "First Name": "Ghaida",
+                        "Middle Name": "Yousef",
+                        "Last Name": "Alajlani"
+                    },
+                    {
+                        "User ID": 15042527,
+                        "First Name": "Maryam",
+                        "Middle Name": "Hani",
+                        "Last Name": "Bajsair"
+                    }
+                ],
+                "student_count": 17
+            },
+            "28071": {
+                "title": "Passenger Handling Course",
+                "start_time": "9/7/2025 16:00:00",
+                "end_time": "9/7/2025 23:00:00",
+                "venue": "HQ-Training Acadmey",
+                "instructor": "Hattan Toukhi",
+                "students": [
+                    {
+                        "User ID": 15042538,
+                        "First Name": "Hassan",
+                        "Middle Name": "Nabeel",
+                        "Last Name": "Alharbi"
+                    },
+                    {
+                        "User ID": 15042541,
+                        "First Name": "Taghreed",
+                        "Middle Name": "Saleh",
+                        "Last Name": "ALjuhani"
+                    }
+                ],
+                "student_count": 2
+            },
+            "28073": {
+                "title": "Airport Familiarization",
+                "start_time": "9/7/2025 08:00:00",
+                "end_time": "9/7/2025 15:00:00",
+                "venue": "HQ-Training Acadmey",
+                "instructor": "Turki Fallatah",
+                "students": [
+                    {
+                        "User ID": 15042536,
+                        "First Name": "Bedoor",
+                        "Middle Name": "Ahmed",
+                        "Last Name": "BAQUTAYYAN"
+                    },
+                    {
+                        "User ID": 15042537,
+                        "First Name": "Mayasir",
+                        "Middle Name": "Saeed",
+                        "Last Name": "Aljahdali"
+                    },
+                    {
+                        "User ID": 15042539,
+                        "First Name": "Sarah",
+                        "Middle Name": "Mohammed",
+                        "Last Name": "Hamed"
+                    },
+                    {
+                        "User ID": 15042540,
+                        "First Name": "Basmah",
+                        "Middle Name": "MOHAMMEDSALEH",
+                        "Last Name": "Ahmedhussain"
+                    }
+                ],
+                "student_count": 4
+            },
+            "28172": {
+                "title": "Dry Run and Coaching of Mindset and Hospitality",
+                "start_time": "9/7/2025 08:30:00",
+                "end_time": "9/7/2025 15:30:00",
+                "venue": "HQ-Training Acadmey",
+                "instructor": "External",
+                "students": [
+                    {
+                        "User ID": 15001812,
+                        "First Name": "ABDULLAH",
+                        "Middle Name": "SAUD",
+                        "Last Name": "AL-HARBI"
+                    },
+                    {
+                        "User ID": 15009754,
+                        "First Name": "MOHAMMED",
+                        "Middle Name": "ASAAD N",
+                        "Last Name": "TURI"
+                    },
+                    {
+                        "User ID": 15016241,
+                        "First Name": "SHAHIN",
+                        "Middle Name": "HAMAD",
+                        "Last Name": "ALAMARI"
+                    },
+                    {
+                        "User ID": 15016677,
+                        "First Name": "ABDULAZIZ",
+                        "Middle Name": "MOHAMMAD",
+                        "Last Name": "TRENGGANU"
+                    },
+                    {
+                        "User ID": 15025689,
+                        "First Name": "RAYAN",
+                        "Middle Name": "ABDULAZIZ",
+                        "Last Name": "FAKHRANI"
+                    },
+                    {
+                        "User ID": 15027134,
+                        "First Name": "RAFA",
+                        "Middle Name": "ADNAN",
+                        "Last Name": "SADAWI"
+                    }
+                ],
+                "student_count": 6
+            }
+        }
+    },
+    "2025-09-08": {
+        "day": "Monday",
+        "classes": {
+            "26978": {
+                "title": "Aircraft Pushback - Conventional",
+                "start_time": "9/8/2025 08:30:00",
+                "end_time": "9/8/2025 15:30:00",
+                "venue": "Ramp Area",
+                "instructor": "Mohammed Alsamti",
+                "students": [
+                    {
+                        "User ID": 15040680,
+                        "First Name": "Niel",
+                        "Middle Name": "Dion",
+                        "Last Name": "Bandiola"
+                    },
+                    {
+                        "User ID": 15040694,
+                        "First Name": "TROY",
+                        "Middle Name": "FREDERICK",
+                        "Last Name": "BUENAFE"
+                    },
+                    {
+                        "User ID": 15040704,
+                        "First Name": "ROBERT",
+                        "Middle Name": "TAGHOY",
+                        "Last Name": "RUIZ"
+                    },
+                    {
+                        "User ID": 15041300,
+                        "First Name": "Dudung",
+                        "Middle Name": "Andika",
+                        "Last Name": "Saputra"
+                    },
+                    {
+                        "User ID": 15041645,
+                        "First Name": "DAMIAN",
+                        "Middle Name": "SALIVIO",
+                        "Last Name": "GREGORIO"
+                    }
+                ],
+                "student_count": 5
+            },
+            "27269": {
+                "title": "Passenger Handling Course",
+                "start_time": "9/8/2025 08:30:00",
+                "end_time": "9/8/2025 15:30:00",
+                "venue": "HQ-Training Acadmey",
+                "instructor": "Sharaf Alzahrani",
+                "students": [
+                    {
+                        "User ID": 15002897,
+                        "First Name": "RAED",
+                        "Middle Name": "BADEE",
+                        "Last Name": "ALRABGHI"
+                    },
+                    {
+                        "User ID": 15011775,
+                        "First Name": "MOHAMMED",
+                        "Middle Name": "HUSSIN",
+                        "Last Name": "ABOHADI"
+                    },
+                    {
+                        "User ID": 15012251,
+                        "First Name": "MOHAMMED",
+                        "Middle Name": "HUSSIN",
+                        "Last Name": "MTWALI"
+                    },
+                    {
+                        "User ID": 15012731,
+                        "First Name": "ABDULLAH",
+                        "Middle Name": "SALEH",
+                        "Last Name": "ALGHAMDI"
+                    },
+                    {
+                        "User ID": 15012969,
+                        "First Name": "HAYTHAM",
+                        "Middle Name": "ADNAN",
+                        "Last Name": "FAQEEH"
+                    },
+                    {
+                        "User ID": 15013994,
+                        "First Name": "MOHANNAD",
+                        "Middle Name": "KHALID",
+                        "Last Name": "ALSHAREF"
+                    },
+                    {
+                        "User ID": 15014068,
+                        "First Name": "HUMAID",
+                        "Middle Name": "RAHEEM",
+                        "Last Name": "ALHARBI"
+                    },
+                    {
+                        "User ID": 15014277,
+                        "First Name": "KHALED",
+                        "Middle Name": "HUSSIN",
+                        "Last Name": "ALRAJHI"
+                    },
+                    {
+                        "User ID": 15015908,
+                        "First Name": "ABDULLAH",
+                        "Middle Name": "FAISAL",
+                        "Last Name": "ALROWITHI"
+                    },
+                    {
+                        "User ID": 15015942,
+                        "First Name": "TURKI",
+                        "Middle Name": "MUSA'AD",
+                        "Last Name": "AL MOABBADI"
+                    },
+                    {
+                        "User ID": 15015978,
+                        "First Name": "RAYAN",
+                        "Middle Name": "ABDULRAHMAN",
+                        "Last Name": "ALMOSHDAG"
+                    },
+                    {
+                        "User ID": 15016920,
+                        "First Name": "RAYAN",
+                        "Middle Name": "MOHAMMED",
+                        "Last Name": "ALTHAHARI"
+                    },
+                    {
+                        "User ID": 15020478,
+                        "First Name": "MAMDOUH",
+                        "Middle Name": "ALI",
+                        "Last Name": "ALKINANI"
+                    },
+                    {
+                        "User ID": 15023751,
+                        "First Name": "SHAHER",
+                        "Middle Name": "ESAM",
+                        "Last Name": "GHANDOURA"
+                    },
+                    {
+                        "User ID": 15024381,
+                        "First Name": "AMJAD",
+                        "Middle Name": "MOHSSEIN",
+                        "Last Name": "SABBAG"
+                    },
+                    {
+                        "User ID": 15028252,
+                        "First Name": "RABAB",
+                        "Middle Name": "ABDULAZIZ",
+                        "Last Name": "IRAQI"
+                    },
+                    {
+                        "User ID": 15031533,
+                        "First Name": "Bodour",
+                        "Middle Name": "Maatoug",
+                        "Last Name": "Flemban"
+                    },
+                    {
+                        "User ID": 15033328,
+                        "First Name": "Raghdah",
+                        "Middle Name": "RUZAYQ",
+                        "Last Name": "Alqarihi"
+                    }
+                ],
+                "student_count": 18
+            },
+            "27288": {
+                "title": "Aircraft Pushback Towbarless",
+                "start_time": "9/8/2025 16:00:00",
+                "end_time": "9/8/2025 23:00:00",
+                "venue": "Ramp Area",
+                "instructor": "Talal Khalaf",
+                "students": [
+                    {
+                        "User ID": 15030656,
+                        "First Name": "ABDULRAHMAN",
+                        "Middle Name": "ABDULLAH",
+                        "Last Name": "ALSATI"
+                    },
+                    {
+                        "User ID": 15033734,
+                        "First Name": "UMESH",
+                        "Middle Name": "BABU",
+                        "Last Name": "NAIR"
+                    },
+                    {
+                        "User ID": 15033736,
+                        "First Name": "PRADEESH",
+                        "Middle Name": "",
+                        "Last Name": "KALLADASSERI"
+                    },
+                    {
+                        "User ID": 15033836,
+                        "First Name": "SUSHANT",
+                        "Middle Name": "",
+                        "Last Name": "HURNEKAR"
+                    },
+                    {
+                        "User ID": 15033839,
+                        "First Name": "SADIKHALI",
+                        "Middle Name": "",
+                        "Last Name": "ALUNGAL"
+                    },
+                    {
+                        "User ID": 15038270,
+                        "First Name": "JOBY",
+                        "Middle Name": "CHIRACKAL",
+                        "Last Name": "PAULOSE"
+                    },
+                    {
+                        "User ID": 15038283,
+                        "First Name": "PARTHEEBAN",
+                        "Middle Name": "",
+                        "Last Name": "SEKAR"
+                    },
+                    {
+                        "User ID": 15038332,
+                        "First Name": "ABDUL RASEED",
+                        "Middle Name": "",
+                        "Last Name": "ABDUL MAJEED"
+                    },
+                    {
+                        "User ID": 15038368,
+                        "First Name": "ROCKWELL",
+                        "Middle Name": "HERNANDEZ",
+                        "Last Name": "JARMIN"
+                    },
+                    {
+                        "User ID": 15038691,
+                        "First Name": "DEXTER",
+                        "Middle Name": "LUMANTAS",
+                        "Last Name": "CASTANO"
+                    }
+                ],
+                "student_count": 10
+            },
+            "27787": {
+                "title": "Dangerous Goods Regulations for Personnel Responsible for supervising loading and unloading ULDs and aircraft cargo compartments",
+                "start_time": "9/8/2025 08:30:00",
+                "end_time": "9/8/2025 15:30:00",
+                "venue": "HQ-Training Acadmey",
+                "instructor": "Turki Fallatah",
+                "students": [
+                    {
+                        "User ID": 15002201,
+                        "First Name": "SULTAN",
+                        "Middle Name": "GHAZI",
+                        "Last Name": "AL-NAHARI"
+                    },
+                    {
+                        "User ID": 15010306,
+                        "First Name": "FAISAL",
+                        "Middle Name": "AHMED MOHD.",
+                        "Last Name": "BAKADAM"
+                    },
+                    {
+                        "User ID": 15014868,
+                        "First Name": "NASSER",
+                        "Middle Name": "SAEED",
+                        "Last Name": "ALGHAMDI"
+                    },
+                    {
+                        "User ID": 15016935,
+                        "First Name": "NAIF",
+                        "Middle Name": "ATEF",
+                        "Last Name": "ALSHEHRI"
+                    },
+                    {
+                        "User ID": 15019159,
+                        "First Name": "MOHANNAD",
+                        "Middle Name": "MOHAMMED",
+                        "Last Name": "FALLATAH"
+                    },
+                    {
+                        "User ID": 15024074,
+                        "First Name": "SAUD",
+                        "Middle Name": "FAYEH",
+                        "Last Name": "ALOTAIBI"
+                    },
+                    {
+                        "User ID": 15024459,
+                        "First Name": "ABDULRAHMAN",
+                        "Middle Name": "MOHAMMED",
+                        "Last Name": "ALSAFARI"
+                    }
+                ],
+                "student_count": 7
+            },
+            "27945": {
+                "title": "Dangerous Goods Regulations for Personnel Responsible for Accepting Passenger and Crew Baggage, Managing Aircraft Boarding Areas, and other Functions Involving Direct Passenger Contact at an Airport",
+                "start_time": "9/8/2025 16:00:00",
+                "end_time": "9/8/2025 23:00:00",
+                "venue": "HQ-Training Acadmey",
+                "instructor": "Raed Felemban",
+                "students": [
+                    {
+                        "User ID": 15042510,
+                        "First Name": "Raghad",
+                        "Middle Name": "Saleh",
+                        "Last Name": "Alghamdi"
+                    },
+                    {
+                        "User ID": 15042511,
+                        "First Name": "Shahad",
+                        "Middle Name": "Ahmed",
+                        "Last Name": "Alghamdi"
+                    },
+                    {
+                        "User ID": 15042512,
+                        "First Name": "yazeed",
+                        "Middle Name": "Fahad",
+                        "Last Name": "Aldahri"
+                    },
+                    {
+                        "User ID": 15042513,
+                        "First Name": "Renad",
+                        "Middle Name": "Ahmed",
+                        "Last Name": "Almaqadi"
+                    },
+                    {
+                        "User ID": 15042514,
+                        "First Name": "Ruaa",
+                        "Middle Name": "Ali",
+                        "Last Name": "Alshamrani"
+                    },
+                    {
+                        "User ID": 15042515,
+                        "First Name": "Reem",
+                        "Middle Name": "Yousef",
+                        "Last Name": "Alrimi"
+                    },
+                    {
+                        "User ID": 15042516,
+                        "First Name": "Raghad",
+                        "Middle Name": "Mohammad",
+                        "Last Name": "Alzhrani"
+                    },
+                    {
+                        "User ID": 15042517,
+                        "First Name": "Rawan",
+                        "Middle Name": "Ahmad",
+                        "Last Name": "Alzhrani"
+                    },
+                    {
+                        "User ID": 15042518,
+                        "First Name": "Rahaf",
+                        "Middle Name": "Ali",
+                        "Last Name": "Alshehri"
+                    },
+                    {
+                        "User ID": 15042519,
+                        "First Name": "Lamya",
+                        "Middle Name": "Saleh",
+                        "Last Name": "Algohribi"
+                    },
+                    {
+                        "User ID": 15042520,
+                        "First Name": "Areej",
+                        "Middle Name": "Omair",
+                        "Last Name": "Alharbi"
+                    },
+                    {
+                        "User ID": 15042521,
+                        "First Name": "Halah",
+                        "Middle Name": "Fawzi",
+                        "Last Name": "Almalki"
+                    },
+                    {
+                        "User ID": 15042523,
+                        "First Name": "Afnan",
+                        "Middle Name": "Ibrahim",
+                        "Last Name": "Alkhamisi"
+                    },
+                    {
+                        "User ID": 15042524,
+                        "First Name": "Ahmed",
+                        "Middle Name": "Abdulrahman",
+                        "Last Name": "Barasheed"
+                    },
+                    {
+                        "User ID": 15042525,
+                        "First Name": "Abdulaziz",
+                        "Middle Name": "Homoud",
+                        "Last Name": "Almaymuni"
+                    },
+                    {
+                        "User ID": 15042526,
+                        "First Name": "Ghaida",
+                        "Middle Name": "Yousef",
+                        "Last Name": "Alajlani"
+                    },
+                    {
+                        "User ID": 15042527,
+                        "First Name": "Maryam",
+                        "Middle Name": "Hani",
+                        "Last Name": "Bajsair"
+                    }
+                ],
+                "student_count": 17
+            },
+            "28071": {
+                "title": "Passenger Handling Course",
+                "start_time": "9/8/2025 16:00:00",
+                "end_time": "9/8/2025 23:00:00",
+                "venue": "HQ-Training Acadmey",
+                "instructor": "Hattan Toukhi",
+                "students": [
+                    {
+                        "User ID": 15042538,
+                        "First Name": "Hassan",
+                        "Middle Name": "Nabeel",
+                        "Last Name": "Alharbi"
+                    },
+                    {
+                        "User ID": 15042541,
+                        "First Name": "Taghreed",
+                        "Middle Name": "Saleh",
+                        "Last Name": "ALjuhani"
+                    }
+                ],
+                "student_count": 2
+            },
+            "28118": {
+                "title": "Airside Driving (RDL)",
+                "start_time": "9/8/2025 08:30:00",
+                "end_time": "9/8/2025 15:30:00",
+                "venue": "HQ-Training Acadmey",
+                "instructor": "Hazim Alhazmi",
+                "students": [
+                    {
+                        "User ID": 1001449675,
+                        "First Name": "GAHWAGI ADIL",
+                        "Middle Name": "",
+                        "Last Name": ""
+                    },
+                    {
+                        "User ID": 1004716757,
+                        "First Name": "MASOUD",
+                        "Middle Name": "",
+                        "Last Name": "ALSOLAMI"
+                    },
+                    {
+                        "User ID": 1012639561,
+                        "First Name": "ADEL MOHAMMED ABDULMALIK",
+                        "Middle Name": "",
+                        "Last Name": ""
+                    },
+                    {
+                        "User ID": 1031453739,
+                        "First Name": "ABDULAZIZ ALJUHANI",
+                        "Middle Name": "",
+                        "Last Name": ""
+                    },
+                    {
+                        "User ID": 1076506193,
+                        "First Name": "RAYYAN KHALIL",
+                        "Middle Name": "",
+                        "Last Name": ""
+                    },
+                    {
+                        "User ID": 1079177877,
+                        "First Name": "ALI MADHLI",
+                        "Middle Name": "",
+                        "Last Name": ""
+                    },
+                    {
+                        "User ID": 1080464959,
+                        "First Name": "SALAH AHMED ALMAGHRABI",
+                        "Middle Name": "",
+                        "Last Name": ""
+                    },
+                    {
+                        "User ID": 1089015810,
+                        "First Name": "AZZAM ALBESHRI",
+                        "Middle Name": "",
+                        "Last Name": ""
+                    },
+                    {
+                        "User ID": 1093618583,
+                        "First Name": "MOHAMMED",
+                        "Middle Name": "LOAY",
+                        "Last Name": "ALLAGGANI"
+                    },
+                    {
+                        "User ID": 1094835228,
+                        "First Name": "NABIH",
+                        "Middle Name": "",
+                        "Last Name": "ALYAMANI"
+                    },
+                    {
+                        "User ID": 1100493525,
+                        "First Name": "ABDULLAH",
+                        "Middle Name": "",
+                        "Last Name": "BAALAHMAR"
+                    },
+                    {
+                        "User ID": 1105619744,
+                        "First Name": "ANAS",
+                        "Middle Name": "",
+                        "Last Name": "SIMBAWAH"
+                    },
+                    {
+                        "User ID": 1108228238,
+                        "First Name": "AZZAM",
+                        "Middle Name": "",
+                        "Last Name": "DALI"
+                    },
+                    {
+                        "User ID": 1113410078,
+                        "First Name": "MOHAMMED ABBAS",
+                        "Middle Name": "",
+                        "Last Name": ""
+                    },
+                    {
+                        "User ID": 1120685779,
+                        "First Name": "AMMAR",
+                        "Middle Name": "",
+                        "Last Name": "ALSOMERI"
+                    },
+                    {
+                        "User ID": 1126497203,
+                        "First Name": "BASIL",
+                        "Middle Name": "",
+                        "Last Name": "ALHARBI"
+                    },
+                    {
+                        "User ID": 1142414109,
+                        "First Name": "YASSER MUHARRAQ",
+                        "Middle Name": "",
+                        "Last Name": ""
+                    },
+                    {
+                        "User ID": 15028596,
+                        "First Name": "AQEL",
+                        "Middle Name": "ARAAR",
+                        "Last Name": "ALGOBI"
+                    },
+                    {
+                        "User ID": 2363529245,
+                        "First Name": "MUQEETH UR RAHMAN MOHAMMED",
+                        "Middle Name": "",
+                        "Last Name": ""
+                    }
+                ],
+                "student_count": 19
+            },
+            "28158": {
+                "title": "General Aviation & Safety Fundamentals (SAF - AVSEC - ERP - HF - Regulatory Awareness)",
+                "start_time": "9/8/2025 16:00:00",
+                "end_time": "9/8/2025 23:00:00",
+                "venue": "HQ-Training Acadmey",
+                "instructor": "Jamal Khan",
+                "students": [
+                    {
+                        "User ID": 15042581,
+                        "First Name": "Mutasim",
+                        "Middle Name": "Saeed",
+                        "Last Name": "Alharbi"
+                    },
+                    {
+                        "User ID": 15042582,
+                        "First Name": "Waleed",
+                        "Middle Name": "Mohamed",
+                        "Last Name": "Gabb"
+                    },
+                    {
+                        "User ID": 15042583,
+                        "First Name": "Abdullah",
+                        "Middle Name": "Abed",
+                        "Last Name": "Alshekh"
+                    },
+                    {
+                        "User ID": 15042584,
+                        "First Name": "Turky",
+                        "Middle Name": "Akram",
+                        "Last Name": "Alninni"
+                    },
+                    {
+                        "User ID": 15042585,
+                        "First Name": "Adnan",
+                        "Middle Name": "Atif",
+                        "Last Name": "Gommsani"
+                    },
+                    {
+                        "User ID": 15042586,
+                        "First Name": "Nawaf",
+                        "Middle Name": "Nabeel",
+                        "Last Name": "Aljadani"
+                    },
+                    {
+                        "User ID": 15042587,
+                        "First Name": "Ammar",
+                        "Middle Name": "Hussein",
+                        "Last Name": "Alzahrani"
+                    },
+                    {
+                        "User ID": 15042588,
+                        "First Name": "Samer",
+                        "Middle Name": "Saiem",
+                        "Last Name": "Alrefae"
+                    },
+                    {
+                        "User ID": 15042589,
+                        "First Name": "Hani",
+                        "Middle Name": "Mohammed",
+                        "Last Name": "Aljohani"
+                    },
+                    {
+                        "User ID": 15042590,
+                        "First Name": "Nawaf",
+                        "Middle Name": "Fahad",
+                        "Last Name": "Fatani"
+                    },
+                    {
+                        "User ID": 15042591,
+                        "First Name": "Mohammed",
+                        "Middle Name": "Salem",
+                        "Last Name": "Alsubiani"
+                    },
+                    {
+                        "User ID": 15042592,
+                        "First Name": "Hussam",
+                        "Middle Name": "Ali",
+                        "Last Name": "Alqahtani"
+                    },
+                    {
+                        "User ID": 15042594,
+                        "First Name": "Basil",
+                        "Middle Name": "Daod",
+                        "Last Name": "Takrony"
+                    },
+                    {
+                        "User ID": 15042595,
+                        "First Name": "Sattam",
+                        "Middle Name": "Mohammed",
+                        "Last Name": "Alghamdi"
+                    },
+                    {
+                        "User ID": 15042596,
+                        "First Name": "Anas",
+                        "Middle Name": "Majed",
+                        "Last Name": "Bokhari"
+                    },
+                    {
+                        "User ID": 15042597,
+                        "First Name": "Khaled",
+                        "Middle Name": "Ali",
+                        "Last Name": "Algarni"
+                    },
+                    {
+                        "User ID": 15042599,
+                        "First Name": "Dhaifallah",
+                        "Middle Name": "Shime",
+                        "Last Name": "Alsolami"
+                    },
+                    {
+                        "User ID": 15042600,
+                        "First Name": "Mohmmed",
+                        "Middle Name": "Abdullah",
+                        "Last Name": "Alnashri"
+                    },
+                    {
+                        "User ID": 15042601,
+                        "First Name": "Omar",
+                        "Middle Name": "Adam",
+                        "Last Name": "Hawsawi"
+                    },
+                    {
+                        "User ID": 15042602,
+                        "First Name": "Mohammed",
+                        "Middle Name": "Abdulwahab",
+                        "Last Name": "Alafifi"
+                    }
+                ],
+                "student_count": 20
+            },
+            "28172": {
+                "title": "Dry Run and Coaching of Mindset and Hospitality",
+                "start_time": "9/8/2025 08:30:00",
+                "end_time": "9/8/2025 15:30:00",
+                "venue": "HQ-Training Acadmey",
+                "instructor": "External",
+                "students": [
+                    {
+                        "User ID": 15001812,
+                        "First Name": "ABDULLAH",
+                        "Middle Name": "SAUD",
+                        "Last Name": "AL-HARBI"
+                    },
+                    {
+                        "User ID": 15009754,
+                        "First Name": "MOHAMMED",
+                        "Middle Name": "ASAAD N",
+                        "Last Name": "TURI"
+                    },
+                    {
+                        "User ID": 15016241,
+                        "First Name": "SHAHIN",
+                        "Middle Name": "HAMAD",
+                        "Last Name": "ALAMARI"
+                    },
+                    {
+                        "User ID": 15016677,
+                        "First Name": "ABDULAZIZ",
+                        "Middle Name": "MOHAMMAD",
+                        "Last Name": "TRENGGANU"
+                    },
+                    {
+                        "User ID": 15025689,
+                        "First Name": "RAYAN",
+                        "Middle Name": "ABDULAZIZ",
+                        "Last Name": "FAKHRANI"
+                    },
+                    {
+                        "User ID": 15027134,
+                        "First Name": "RAFA",
+                        "Middle Name": "ADNAN",
+                        "Last Name": "SADAWI"
+                    }
+                ],
+                "student_count": 6
+            }
+        }
+    },
+    "2025-09-09": {
+        "day": "Tuesday",
+        "classes": {
+            "26978": {
+                "title": "Aircraft Pushback - Conventional",
+                "start_time": "9/9/2025 08:30:00",
+                "end_time": "9/9/2025 15:30:00",
+                "venue": "Ramp Area",
+                "instructor": "Mohammed Alsamti",
+                "students": [
+                    {
+                        "User ID": 15040680,
+                        "First Name": "Niel",
+                        "Middle Name": "Dion",
+                        "Last Name": "Bandiola"
+                    },
+                    {
+                        "User ID": 15040694,
+                        "First Name": "TROY",
+                        "Middle Name": "FREDERICK",
+                        "Last Name": "BUENAFE"
+                    },
+                    {
+                        "User ID": 15040704,
+                        "First Name": "ROBERT",
+                        "Middle Name": "TAGHOY",
+                        "Last Name": "RUIZ"
+                    },
+                    {
+                        "User ID": 15041300,
+                        "First Name": "Dudung",
+                        "Middle Name": "Andika",
+                        "Last Name": "Saputra"
+                    },
+                    {
+                        "User ID": 15041645,
+                        "First Name": "DAMIAN",
+                        "Middle Name": "SALIVIO",
+                        "Last Name": "GREGORIO"
+                    }
+                ],
+                "student_count": 5
+            },
+            "27269": {
+                "title": "Passenger Handling Course",
+                "start_time": "9/9/2025 08:30:00",
+                "end_time": "9/9/2025 15:30:00",
+                "venue": "HQ-Training Acadmey",
+                "instructor": "Sharaf Alzahrani",
+                "students": [
+                    {
+                        "User ID": 15002897,
+                        "First Name": "RAED",
+                        "Middle Name": "BADEE",
+                        "Last Name": "ALRABGHI"
+                    },
+                    {
+                        "User ID": 15011775,
+                        "First Name": "MOHAMMED",
+                        "Middle Name": "HUSSIN",
+                        "Last Name": "ABOHADI"
+                    },
+                    {
+                        "User ID": 15012251,
+                        "First Name": "MOHAMMED",
+                        "Middle Name": "HUSSIN",
+                        "Last Name": "MTWALI"
+                    },
+                    {
+                        "User ID": 15012731,
+                        "First Name": "ABDULLAH",
+                        "Middle Name": "SALEH",
+                        "Last Name": "ALGHAMDI"
+                    },
+                    {
+                        "User ID": 15012969,
+                        "First Name": "HAYTHAM",
+                        "Middle Name": "ADNAN",
+                        "Last Name": "FAQEEH"
+                    },
+                    {
+                        "User ID": 15013994,
+                        "First Name": "MOHANNAD",
+                        "Middle Name": "KHALID",
+                        "Last Name": "ALSHAREF"
+                    },
+                    {
+                        "User ID": 15014068,
+                        "First Name": "HUMAID",
+                        "Middle Name": "RAHEEM",
+                        "Last Name": "ALHARBI"
+                    },
+                    {
+                        "User ID": 15014277,
+                        "First Name": "KHALED",
+                        "Middle Name": "HUSSIN",
+                        "Last Name": "ALRAJHI"
+                    },
+                    {
+                        "User ID": 15015908,
+                        "First Name": "ABDULLAH",
+                        "Middle Name": "FAISAL",
+                        "Last Name": "ALROWITHI"
+                    },
+                    {
+                        "User ID": 15015942,
+                        "First Name": "TURKI",
+                        "Middle Name": "MUSA'AD",
+                        "Last Name": "AL MOABBADI"
+                    },
+                    {
+                        "User ID": 15015978,
+                        "First Name": "RAYAN",
+                        "Middle Name": "ABDULRAHMAN",
+                        "Last Name": "ALMOSHDAG"
+                    },
+                    {
+                        "User ID": 15016920,
+                        "First Name": "RAYAN",
+                        "Middle Name": "MOHAMMED",
+                        "Last Name": "ALTHAHARI"
+                    },
+                    {
+                        "User ID": 15020478,
+                        "First Name": "MAMDOUH",
+                        "Middle Name": "ALI",
+                        "Last Name": "ALKINANI"
+                    },
+                    {
+                        "User ID": 15023751,
+                        "First Name": "SHAHER",
+                        "Middle Name": "ESAM",
+                        "Last Name": "GHANDOURA"
+                    },
+                    {
+                        "User ID": 15024381,
+                        "First Name": "AMJAD",
+                        "Middle Name": "MOHSSEIN",
+                        "Last Name": "SABBAG"
+                    },
+                    {
+                        "User ID": 15028252,
+                        "First Name": "RABAB",
+                        "Middle Name": "ABDULAZIZ",
+                        "Last Name": "IRAQI"
+                    },
+                    {
+                        "User ID": 15031533,
+                        "First Name": "Bodour",
+                        "Middle Name": "Maatoug",
+                        "Last Name": "Flemban"
+                    },
+                    {
+                        "User ID": 15033328,
+                        "First Name": "Raghdah",
+                        "Middle Name": "RUZAYQ",
+                        "Last Name": "Alqarihi"
+                    }
+                ],
+                "student_count": 18
+            },
+            "27273": {
+                "title": "Dangerous Goods Regulations for Personnel Responsible for Accepting Passenger and Crew Baggage, Managing Aircraft Boarding Areas, and other Functions Involving Direct Passenger Contact at an Airport",
+                "start_time": "9/9/2025 16:00:00",
+                "end_time": "9/9/2025 23:00:00",
+                "venue": "HQ-Training Acadmey",
+                "instructor": "Raed Felemban",
+                "students": [
+                    {
+                        "User ID": 15003792,
+                        "First Name": "TURKI",
+                        "Middle Name": "MOHAMMED",
+                        "Last Name": "ALBALOWI"
+                    },
+                    {
+                        "User ID": 15027179,
+                        "First Name": "ABDULRAHMAN",
+                        "Middle Name": "HASSAN",
+                        "Last Name": "ABBAS"
+                    },
+                    {
+                        "User ID": 15029544,
+                        "First Name": "DONIA",
+                        "Middle Name": "HASSAN",
+                        "Last Name": "ASIRI"
+                    },
+                    {
+                        "User ID": 15034444,
+                        "First Name": "Aseel",
+                        "Middle Name": "Hamed",
+                        "Last Name": "Aljeaid"
+                    }
+                ],
+                "student_count": 4
+            },
+            "27288": {
+                "title": "Aircraft Pushback Towbarless",
+                "start_time": "9/9/2025 16:00:00",
+                "end_time": "9/9/2025 23:00:00",
+                "venue": "Ramp Area",
+                "instructor": "Talal Khalaf",
+                "students": [
+                    {
+                        "User ID": 15030656,
+                        "First Name": "ABDULRAHMAN",
+                        "Middle Name": "ABDULLAH",
+                        "Last Name": "ALSATI"
+                    },
+                    {
+                        "User ID": 15033734,
+                        "First Name": "UMESH",
+                        "Middle Name": "BABU",
+                        "Last Name": "NAIR"
+                    },
+                    {
+                        "User ID": 15033736,
+                        "First Name": "PRADEESH",
+                        "Middle Name": "",
+                        "Last Name": "KALLADASSERI"
+                    },
+                    {
+                        "User ID": 15033836,
+                        "First Name": "SUSHANT",
+                        "Middle Name": "",
+                        "Last Name": "HURNEKAR"
+                    },
+                    {
+                        "User ID": 15033839,
+                        "First Name": "SADIKHALI",
+                        "Middle Name": "",
+                        "Last Name": "ALUNGAL"
+                    },
+                    {
+                        "User ID": 15038270,
+                        "First Name": "JOBY",
+                        "Middle Name": "CHIRACKAL",
+                        "Last Name": "PAULOSE"
+                    },
+                    {
+                        "User ID": 15038283,
+                        "First Name": "PARTHEEBAN",
+                        "Middle Name": "",
+                        "Last Name": "SEKAR"
+                    },
+                    {
+                        "User ID": 15038332,
+                        "First Name": "ABDUL RASEED",
+                        "Middle Name": "",
+                        "Last Name": "ABDUL MAJEED"
+                    },
+                    {
+                        "User ID": 15038368,
+                        "First Name": "ROCKWELL",
+                        "Middle Name": "HERNANDEZ",
+                        "Last Name": "JARMIN"
+                    },
+                    {
+                        "User ID": 15038691,
+                        "First Name": "DEXTER",
+                        "Middle Name": "LUMANTAS",
+                        "Last Name": "CASTANO"
+                    }
+                ],
+                "student_count": 10
+            },
+            "28071": {
+                "title": "Passenger Handling Course",
+                "start_time": "9/9/2025 16:00:00",
+                "end_time": "9/9/2025 23:00:00",
+                "venue": "HQ-Training Acadmey",
+                "instructor": "Hattan Toukhi",
+                "students": [
+                    {
+                        "User ID": 15042538,
+                        "First Name": "Hassan",
+                        "Middle Name": "Nabeel",
+                        "Last Name": "Alharbi"
+                    },
+                    {
+                        "User ID": 15042541,
+                        "First Name": "Taghreed",
+                        "Middle Name": "Saleh",
+                        "Last Name": "ALjuhani"
+                    }
+                ],
+                "student_count": 2
+            },
+            "28118": {
+                "title": "Airside Driving (RDL)",
+                "start_time": "9/9/2025 08:30:00",
+                "end_time": "9/9/2025 15:30:00",
+                "venue": "Ramp Area",
+                "instructor": "Hazim Alhazmi",
+                "students": [
+                    {
+                        "User ID": 1001449675,
+                        "First Name": "GAHWAGI ADIL",
+                        "Middle Name": "",
+                        "Last Name": ""
+                    },
+                    {
+                        "User ID": 1004716757,
+                        "First Name": "MASOUD",
+                        "Middle Name": "",
+                        "Last Name": "ALSOLAMI"
+                    },
+                    {
+                        "User ID": 1012639561,
+                        "First Name": "ADEL MOHAMMED ABDULMALIK",
+                        "Middle Name": "",
+                        "Last Name": ""
+                    },
+                    {
+                        "User ID": 1031453739,
+                        "First Name": "ABDULAZIZ ALJUHANI",
+                        "Middle Name": "",
+                        "Last Name": ""
+                    },
+                    {
+                        "User ID": 1076506193,
+                        "First Name": "RAYYAN KHALIL",
+                        "Middle Name": "",
+                        "Last Name": ""
+                    },
+                    {
+                        "User ID": 1079177877,
+                        "First Name": "ALI MADHLI",
+                        "Middle Name": "",
+                        "Last Name": ""
+                    },
+                    {
+                        "User ID": 1080464959,
+                        "First Name": "SALAH AHMED ALMAGHRABI",
+                        "Middle Name": "",
+                        "Last Name": ""
+                    },
+                    {
+                        "User ID": 1089015810,
+                        "First Name": "AZZAM ALBESHRI",
+                        "Middle Name": "",
+                        "Last Name": ""
+                    },
+                    {
+                        "User ID": 1093618583,
+                        "First Name": "MOHAMMED",
+                        "Middle Name": "LOAY",
+                        "Last Name": "ALLAGGANI"
+                    },
+                    {
+                        "User ID": 1094835228,
+                        "First Name": "NABIH",
+                        "Middle Name": "",
+                        "Last Name": "ALYAMANI"
+                    },
+                    {
+                        "User ID": 1100493525,
+                        "First Name": "ABDULLAH",
+                        "Middle Name": "",
+                        "Last Name": "BAALAHMAR"
+                    },
+                    {
+                        "User ID": 1105619744,
+                        "First Name": "ANAS",
+                        "Middle Name": "",
+                        "Last Name": "SIMBAWAH"
+                    },
+                    {
+                        "User ID": 1108228238,
+                        "First Name": "AZZAM",
+                        "Middle Name": "",
+                        "Last Name": "DALI"
+                    },
+                    {
+                        "User ID": 1113410078,
+                        "First Name": "MOHAMMED ABBAS",
+                        "Middle Name": "",
+                        "Last Name": ""
+                    },
+                    {
+                        "User ID": 1120685779,
+                        "First Name": "AMMAR",
+                        "Middle Name": "",
+                        "Last Name": "ALSOMERI"
+                    },
+                    {
+                        "User ID": 1126497203,
+                        "First Name": "BASIL",
+                        "Middle Name": "",
+                        "Last Name": "ALHARBI"
+                    },
+                    {
+                        "User ID": 1142414109,
+                        "First Name": "YASSER MUHARRAQ",
+                        "Middle Name": "",
+                        "Last Name": ""
+                    },
+                    {
+                        "User ID": 15028596,
+                        "First Name": "AQEL",
+                        "Middle Name": "ARAAR",
+                        "Last Name": "ALGOBI"
+                    },
+                    {
+                        "User ID": 2363529245,
+                        "First Name": "MUQEETH UR RAHMAN MOHAMMED",
+                        "Middle Name": "",
+                        "Last Name": ""
+                    }
+                ],
+                "student_count": 19
+            },
+            "28158": {
+                "title": "General Aviation & Safety Fundamentals (SAF - AVSEC - ERP - HF - Regulatory Awareness)",
+                "start_time": "9/9/2025 16:00:00",
+                "end_time": "9/9/2025 23:00:00",
+                "venue": "HQ-Training Acadmey",
+                "instructor": "Jamal Khan",
+                "students": [
+                    {
+                        "User ID": 15042581,
+                        "First Name": "Mutasim",
+                        "Middle Name": "Saeed",
+                        "Last Name": "Alharbi"
+                    },
+                    {
+                        "User ID": 15042582,
+                        "First Name": "Waleed",
+                        "Middle Name": "Mohamed",
+                        "Last Name": "Gabb"
+                    },
+                    {
+                        "User ID": 15042583,
+                        "First Name": "Abdullah",
+                        "Middle Name": "Abed",
+                        "Last Name": "Alshekh"
+                    },
+                    {
+                        "User ID": 15042584,
+                        "First Name": "Turky",
+                        "Middle Name": "Akram",
+                        "Last Name": "Alninni"
+                    },
+                    {
+                        "User ID": 15042585,
+                        "First Name": "Adnan",
+                        "Middle Name": "Atif",
+                        "Last Name": "Gommsani"
+                    },
+                    {
+                        "User ID": 15042586,
+                        "First Name": "Nawaf",
+                        "Middle Name": "Nabeel",
+                        "Last Name": "Aljadani"
+                    },
+                    {
+                        "User ID": 15042587,
+                        "First Name": "Ammar",
+                        "Middle Name": "Hussein",
+                        "Last Name": "Alzahrani"
+                    },
+                    {
+                        "User ID": 15042588,
+                        "First Name": "Samer",
+                        "Middle Name": "Saiem",
+                        "Last Name": "Alrefae"
+                    },
+                    {
+                        "User ID": 15042589,
+                        "First Name": "Hani",
+                        "Middle Name": "Mohammed",
+                        "Last Name": "Aljohani"
+                    },
+                    {
+                        "User ID": 15042590,
+                        "First Name": "Nawaf",
+                        "Middle Name": "Fahad",
+                        "Last Name": "Fatani"
+                    },
+                    {
+                        "User ID": 15042591,
+                        "First Name": "Mohammed",
+                        "Middle Name": "Salem",
+                        "Last Name": "Alsubiani"
+                    },
+                    {
+                        "User ID": 15042592,
+                        "First Name": "Hussam",
+                        "Middle Name": "Ali",
+                        "Last Name": "Alqahtani"
+                    },
+                    {
+                        "User ID": 15042594,
+                        "First Name": "Basil",
+                        "Middle Name": "Daod",
+                        "Last Name": "Takrony"
+                    },
+                    {
+                        "User ID": 15042595,
+                        "First Name": "Sattam",
+                        "Middle Name": "Mohammed",
+                        "Last Name": "Alghamdi"
+                    },
+                    {
+                        "User ID": 15042596,
+                        "First Name": "Anas",
+                        "Middle Name": "Majed",
+                        "Last Name": "Bokhari"
+                    },
+                    {
+                        "User ID": 15042597,
+                        "First Name": "Khaled",
+                        "Middle Name": "Ali",
+                        "Last Name": "Algarni"
+                    },
+                    {
+                        "User ID": 15042599,
+                        "First Name": "Dhaifallah",
+                        "Middle Name": "Shime",
+                        "Last Name": "Alsolami"
+                    },
+                    {
+                        "User ID": 15042600,
+                        "First Name": "Mohmmed",
+                        "Middle Name": "Abdullah",
+                        "Last Name": "Alnashri"
+                    },
+                    {
+                        "User ID": 15042601,
+                        "First Name": "Omar",
+                        "Middle Name": "Adam",
+                        "Last Name": "Hawsawi"
+                    },
+                    {
+                        "User ID": 15042602,
+                        "First Name": "Mohammed",
+                        "Middle Name": "Abdulwahab",
+                        "Last Name": "Alafifi"
+                    }
+                ],
+                "student_count": 20
+            },
+            "28172": {
+                "title": "Dry Run and Coaching of Mindset and Hospitality",
+                "start_time": "9/9/2025 08:30:00",
+                "end_time": "9/9/2025 15:30:00",
+                "venue": "HQ-Training Acadmey",
+                "instructor": "External",
+                "students": [
+                    {
+                        "User ID": 15001812,
+                        "First Name": "ABDULLAH",
+                        "Middle Name": "SAUD",
+                        "Last Name": "AL-HARBI"
+                    },
+                    {
+                        "User ID": 15009754,
+                        "First Name": "MOHAMMED",
+                        "Middle Name": "ASAAD N",
+                        "Last Name": "TURI"
+                    },
+                    {
+                        "User ID": 15016241,
+                        "First Name": "SHAHIN",
+                        "Middle Name": "HAMAD",
+                        "Last Name": "ALAMARI"
+                    },
+                    {
+                        "User ID": 15016677,
+                        "First Name": "ABDULAZIZ",
+                        "Middle Name": "MOHAMMAD",
+                        "Last Name": "TRENGGANU"
+                    },
+                    {
+                        "User ID": 15025689,
+                        "First Name": "RAYAN",
+                        "Middle Name": "ABDULAZIZ",
+                        "Last Name": "FAKHRANI"
+                    },
+                    {
+                        "User ID": 15027134,
+                        "First Name": "RAFA",
+                        "Middle Name": "ADNAN",
+                        "Last Name": "SADAWI"
+                    }
+                ],
+                "student_count": 6
+            }
+        }
+    },
+    "2025-09-10": {
+        "day": "Wednesday",
+        "classes": {
+            "26978": {
+                "title": "Aircraft Pushback - Conventional",
+                "start_time": "9/10/2025 08:30:00",
+                "end_time": "9/10/2025 15:30:00",
+                "venue": "Ramp Area",
+                "instructor": "Mohammed Alsamti",
+                "students": [
+                    {
+                        "User ID": 15040680,
+                        "First Name": "Niel",
+                        "Middle Name": "Dion",
+                        "Last Name": "Bandiola"
+                    },
+                    {
+                        "User ID": 15040694,
+                        "First Name": "TROY",
+                        "Middle Name": "FREDERICK",
+                        "Last Name": "BUENAFE"
+                    },
+                    {
+                        "User ID": 15040704,
+                        "First Name": "ROBERT",
+                        "Middle Name": "TAGHOY",
+                        "Last Name": "RUIZ"
+                    },
+                    {
+                        "User ID": 15041300,
+                        "First Name": "Dudung",
+                        "Middle Name": "Andika",
+                        "Last Name": "Saputra"
+                    },
+                    {
+                        "User ID": 15041645,
+                        "First Name": "DAMIAN",
+                        "Middle Name": "SALIVIO",
+                        "Last Name": "GREGORIO"
+                    }
+                ],
+                "student_count": 5
+            },
+            "27269": {
+                "title": "Passenger Handling Course",
+                "start_time": "9/10/2025 08:30:00",
+                "end_time": "9/10/2025 15:30:00",
+                "venue": "HQ-Training Acadmey",
+                "instructor": "Sharaf Alzahrani",
+                "students": [
+                    {
+                        "User ID": 15002897,
+                        "First Name": "RAED",
+                        "Middle Name": "BADEE",
+                        "Last Name": "ALRABGHI"
+                    },
+                    {
+                        "User ID": 15011775,
+                        "First Name": "MOHAMMED",
+                        "Middle Name": "HUSSIN",
+                        "Last Name": "ABOHADI"
+                    },
+                    {
+                        "User ID": 15012251,
+                        "First Name": "MOHAMMED",
+                        "Middle Name": "HUSSIN",
+                        "Last Name": "MTWALI"
+                    },
+                    {
+                        "User ID": 15012731,
+                        "First Name": "ABDULLAH",
+                        "Middle Name": "SALEH",
+                        "Last Name": "ALGHAMDI"
+                    },
+                    {
+                        "User ID": 15012969,
+                        "First Name": "HAYTHAM",
+                        "Middle Name": "ADNAN",
+                        "Last Name": "FAQEEH"
+                    },
+                    {
+                        "User ID": 15013994,
+                        "First Name": "MOHANNAD",
+                        "Middle Name": "KHALID",
+                        "Last Name": "ALSHAREF"
+                    },
+                    {
+                        "User ID": 15014068,
+                        "First Name": "HUMAID",
+                        "Middle Name": "RAHEEM",
+                        "Last Name": "ALHARBI"
+                    },
+                    {
+                        "User ID": 15014277,
+                        "First Name": "KHALED",
+                        "Middle Name": "HUSSIN",
+                        "Last Name": "ALRAJHI"
+                    },
+                    {
+                        "User ID": 15015908,
+                        "First Name": "ABDULLAH",
+                        "Middle Name": "FAISAL",
+                        "Last Name": "ALROWITHI"
+                    },
+                    {
+                        "User ID": 15015942,
+                        "First Name": "TURKI",
+                        "Middle Name": "MUSA'AD",
+                        "Last Name": "AL MOABBADI"
+                    },
+                    {
+                        "User ID": 15015978,
+                        "First Name": "RAYAN",
+                        "Middle Name": "ABDULRAHMAN",
+                        "Last Name": "ALMOSHDAG"
+                    },
+                    {
+                        "User ID": 15016920,
+                        "First Name": "RAYAN",
+                        "Middle Name": "MOHAMMED",
+                        "Last Name": "ALTHAHARI"
+                    },
+                    {
+                        "User ID": 15020478,
+                        "First Name": "MAMDOUH",
+                        "Middle Name": "ALI",
+                        "Last Name": "ALKINANI"
+                    },
+                    {
+                        "User ID": 15023751,
+                        "First Name": "SHAHER",
+                        "Middle Name": "ESAM",
+                        "Last Name": "GHANDOURA"
+                    },
+                    {
+                        "User ID": 15024381,
+                        "First Name": "AMJAD",
+                        "Middle Name": "MOHSSEIN",
+                        "Last Name": "SABBAG"
+                    },
+                    {
+                        "User ID": 15028252,
+                        "First Name": "RABAB",
+                        "Middle Name": "ABDULAZIZ",
+                        "Last Name": "IRAQI"
+                    },
+                    {
+                        "User ID": 15031533,
+                        "First Name": "Bodour",
+                        "Middle Name": "Maatoug",
+                        "Last Name": "Flemban"
+                    },
+                    {
+                        "User ID": 15033328,
+                        "First Name": "Raghdah",
+                        "Middle Name": "RUZAYQ",
+                        "Last Name": "Alqarihi"
+                    }
+                ],
+                "student_count": 18
+            },
+            "27273": {
+                "title": "Dangerous Goods Regulations for Personnel Responsible for Accepting Passenger and Crew Baggage, Managing Aircraft Boarding Areas, and other Functions Involving Direct Passenger Contact at an Airport",
+                "start_time": "9/10/2025 16:00:00",
+                "end_time": "9/10/2025 23:00:00",
+                "venue": "HQ-Training Acadmey",
+                "instructor": "Raed Felemban",
+                "students": [
+                    {
+                        "User ID": 15003792,
+                        "First Name": "TURKI",
+                        "Middle Name": "MOHAMMED",
+                        "Last Name": "ALBALOWI"
+                    },
+                    {
+                        "User ID": 15027179,
+                        "First Name": "ABDULRAHMAN",
+                        "Middle Name": "HASSAN",
+                        "Last Name": "ABBAS"
+                    },
+                    {
+                        "User ID": 15029544,
+                        "First Name": "DONIA",
+                        "Middle Name": "HASSAN",
+                        "Last Name": "ASIRI"
+                    },
+                    {
+                        "User ID": 15034444,
+                        "First Name": "Aseel",
+                        "Middle Name": "Hamed",
+                        "Last Name": "Aljeaid"
+                    }
+                ],
+                "student_count": 4
+            },
+            "27275": {
+                "title": "Aircraft Loading/Unloading",
+                "start_time": "9/10/2025 08:30:00",
+                "end_time": "9/10/2025 15:30:00",
+                "venue": "HQ-Training Acadmey",
+                "instructor": "Jamal Khan",
+                "students": [
+                    {
+                        "User ID": 15002627,
+                        "First Name": "MOHAMMED",
+                        "Middle Name": "SAJJAD",
+                        "Last Name": "RASOOL"
+                    },
+                    {
+                        "User ID": 15002965,
+                        "First Name": "NAIF",
+                        "Middle Name": "MOHAMMED",
+                        "Last Name": "ALMEHMADI"
+                    },
+                    {
+                        "User ID": 15013752,
+                        "First Name": "ABOBAKR",
+                        "Middle Name": "KHALID AL",
+                        "Last Name": "KHATEEB"
+                    },
+                    {
+                        "User ID": 15032353,
+                        "First Name": "CHANDRA",
+                        "Middle Name": "",
+                        "Last Name": "RAI"
+                    },
+                    {
+                        "User ID": 15038337,
+                        "First Name": "JESUS",
+                        "Middle Name": "SALSONA",
+                        "Last Name": "ARANEZ"
+                    }
+                ],
+                "student_count": 5
+            },
+            "27288": {
+                "title": "Aircraft Pushback Towbarless",
+                "start_time": "9/10/2025 16:00:00",
+                "end_time": "9/10/2025 23:00:00",
+                "venue": "Ramp Area",
+                "instructor": "Talal Khalaf",
+                "students": [
+                    {
+                        "User ID": 15030656,
+                        "First Name": "ABDULRAHMAN",
+                        "Middle Name": "ABDULLAH",
+                        "Last Name": "ALSATI"
+                    },
+                    {
+                        "User ID": 15033734,
+                        "First Name": "UMESH",
+                        "Middle Name": "BABU",
+                        "Last Name": "NAIR"
+                    },
+                    {
+                        "User ID": 15033736,
+                        "First Name": "PRADEESH",
+                        "Middle Name": "",
+                        "Last Name": "KALLADASSERI"
+                    },
+                    {
+                        "User ID": 15033836,
+                        "First Name": "SUSHANT",
+                        "Middle Name": "",
+                        "Last Name": "HURNEKAR"
+                    },
+                    {
+                        "User ID": 15033839,
+                        "First Name": "SADIKHALI",
+                        "Middle Name": "",
+                        "Last Name": "ALUNGAL"
+                    },
+                    {
+                        "User ID": 15038270,
+                        "First Name": "JOBY",
+                        "Middle Name": "CHIRACKAL",
+                        "Last Name": "PAULOSE"
+                    },
+                    {
+                        "User ID": 15038283,
+                        "First Name": "PARTHEEBAN",
+                        "Middle Name": "",
+                        "Last Name": "SEKAR"
+                    },
+                    {
+                        "User ID": 15038332,
+                        "First Name": "ABDUL RASEED",
+                        "Middle Name": "",
+                        "Last Name": "ABDUL MAJEED"
+                    },
+                    {
+                        "User ID": 15038368,
+                        "First Name": "ROCKWELL",
+                        "Middle Name": "HERNANDEZ",
+                        "Last Name": "JARMIN"
+                    },
+                    {
+                        "User ID": 15038691,
+                        "First Name": "DEXTER",
+                        "Middle Name": "LUMANTAS",
+                        "Last Name": "CASTANO"
+                    }
+                ],
+                "student_count": 10
+            },
+            "28071": {
+                "title": "Passenger Handling Course",
+                "start_time": "9/10/2025 16:00:00",
+                "end_time": "9/10/2025 23:00:00",
+                "venue": "HQ-Training Acadmey",
+                "instructor": "Hattan Toukhi",
+                "students": [
+                    {
+                        "User ID": 15042538,
+                        "First Name": "Hassan",
+                        "Middle Name": "Nabeel",
+                        "Last Name": "Alharbi"
+                    },
+                    {
+                        "User ID": 15042541,
+                        "First Name": "Taghreed",
+                        "Middle Name": "Saleh",
+                        "Last Name": "ALjuhani"
+                    }
+                ],
+                "student_count": 2
+            },
+            "28120": {
+                "title": "Airside Driving (RDL)",
+                "start_time": "9/10/2025 16:00:00",
+                "end_time": "9/10/2025 23:00:00",
+                "venue": "HQ-Training Acadmey",
+                "instructor": "Samih Elmanasir",
+                "students": [
+                    {
+                        "User ID": 1002031464,
+                        "First Name": "MOHAMMED",
+                        "Middle Name": "",
+                        "Last Name": "MULA"
+                    },
+                    {
+                        "User ID": 1004123707,
+                        "First Name": "MOHAMMED MURAD",
+                        "Middle Name": "",
+                        "Last Name": ""
+                    },
+                    {
+                        "User ID": 1018135036,
+                        "First Name": "ABDULRAHMMAN",
+                        "Middle Name": "",
+                        "Last Name": "ALGHAMDI "
+                    },
+                    {
+                        "User ID": 1089878381,
+                        "First Name": "KHALED",
+                        "Middle Name": "MOHAMMED",
+                        "Last Name": "SALEEM"
+                    },
+                    {
+                        "User ID": 1102761432,
+                        "First Name": "KHALID ALREFAEI",
+                        "Middle Name": "",
+                        "Last Name": ""
+                    },
+                    {
+                        "User ID": 1106333493,
+                        "First Name": "MAHER ALSHAIKH",
+                        "Middle Name": "",
+                        "Last Name": "ALSHAIKH"
+                    },
+                    {
+                        "User ID": 1106625302,
+                        "First Name": "ANAS ALBESHRI",
+                        "Middle Name": "",
+                        "Last Name": ""
+                    },
+                    {
+                        "User ID": 1107296962,
+                        "First Name": "ABDULLAH",
+                        "Middle Name": "",
+                        "Last Name": "NOUH"
+                    },
+                    {
+                        "User ID": 1109984045,
+                        "First Name": "SUHAIB ALMALKI",
+                        "Middle Name": "",
+                        "Last Name": ""
+                    },
+                    {
+                        "User ID": 1110225610,
+                        "First Name": "RADHI ALHARBI",
+                        "Middle Name": "",
+                        "Last Name": ""
+                    },
+                    {
+                        "User ID": 1112758436,
+                        "First Name": "ABDULLAH",
+                        "Middle Name": "",
+                        "Last Name": "ALHASHMI"
+                    },
+                    {
+                        "User ID": 1116187400,
+                        "First Name": "SULTAN",
+                        "Middle Name": "BANDER",
+                        "Last Name": "ALMOHAMMED"
+                    },
+                    {
+                        "User ID": 1116565415,
+                        "First Name": "HATAN",
+                        "Middle Name": "",
+                        "Last Name": "ABDULFATTAH"
+                    },
+                    {
+                        "User ID": 1125349751,
+                        "First Name": "NAWAF ALOTAIBI",
+                        "Middle Name": "",
+                        "Last Name": ""
+                    },
+                    {
+                        "User ID": 1130070566,
+                        "First Name": "MOHAMMED HANANI",
+                        "Middle Name": "",
+                        "Last Name": ""
+                    },
+                    {
+                        "User ID": 1134846805,
+                        "First Name": "NAHAR",
+                        "Middle Name": "",
+                        "Last Name": "ALBUKHARY"
+                    }
+                ],
+                "student_count": 16
+            },
+            "28159": {
+                "title": "Dangerous Goods Regulations for Personnel Responsible for transporting cargo loading and unloading ULDs and aircraft cargo compartments",
+                "start_time": "9/10/2025 16:00:00",
+                "end_time": "9/10/2025 23:00:00",
+                "venue": "HQ-Training Acadmey",
+                "instructor": "Turki Fallatah",
+                "students": [
+                    {
+                        "User ID": 15042581,
+                        "First Name": "Mutasim",
+                        "Middle Name": "Saeed",
+                        "Last Name": "Alharbi"
+                    },
+                    {
+                        "User ID": 15042582,
+                        "First Name": "Waleed",
+                        "Middle Name": "Mohamed",
+                        "Last Name": "Gabb"
+                    },
+                    {
+                        "User ID": 15042583,
+                        "First Name": "Abdullah",
+                        "Middle Name": "Abed",
+                        "Last Name": "Alshekh"
+                    },
+                    {
+                        "User ID": 15042584,
+                        "First Name": "Turky",
+                        "Middle Name": "Akram",
+                        "Last Name": "Alninni"
+                    },
+                    {
+                        "User ID": 15042585,
+                        "First Name": "Adnan",
+                        "Middle Name": "Atif",
+                        "Last Name": "Gommsani"
+                    },
+                    {
+                        "User ID": 15042586,
+                        "First Name": "Nawaf",
+                        "Middle Name": "Nabeel",
+                        "Last Name": "Aljadani"
+                    },
+                    {
+                        "User ID": 15042587,
+                        "First Name": "Ammar",
+                        "Middle Name": "Hussein",
+                        "Last Name": "Alzahrani"
+                    },
+                    {
+                        "User ID": 15042588,
+                        "First Name": "Samer",
+                        "Middle Name": "Saiem",
+                        "Last Name": "Alrefae"
+                    },
+                    {
+                        "User ID": 15042589,
+                        "First Name": "Hani",
+                        "Middle Name": "Mohammed",
+                        "Last Name": "Aljohani"
+                    },
+                    {
+                        "User ID": 15042590,
+                        "First Name": "Nawaf",
+                        "Middle Name": "Fahad",
+                        "Last Name": "Fatani"
+                    },
+                    {
+                        "User ID": 15042591,
+                        "First Name": "Mohammed",
+                        "Middle Name": "Salem",
+                        "Last Name": "Alsubiani"
+                    },
+                    {
+                        "User ID": 15042592,
+                        "First Name": "Hussam",
+                        "Middle Name": "Ali",
+                        "Last Name": "Alqahtani"
+                    },
+                    {
+                        "User ID": 15042594,
+                        "First Name": "Basil",
+                        "Middle Name": "Daod",
+                        "Last Name": "Takrony"
+                    },
+                    {
+                        "User ID": 15042595,
+                        "First Name": "Sattam",
+                        "Middle Name": "Mohammed",
+                        "Last Name": "Alghamdi"
+                    },
+                    {
+                        "User ID": 15042596,
+                        "First Name": "Anas",
+                        "Middle Name": "Majed",
+                        "Last Name": "Bokhari"
+                    },
+                    {
+                        "User ID": 15042597,
+                        "First Name": "Khaled",
+                        "Middle Name": "Ali",
+                        "Last Name": "Algarni"
+                    },
+                    {
+                        "User ID": 15042599,
+                        "First Name": "Dhaifallah",
+                        "Middle Name": "Shime",
+                        "Last Name": "Alsolami"
+                    },
+                    {
+                        "User ID": 15042600,
+                        "First Name": "Mohmmed",
+                        "Middle Name": "Abdullah",
+                        "Last Name": "Alnashri"
+                    },
+                    {
+                        "User ID": 15042601,
+                        "First Name": "Omar",
+                        "Middle Name": "Adam",
+                        "Last Name": "Hawsawi"
+                    },
+                    {
+                        "User ID": 15042602,
+                        "First Name": "Mohammed",
+                        "Middle Name": "Abdulwahab",
+                        "Last Name": "Alafifi"
+                    }
+                ],
+                "student_count": 20
+            },
+            "28165": {
+                "title": "Airside Driving (RDL)",
+                "start_time": "9/10/2025 16:00:00",
+                "end_time": "9/10/2025 23:00:00",
+                "venue": "HQ-Training Acadmey",
+                "instructor": "Bader Khan",
+                "students": [
+                    {
+                        "User ID": 15001441,
+                        "First Name": "ALI",
+                        "Middle Name": "ABDULLAH",
+                        "Last Name": "ALHARBI"
+                    },
+                    {
+                        "User ID": 15003894,
+                        "First Name": "AYMAN",
+                        "Middle Name": "MOHD.",
+                        "Last Name": "GABB"
+                    },
+                    {
+                        "User ID": 15025408,
+                        "First Name": "MOHAMMED",
+                        "Middle Name": "ALI",
+                        "Last Name": "MOHAREQ"
+                    },
+                    {
+                        "User ID": 15027023,
+                        "First Name": "WALEED",
+                        "Middle Name": "ALI",
+                        "Last Name": "ALJABARTI"
+                    },
+                    {
+                        "User ID": 15028333,
+                        "First Name": "KHALED",
+                        "Middle Name": "ABDULLAH",
+                        "Last Name": "ALGHAMDI"
+                    },
+                    {
+                        "User ID": 15028783,
+                        "First Name": "Ajay Kumar",
+                        "Middle Name": "",
+                        "Last Name": "Singh"
+                    },
+                    {
+                        "User ID": 15030368,
+                        "First Name": "Ali",
+                        "Middle Name": "Othman",
+                        "Last Name": "Alsuhaimi"
+                    },
+                    {
+                        "User ID": 15031754,
+                        "First Name": "SARATH",
+                        "Middle Name": "",
+                        "Last Name": "RADHAKRISHNAN"
+                    },
+                    {
+                        "User ID": 15038230,
+                        "First Name": "PAULO",
+                        "Middle Name": "TALAIN",
+                        "Last Name": "MANGAO"
+                    }
+                ],
+                "student_count": 9
+            },
+            "28172": {
+                "title": "Dry Run and Coaching of Mindset and Hospitality",
+                "start_time": "9/10/2025 08:30:00",
+                "end_time": "9/10/2025 15:30:00",
+                "venue": "HQ-Training Acadmey",
+                "instructor": "External",
+                "students": [
+                    {
+                        "User ID": 15001812,
+                        "First Name": "ABDULLAH",
+                        "Middle Name": "SAUD",
+                        "Last Name": "AL-HARBI"
+                    },
+                    {
+                        "User ID": 15009754,
+                        "First Name": "MOHAMMED",
+                        "Middle Name": "ASAAD N",
+                        "Last Name": "TURI"
+                    },
+                    {
+                        "User ID": 15016241,
+                        "First Name": "SHAHIN",
+                        "Middle Name": "HAMAD",
+                        "Last Name": "ALAMARI"
+                    },
+                    {
+                        "User ID": 15016677,
+                        "First Name": "ABDULAZIZ",
+                        "Middle Name": "MOHAMMAD",
+                        "Last Name": "TRENGGANU"
+                    },
+                    {
+                        "User ID": 15025689,
+                        "First Name": "RAYAN",
+                        "Middle Name": "ABDULAZIZ",
+                        "Last Name": "FAKHRANI"
+                    },
+                    {
+                        "User ID": 15027134,
+                        "First Name": "RAFA",
+                        "Middle Name": "ADNAN",
+                        "Last Name": "SADAWI"
+                    }
+                ],
+                "student_count": 6
+            }
+        }
+    },
+    "2025-09-11": {
+        "day": "Thursday",
+        "classes": {
+            "26978": {
+                "title": "Aircraft Pushback - Conventional",
+                "start_time": "9/11/2025 08:30:00",
+                "end_time": "9/11/2025 15:30:00",
+                "venue": "Ramp Area",
+                "instructor": "Mohammed Alsamti",
+                "students": [
+                    {
+                        "User ID": 15040680,
+                        "First Name": "Niel",
+                        "Middle Name": "Dion",
+                        "Last Name": "Bandiola"
+                    },
+                    {
+                        "User ID": 15040694,
+                        "First Name": "TROY",
+                        "Middle Name": "FREDERICK",
+                        "Last Name": "BUENAFE"
+                    },
+                    {
+                        "User ID": 15040704,
+                        "First Name": "ROBERT",
+                        "Middle Name": "TAGHOY",
+                        "Last Name": "RUIZ"
+                    },
+                    {
+                        "User ID": 15041300,
+                        "First Name": "Dudung",
+                        "Middle Name": "Andika",
+                        "Last Name": "Saputra"
+                    },
+                    {
+                        "User ID": 15041645,
+                        "First Name": "DAMIAN",
+                        "Middle Name": "SALIVIO",
+                        "Last Name": "GREGORIO"
+                    }
+                ],
+                "student_count": 5
+            },
+            "27269": {
+                "title": "Passenger Handling Course",
+                "start_time": "9/11/2025 08:30:00",
+                "end_time": "9/11/2025 15:30:00",
+                "venue": "HQ-Training Acadmey",
+                "instructor": "Sharaf Alzahrani",
+                "students": [
+                    {
+                        "User ID": 15002897,
+                        "First Name": "RAED",
+                        "Middle Name": "BADEE",
+                        "Last Name": "ALRABGHI"
+                    },
+                    {
+                        "User ID": 15011775,
+                        "First Name": "MOHAMMED",
+                        "Middle Name": "HUSSIN",
+                        "Last Name": "ABOHADI"
+                    },
+                    {
+                        "User ID": 15012251,
+                        "First Name": "MOHAMMED",
+                        "Middle Name": "HUSSIN",
+                        "Last Name": "MTWALI"
+                    },
+                    {
+                        "User ID": 15012731,
+                        "First Name": "ABDULLAH",
+                        "Middle Name": "SALEH",
+                        "Last Name": "ALGHAMDI"
+                    },
+                    {
+                        "User ID": 15012969,
+                        "First Name": "HAYTHAM",
+                        "Middle Name": "ADNAN",
+                        "Last Name": "FAQEEH"
+                    },
+                    {
+                        "User ID": 15013994,
+                        "First Name": "MOHANNAD",
+                        "Middle Name": "KHALID",
+                        "Last Name": "ALSHAREF"
+                    },
+                    {
+                        "User ID": 15014068,
+                        "First Name": "HUMAID",
+                        "Middle Name": "RAHEEM",
+                        "Last Name": "ALHARBI"
+                    },
+                    {
+                        "User ID": 15014277,
+                        "First Name": "KHALED",
+                        "Middle Name": "HUSSIN",
+                        "Last Name": "ALRAJHI"
+                    },
+                    {
+                        "User ID": 15015908,
+                        "First Name": "ABDULLAH",
+                        "Middle Name": "FAISAL",
+                        "Last Name": "ALROWITHI"
+                    },
+                    {
+                        "User ID": 15015942,
+                        "First Name": "TURKI",
+                        "Middle Name": "MUSA'AD",
+                        "Last Name": "AL MOABBADI"
+                    },
+                    {
+                        "User ID": 15015978,
+                        "First Name": "RAYAN",
+                        "Middle Name": "ABDULRAHMAN",
+                        "Last Name": "ALMOSHDAG"
+                    },
+                    {
+                        "User ID": 15016920,
+                        "First Name": "RAYAN",
+                        "Middle Name": "MOHAMMED",
+                        "Last Name": "ALTHAHARI"
+                    },
+                    {
+                        "User ID": 15020478,
+                        "First Name": "MAMDOUH",
+                        "Middle Name": "ALI",
+                        "Last Name": "ALKINANI"
+                    },
+                    {
+                        "User ID": 15023751,
+                        "First Name": "SHAHER",
+                        "Middle Name": "ESAM",
+                        "Last Name": "GHANDOURA"
+                    },
+                    {
+                        "User ID": 15024381,
+                        "First Name": "AMJAD",
+                        "Middle Name": "MOHSSEIN",
+                        "Last Name": "SABBAG"
+                    },
+                    {
+                        "User ID": 15028252,
+                        "First Name": "RABAB",
+                        "Middle Name": "ABDULAZIZ",
+                        "Last Name": "IRAQI"
+                    },
+                    {
+                        "User ID": 15031533,
+                        "First Name": "Bodour",
+                        "Middle Name": "Maatoug",
+                        "Last Name": "Flemban"
+                    },
+                    {
+                        "User ID": 15033328,
+                        "First Name": "Raghdah",
+                        "Middle Name": "RUZAYQ",
+                        "Last Name": "Alqarihi"
+                    }
+                ],
+                "student_count": 18
+            },
+            "27275": {
+                "title": "Aircraft Loading/Unloading",
+                "start_time": "9/11/2025 08:30:00",
+                "end_time": "9/11/2025 15:30:00",
+                "venue": "HQ-Training Acadmey",
+                "instructor": "Jamal Khan",
+                "students": [
+                    {
+                        "User ID": 15002627,
+                        "First Name": "MOHAMMED",
+                        "Middle Name": "SAJJAD",
+                        "Last Name": "RASOOL"
+                    },
+                    {
+                        "User ID": 15002965,
+                        "First Name": "NAIF",
+                        "Middle Name": "MOHAMMED",
+                        "Last Name": "ALMEHMADI"
+                    },
+                    {
+                        "User ID": 15013752,
+                        "First Name": "ABOBAKR",
+                        "Middle Name": "KHALID AL",
+                        "Last Name": "KHATEEB"
+                    },
+                    {
+                        "User ID": 15032353,
+                        "First Name": "CHANDRA",
+                        "Middle Name": "",
+                        "Last Name": "RAI"
+                    },
+                    {
+                        "User ID": 15038337,
+                        "First Name": "JESUS",
+                        "Middle Name": "SALSONA",
+                        "Last Name": "ARANEZ"
+                    }
+                ],
+                "student_count": 5
+            },
+            "27276": {
+                "title": "Human Factors",
+                "start_time": "9/11/2025 08:30:00",
+                "end_time": "9/11/2025 15:30:00",
+                "venue": "HQ-Training Acadmey",
+                "instructor": "Raed Felemban",
+                "students": [
+                    {
+                        "User ID": 15003017,
+                        "First Name": "TAREQ",
+                        "Middle Name": "ATTI",
+                        "Last Name": "AL-RASHED"
+                    },
+                    {
+                        "User ID": 15003931,
+                        "First Name": "SULTAN",
+                        "Middle Name": "ABDULGADIR",
+                        "Last Name": "ALZAHRANI"
+                    },
+                    {
+                        "User ID": 15025424,
+                        "First Name": "ZAMIL",
+                        "Middle Name": "AHMED",
+                        "Last Name": "MJLED"
+                    },
+                    {
+                        "User ID": 15041213,
+                        "First Name": "Rahaf",
+                        "Middle Name": "Mansour",
+                        "Last Name": "Almufti"
+                    },
+                    {
+                        "User ID": 15041219,
+                        "First Name": "Mehaf",
+                        "Middle Name": "Ahmed",
+                        "Last Name": "Alrabai"
+                    },
+                    {
+                        "User ID": 15041402,
+                        "First Name": "Faisal",
+                        "Middle Name": "Abdullah",
+                        "Last Name": "Alharthi"
+                    },
+                    {
+                        "User ID": 15041409,
+                        "First Name": "Meshal",
+                        "Middle Name": "Tariq",
+                        "Last Name": "Abbas"
+                    },
+                    {
+                        "User ID": 15041448,
+                        "First Name": "Abdulaziz",
+                        "Middle Name": "Attyatallah",
+                        "Last Name": "Alsulami"
+                    }
+                ],
+                "student_count": 8
+            },
+            "27288": {
+                "title": "Aircraft Pushback Towbarless",
+                "start_time": "9/11/2025 16:00:00",
+                "end_time": "9/11/2025 23:00:00",
+                "venue": "Ramp Area",
+                "instructor": "Talal Khalaf",
+                "students": [
+                    {
+                        "User ID": 15030656,
+                        "First Name": "ABDULRAHMAN",
+                        "Middle Name": "ABDULLAH",
+                        "Last Name": "ALSATI"
+                    },
+                    {
+                        "User ID": 15033734,
+                        "First Name": "UMESH",
+                        "Middle Name": "BABU",
+                        "Last Name": "NAIR"
+                    },
+                    {
+                        "User ID": 15033736,
+                        "First Name": "PRADEESH",
+                        "Middle Name": "",
+                        "Last Name": "KALLADASSERI"
+                    },
+                    {
+                        "User ID": 15033836,
+                        "First Name": "SUSHANT",
+                        "Middle Name": "",
+                        "Last Name": "HURNEKAR"
+                    },
+                    {
+                        "User ID": 15033839,
+                        "First Name": "SADIKHALI",
+                        "Middle Name": "",
+                        "Last Name": "ALUNGAL"
+                    },
+                    {
+                        "User ID": 15038270,
+                        "First Name": "JOBY",
+                        "Middle Name": "CHIRACKAL",
+                        "Last Name": "PAULOSE"
+                    },
+                    {
+                        "User ID": 15038283,
+                        "First Name": "PARTHEEBAN",
+                        "Middle Name": "",
+                        "Last Name": "SEKAR"
+                    },
+                    {
+                        "User ID": 15038332,
+                        "First Name": "ABDUL RASEED",
+                        "Middle Name": "",
+                        "Last Name": "ABDUL MAJEED"
+                    },
+                    {
+                        "User ID": 15038368,
+                        "First Name": "ROCKWELL",
+                        "Middle Name": "HERNANDEZ",
+                        "Last Name": "JARMIN"
+                    },
+                    {
+                        "User ID": 15038691,
+                        "First Name": "DEXTER",
+                        "Middle Name": "LUMANTAS",
+                        "Last Name": "CASTANO"
+                    }
+                ],
+                "student_count": 10
+            },
+            "28071": {
+                "title": "Passenger Handling Course",
+                "start_time": "9/11/2025 16:00:00",
+                "end_time": "9/11/2025 23:00:00",
+                "venue": "HQ-Training Acadmey",
+                "instructor": "Hattan Toukhi",
+                "students": [
+                    {
+                        "User ID": 15042538,
+                        "First Name": "Hassan",
+                        "Middle Name": "Nabeel",
+                        "Last Name": "Alharbi"
+                    },
+                    {
+                        "User ID": 15042541,
+                        "First Name": "Taghreed",
+                        "Middle Name": "Saleh",
+                        "Last Name": "ALjuhani"
+                    }
+                ],
+                "student_count": 2
+            },
+            "28120": {
+                "title": "Airside Driving (RDL)",
+                "start_time": "9/11/2025 16:00:00",
+                "end_time": "9/11/2025 23:00:00",
+                "venue": "HQ-Training Acadmey",
+                "instructor": "Samih Elmanasir",
+                "students": [
+                    {
+                        "User ID": 1002031464,
+                        "First Name": "MOHAMMED",
+                        "Middle Name": "",
+                        "Last Name": "MULA"
+                    },
+                    {
+                        "User ID": 1004123707,
+                        "First Name": "MOHAMMED MURAD",
+                        "Middle Name": "",
+                        "Last Name": ""
+                    },
+                    {
+                        "User ID": 1018135036,
+                        "First Name": "ABDULRAHMMAN",
+                        "Middle Name": "",
+                        "Last Name": "ALGHAMDI "
+                    },
+                    {
+                        "User ID": 1089878381,
+                        "First Name": "KHALED",
+                        "Middle Name": "MOHAMMED",
+                        "Last Name": "SALEEM"
+                    },
+                    {
+                        "User ID": 1102761432,
+                        "First Name": "KHALID ALREFAEI",
+                        "Middle Name": "",
+                        "Last Name": ""
+                    },
+                    {
+                        "User ID": 1106333493,
+                        "First Name": "MAHER ALSHAIKH",
+                        "Middle Name": "",
+                        "Last Name": "ALSHAIKH"
+                    },
+                    {
+                        "User ID": 1106625302,
+                        "First Name": "ANAS ALBESHRI",
+                        "Middle Name": "",
+                        "Last Name": ""
+                    },
+                    {
+                        "User ID": 1107296962,
+                        "First Name": "ABDULLAH",
+                        "Middle Name": "",
+                        "Last Name": "NOUH"
+                    },
+                    {
+                        "User ID": 1109984045,
+                        "First Name": "SUHAIB ALMALKI",
+                        "Middle Name": "",
+                        "Last Name": ""
+                    },
+                    {
+                        "User ID": 1110225610,
+                        "First Name": "RADHI ALHARBI",
+                        "Middle Name": "",
+                        "Last Name": ""
+                    },
+                    {
+                        "User ID": 1112758436,
+                        "First Name": "ABDULLAH",
+                        "Middle Name": "",
+                        "Last Name": "ALHASHMI"
+                    },
+                    {
+                        "User ID": 1116187400,
+                        "First Name": "SULTAN",
+                        "Middle Name": "BANDER",
+                        "Last Name": "ALMOHAMMED"
+                    },
+                    {
+                        "User ID": 1116565415,
+                        "First Name": "HATAN",
+                        "Middle Name": "",
+                        "Last Name": "ABDULFATTAH"
+                    },
+                    {
+                        "User ID": 1125349751,
+                        "First Name": "NAWAF ALOTAIBI",
+                        "Middle Name": "",
+                        "Last Name": ""
+                    },
+                    {
+                        "User ID": 1130070566,
+                        "First Name": "MOHAMMED HANANI",
+                        "Middle Name": "",
+                        "Last Name": ""
+                    },
+                    {
+                        "User ID": 1134846805,
+                        "First Name": "NAHAR",
+                        "Middle Name": "",
+                        "Last Name": "ALBUKHARY"
+                    }
+                ],
+                "student_count": 16
+            },
+            "28159": {
+                "title": "Dangerous Goods Regulations for Personnel Responsible for transporting cargo loading and unloading ULDs and aircraft cargo compartments",
+                "start_time": "9/11/2025 16:00:00",
+                "end_time": "9/11/2025 23:00:00",
+                "venue": "HQ-Training Acadmey",
+                "instructor": "Turki Fallatah",
+                "students": [
+                    {
+                        "User ID": 15042581,
+                        "First Name": "Mutasim",
+                        "Middle Name": "Saeed",
+                        "Last Name": "Alharbi"
+                    },
+                    {
+                        "User ID": 15042582,
+                        "First Name": "Waleed",
+                        "Middle Name": "Mohamed",
+                        "Last Name": "Gabb"
+                    },
+                    {
+                        "User ID": 15042583,
+                        "First Name": "Abdullah",
+                        "Middle Name": "Abed",
+                        "Last Name": "Alshekh"
+                    },
+                    {
+                        "User ID": 15042584,
+                        "First Name": "Turky",
+                        "Middle Name": "Akram",
+                        "Last Name": "Alninni"
+                    },
+                    {
+                        "User ID": 15042585,
+                        "First Name": "Adnan",
+                        "Middle Name": "Atif",
+                        "Last Name": "Gommsani"
+                    },
+                    {
+                        "User ID": 15042586,
+                        "First Name": "Nawaf",
+                        "Middle Name": "Nabeel",
+                        "Last Name": "Aljadani"
+                    },
+                    {
+                        "User ID": 15042587,
+                        "First Name": "Ammar",
+                        "Middle Name": "Hussein",
+                        "Last Name": "Alzahrani"
+                    },
+                    {
+                        "User ID": 15042588,
+                        "First Name": "Samer",
+                        "Middle Name": "Saiem",
+                        "Last Name": "Alrefae"
+                    },
+                    {
+                        "User ID": 15042589,
+                        "First Name": "Hani",
+                        "Middle Name": "Mohammed",
+                        "Last Name": "Aljohani"
+                    },
+                    {
+                        "User ID": 15042590,
+                        "First Name": "Nawaf",
+                        "Middle Name": "Fahad",
+                        "Last Name": "Fatani"
+                    },
+                    {
+                        "User ID": 15042591,
+                        "First Name": "Mohammed",
+                        "Middle Name": "Salem",
+                        "Last Name": "Alsubiani"
+                    },
+                    {
+                        "User ID": 15042592,
+                        "First Name": "Hussam",
+                        "Middle Name": "Ali",
+                        "Last Name": "Alqahtani"
+                    },
+                    {
+                        "User ID": 15042594,
+                        "First Name": "Basil",
+                        "Middle Name": "Daod",
+                        "Last Name": "Takrony"
+                    },
+                    {
+                        "User ID": 15042595,
+                        "First Name": "Sattam",
+                        "Middle Name": "Mohammed",
+                        "Last Name": "Alghamdi"
+                    },
+                    {
+                        "User ID": 15042596,
+                        "First Name": "Anas",
+                        "Middle Name": "Majed",
+                        "Last Name": "Bokhari"
+                    },
+                    {
+                        "User ID": 15042597,
+                        "First Name": "Khaled",
+                        "Middle Name": "Ali",
+                        "Last Name": "Algarni"
+                    },
+                    {
+                        "User ID": 15042599,
+                        "First Name": "Dhaifallah",
+                        "Middle Name": "Shime",
+                        "Last Name": "Alsolami"
+                    },
+                    {
+                        "User ID": 15042600,
+                        "First Name": "Mohmmed",
+                        "Middle Name": "Abdullah",
+                        "Last Name": "Alnashri"
+                    },
+                    {
+                        "User ID": 15042601,
+                        "First Name": "Omar",
+                        "Middle Name": "Adam",
+                        "Last Name": "Hawsawi"
+                    },
+                    {
+                        "User ID": 15042602,
+                        "First Name": "Mohammed",
+                        "Middle Name": "Abdulwahab",
+                        "Last Name": "Alafifi"
+                    }
+                ],
+                "student_count": 20
+            },
+            "28165": {
+                "title": "Airside Driving (RDL)",
+                "start_time": "9/11/2025 16:00:00",
+                "end_time": "9/11/2025 23:00:00",
+                "venue": "Ramp Area",
+                "instructor": "Bader Khan",
+                "students": [
+                    {
+                        "User ID": 15001441,
+                        "First Name": "ALI",
+                        "Middle Name": "ABDULLAH",
+                        "Last Name": "ALHARBI"
+                    },
+                    {
+                        "User ID": 15003894,
+                        "First Name": "AYMAN",
+                        "Middle Name": "MOHD.",
+                        "Last Name": "GABB"
+                    },
+                    {
+                        "User ID": 15025408,
+                        "First Name": "MOHAMMED",
+                        "Middle Name": "ALI",
+                        "Last Name": "MOHAREQ"
+                    },
+                    {
+                        "User ID": 15027023,
+                        "First Name": "WALEED",
+                        "Middle Name": "ALI",
+                        "Last Name": "ALJABARTI"
+                    },
+                    {
+                        "User ID": 15028333,
+                        "First Name": "KHALED",
+                        "Middle Name": "ABDULLAH",
+                        "Last Name": "ALGHAMDI"
+                    },
+                    {
+                        "User ID": 15028783,
+                        "First Name": "Ajay Kumar",
+                        "Middle Name": "",
+                        "Last Name": "Singh"
+                    },
+                    {
+                        "User ID": 15030368,
+                        "First Name": "Ali",
+                        "Middle Name": "Othman",
+                        "Last Name": "Alsuhaimi"
+                    },
+                    {
+                        "User ID": 15031754,
+                        "First Name": "SARATH",
+                        "Middle Name": "",
+                        "Last Name": "RADHAKRISHNAN"
+                    },
+                    {
+                        "User ID": 15038230,
+                        "First Name": "PAULO",
+                        "Middle Name": "TALAIN",
+                        "Last Name": "MANGAO"
+                    }
+                ],
+                "student_count": 9
+            },
+            "28172": {
+                "title": "Dry Run and Coaching of Mindset and Hospitality",
+                "start_time": "9/11/2025 08:30:00",
+                "end_time": "9/11/2025 15:30:00",
+                "venue": "HQ-Training Acadmey",
+                "instructor": "External",
+                "students": [
+                    {
+                        "User ID": 15001812,
+                        "First Name": "ABDULLAH",
+                        "Middle Name": "SAUD",
+                        "Last Name": "AL-HARBI"
+                    },
+                    {
+                        "User ID": 15009754,
+                        "First Name": "MOHAMMED",
+                        "Middle Name": "ASAAD N",
+                        "Last Name": "TURI"
+                    },
+                    {
+                        "User ID": 15016241,
+                        "First Name": "SHAHIN",
+                        "Middle Name": "HAMAD",
+                        "Last Name": "ALAMARI"
+                    },
+                    {
+                        "User ID": 15016677,
+                        "First Name": "ABDULAZIZ",
+                        "Middle Name": "MOHAMMAD",
+                        "Last Name": "TRENGGANU"
+                    },
+                    {
+                        "User ID": 15025689,
+                        "First Name": "RAYAN",
+                        "Middle Name": "ABDULAZIZ",
+                        "Last Name": "FAKHRANI"
+                    },
+                    {
+                        "User ID": 15027134,
+                        "First Name": "RAFA",
+                        "Middle Name": "ADNAN",
+                        "Last Name": "SADAWI"
+                    }
+                ],
+                "student_count": 6
+            }
+        }
+    },
     "2025-09-14": {
         "day": "Sunday",
         "classes": {
@@ -348,6 +3629,76 @@
                 ],
                 "student_count": 12
             },
+            "27288": {
+                "title": "Aircraft Pushback Towbarless",
+                "start_time": "9/14/2025 16:00:00",
+                "end_time": "9/14/2025 23:00:00",
+                "venue": "Ramp Area",
+                "instructor": "Talal Khalaf",
+                "students": [
+                    {
+                        "User ID": 15030656,
+                        "First Name": "ABDULRAHMAN",
+                        "Middle Name": "ABDULLAH",
+                        "Last Name": "ALSATI"
+                    },
+                    {
+                        "User ID": 15033734,
+                        "First Name": "UMESH",
+                        "Middle Name": "BABU",
+                        "Last Name": "NAIR"
+                    },
+                    {
+                        "User ID": 15033736,
+                        "First Name": "PRADEESH",
+                        "Middle Name": "",
+                        "Last Name": "KALLADASSERI"
+                    },
+                    {
+                        "User ID": 15033836,
+                        "First Name": "SUSHANT",
+                        "Middle Name": "",
+                        "Last Name": "HURNEKAR"
+                    },
+                    {
+                        "User ID": 15033839,
+                        "First Name": "SADIKHALI",
+                        "Middle Name": "",
+                        "Last Name": "ALUNGAL"
+                    },
+                    {
+                        "User ID": 15038270,
+                        "First Name": "JOBY",
+                        "Middle Name": "CHIRACKAL",
+                        "Last Name": "PAULOSE"
+                    },
+                    {
+                        "User ID": 15038283,
+                        "First Name": "PARTHEEBAN",
+                        "Middle Name": "",
+                        "Last Name": "SEKAR"
+                    },
+                    {
+                        "User ID": 15038332,
+                        "First Name": "ABDUL RASEED",
+                        "Middle Name": "",
+                        "Last Name": "ABDUL MAJEED"
+                    },
+                    {
+                        "User ID": 15038368,
+                        "First Name": "ROCKWELL",
+                        "Middle Name": "HERNANDEZ",
+                        "Last Name": "JARMIN"
+                    },
+                    {
+                        "User ID": 15038691,
+                        "First Name": "DEXTER",
+                        "Middle Name": "LUMANTAS",
+                        "Last Name": "CASTANO"
+                    }
+                ],
+                "student_count": 10
+            },
             "28078": {
                 "title": "Airport Familiarization",
                 "start_time": "9/14/2025 08:30:00",
@@ -403,9 +3754,9 @@
                     },
                     {
                         "User ID": 1065926675,
-                        "First Name": "IBRAHEM ATALLAH ALHARBI",
-                        "Middle Name": "",
-                        "Last Name": "ALHRBI"
+                        "First Name": "IBRAHIM",
+                        "Middle Name": "ATALLAH",
+                        "Last Name": "ALHARBI"
                     },
                     {
                         "User ID": 1071476079,
@@ -415,15 +3766,15 @@
                     },
                     {
                         "User ID": 1097185993,
-                        "First Name": "Badr Baismail",
+                        "First Name": "BADR",
                         "Middle Name": "",
                         "Last Name": "BAISMAIL"
                     },
                     {
                         "User ID": 1098205725,
-                        "First Name": "Rayan Obaid",
+                        "First Name": "RAYAN",
                         "Middle Name": "",
-                        "Last Name": "RAYAN"
+                        "Last Name": "OBAID"
                     },
                     {
                         "User ID": 1106906033,
@@ -469,21 +3820,21 @@
                     },
                     {
                         "User ID": 2348660990,
-                        "First Name": "KASSIM MUHUNZU",
+                        "First Name": "KASSIM",
                         "Middle Name": "",
                         "Last Name": "MUHUNZU"
                     },
                     {
                         "User ID": 2405253408,
-                        "First Name": "FAYEZ NOOR AHMED",
-                        "Middle Name": "",
-                        "Last Name": "NOORAHMED"
+                        "First Name": "FAYEZ",
+                        "Middle Name": "NOOR",
+                        "Last Name": "JAMEEL"
                     },
                     {
                         "User ID": 2422057527,
-                        "First Name": "SALMAN HASAN",
-                        "Middle Name": "ALI",
-                        "Last Name": "HASAN"
+                        "First Name": "SALMAN",
+                        "Middle Name": "HASAN",
+                        "Last Name": "ALI"
                     },
                     {
                         "User ID": 2425159494,
@@ -499,19 +3850,19 @@
                     },
                     {
                         "User ID": 2456829510,
-                        "First Name": "BHATT ISHOR DATT",
-                        "Middle Name": "ISHOR",
-                        "Last Name": "DATT"
+                        "First Name": "ISHOR",
+                        "Middle Name": "DATT",
+                        "Last Name": "BHATT"
                     },
                     {
                         "User ID": 2507582985,
-                        "First Name": "RANABHAT RESHAM",
+                        "First Name": "RESHAM",
                         "Middle Name": "",
-                        "Last Name": "RANABHAT"
+                        "Last Name": "RANBAHAT"
                     },
                     {
                         "User ID": 2585366897,
-                        "First Name": "FABIL KALLINAPPURAM",
+                        "First Name": "FABIL",
                         "Middle Name": "",
                         "Last Name": "KALLINAPPURAM"
                     }
@@ -669,6 +4020,52 @@
                     }
                 ],
                 "student_count": 20
+            },
+            "28172": {
+                "title": "Dry Run and Coaching of Mindset and Hospitality",
+                "start_time": "9/14/2025 08:30:00",
+                "end_time": "9/14/2025 15:30:00",
+                "venue": "HQ-Training Acadmey",
+                "instructor": "External",
+                "students": [
+                    {
+                        "User ID": 15001812,
+                        "First Name": "ABDULLAH",
+                        "Middle Name": "SAUD",
+                        "Last Name": "AL-HARBI"
+                    },
+                    {
+                        "User ID": 15009754,
+                        "First Name": "MOHAMMED",
+                        "Middle Name": "ASAAD N",
+                        "Last Name": "TURI"
+                    },
+                    {
+                        "User ID": 15016241,
+                        "First Name": "SHAHIN",
+                        "Middle Name": "HAMAD",
+                        "Last Name": "ALAMARI"
+                    },
+                    {
+                        "User ID": 15016677,
+                        "First Name": "ABDULAZIZ",
+                        "Middle Name": "MOHAMMAD",
+                        "Last Name": "TRENGGANU"
+                    },
+                    {
+                        "User ID": 15025689,
+                        "First Name": "RAYAN",
+                        "Middle Name": "ABDULAZIZ",
+                        "Last Name": "FAKHRANI"
+                    },
+                    {
+                        "User ID": 15027134,
+                        "First Name": "RAFA",
+                        "Middle Name": "ADNAN",
+                        "Last Name": "SADAWI"
+                    }
+                ],
+                "student_count": 6
             }
         }
     },
@@ -1027,6 +4424,76 @@
                 ],
                 "student_count": 24
             },
+            "27288": {
+                "title": "Aircraft Pushback Towbarless",
+                "start_time": "9/15/2025 16:00:00",
+                "end_time": "9/15/2025 23:00:00",
+                "venue": "Ramp Area",
+                "instructor": "Talal Khalaf",
+                "students": [
+                    {
+                        "User ID": 15030656,
+                        "First Name": "ABDULRAHMAN",
+                        "Middle Name": "ABDULLAH",
+                        "Last Name": "ALSATI"
+                    },
+                    {
+                        "User ID": 15033734,
+                        "First Name": "UMESH",
+                        "Middle Name": "BABU",
+                        "Last Name": "NAIR"
+                    },
+                    {
+                        "User ID": 15033736,
+                        "First Name": "PRADEESH",
+                        "Middle Name": "",
+                        "Last Name": "KALLADASSERI"
+                    },
+                    {
+                        "User ID": 15033836,
+                        "First Name": "SUSHANT",
+                        "Middle Name": "",
+                        "Last Name": "HURNEKAR"
+                    },
+                    {
+                        "User ID": 15033839,
+                        "First Name": "SADIKHALI",
+                        "Middle Name": "",
+                        "Last Name": "ALUNGAL"
+                    },
+                    {
+                        "User ID": 15038270,
+                        "First Name": "JOBY",
+                        "Middle Name": "CHIRACKAL",
+                        "Last Name": "PAULOSE"
+                    },
+                    {
+                        "User ID": 15038283,
+                        "First Name": "PARTHEEBAN",
+                        "Middle Name": "",
+                        "Last Name": "SEKAR"
+                    },
+                    {
+                        "User ID": 15038332,
+                        "First Name": "ABDUL RASEED",
+                        "Middle Name": "",
+                        "Last Name": "ABDUL MAJEED"
+                    },
+                    {
+                        "User ID": 15038368,
+                        "First Name": "ROCKWELL",
+                        "Middle Name": "HERNANDEZ",
+                        "Last Name": "JARMIN"
+                    },
+                    {
+                        "User ID": 15038691,
+                        "First Name": "DEXTER",
+                        "Middle Name": "LUMANTAS",
+                        "Last Name": "CASTANO"
+                    }
+                ],
+                "student_count": 10
+            },
             "28079": {
                 "title": "Dangerous Goods Regulations for Personnel Responsible for Accepting Passenger and Crew Baggage, Managing Aircraft Boarding Areas, and other Functions Involving Direct Passenger Contact at an Airport",
                 "start_time": "9/15/2025 16:00:00",
@@ -1061,12 +4528,6 @@
                         "First Name": "Adnan",
                         "Middle Name": "Salem",
                         "Last Name": "Alghamdi"
-                    },
-                    {
-                        "User ID": 15042659,
-                        "First Name": "Khlood",
-                        "Middle Name": "Sulaiman",
-                        "Last Name": "Algharbi"
                     },
                     {
                         "User ID": 15042660,
@@ -1183,7 +4644,7 @@
                         "Last Name": "Alasmari"
                     }
                 ],
-                "student_count": 21
+                "student_count": 20
             },
             "28121": {
                 "title": "Airside Driving (RDL)",
@@ -1218,9 +4679,9 @@
                     },
                     {
                         "User ID": 1065926675,
-                        "First Name": "IBRAHEM ATALLAH ALHARBI",
-                        "Middle Name": "",
-                        "Last Name": "ALHRBI"
+                        "First Name": "IBRAHIM",
+                        "Middle Name": "ATALLAH",
+                        "Last Name": "ALHARBI"
                     },
                     {
                         "User ID": 1071476079,
@@ -1230,15 +4691,15 @@
                     },
                     {
                         "User ID": 1097185993,
-                        "First Name": "Badr Baismail",
+                        "First Name": "BADR",
                         "Middle Name": "",
                         "Last Name": "BAISMAIL"
                     },
                     {
                         "User ID": 1098205725,
-                        "First Name": "Rayan Obaid",
+                        "First Name": "RAYAN",
                         "Middle Name": "",
-                        "Last Name": "RAYAN"
+                        "Last Name": "OBAID"
                     },
                     {
                         "User ID": 1106906033,
@@ -1284,21 +4745,21 @@
                     },
                     {
                         "User ID": 2348660990,
-                        "First Name": "KASSIM MUHUNZU",
+                        "First Name": "KASSIM",
                         "Middle Name": "",
                         "Last Name": "MUHUNZU"
                     },
                     {
                         "User ID": 2405253408,
-                        "First Name": "FAYEZ NOOR AHMED",
-                        "Middle Name": "",
-                        "Last Name": "NOORAHMED"
+                        "First Name": "FAYEZ",
+                        "Middle Name": "NOOR",
+                        "Last Name": "JAMEEL"
                     },
                     {
                         "User ID": 2422057527,
-                        "First Name": "SALMAN HASAN",
-                        "Middle Name": "ALI",
-                        "Last Name": "HASAN"
+                        "First Name": "SALMAN",
+                        "Middle Name": "HASAN",
+                        "Last Name": "ALI"
                     },
                     {
                         "User ID": 2425159494,
@@ -1314,19 +4775,19 @@
                     },
                     {
                         "User ID": 2456829510,
-                        "First Name": "BHATT ISHOR DATT",
-                        "Middle Name": "ISHOR",
-                        "Last Name": "DATT"
+                        "First Name": "ISHOR",
+                        "Middle Name": "DATT",
+                        "Last Name": "BHATT"
                     },
                     {
                         "User ID": 2507582985,
-                        "First Name": "RANABHAT RESHAM",
+                        "First Name": "RESHAM",
                         "Middle Name": "",
-                        "Last Name": "RANABHAT"
+                        "Last Name": "RANBAHAT"
                     },
                     {
                         "User ID": 2585366897,
-                        "First Name": "FABIL KALLINAPPURAM",
+                        "First Name": "FABIL",
                         "Middle Name": "",
                         "Last Name": "KALLINAPPURAM"
                     }
@@ -1484,6 +4945,52 @@
                     }
                 ],
                 "student_count": 20
+            },
+            "28172": {
+                "title": "Dry Run and Coaching of Mindset and Hospitality",
+                "start_time": "9/15/2025 08:30:00",
+                "end_time": "9/15/2025 15:30:00",
+                "venue": "HQ-Training Acadmey",
+                "instructor": "External",
+                "students": [
+                    {
+                        "User ID": 15001812,
+                        "First Name": "ABDULLAH",
+                        "Middle Name": "SAUD",
+                        "Last Name": "AL-HARBI"
+                    },
+                    {
+                        "User ID": 15009754,
+                        "First Name": "MOHAMMED",
+                        "Middle Name": "ASAAD N",
+                        "Last Name": "TURI"
+                    },
+                    {
+                        "User ID": 15016241,
+                        "First Name": "SHAHIN",
+                        "Middle Name": "HAMAD",
+                        "Last Name": "ALAMARI"
+                    },
+                    {
+                        "User ID": 15016677,
+                        "First Name": "ABDULAZIZ",
+                        "Middle Name": "MOHAMMAD",
+                        "Last Name": "TRENGGANU"
+                    },
+                    {
+                        "User ID": 15025689,
+                        "First Name": "RAYAN",
+                        "Middle Name": "ABDULAZIZ",
+                        "Last Name": "FAKHRANI"
+                    },
+                    {
+                        "User ID": 15027134,
+                        "First Name": "RAFA",
+                        "Middle Name": "ADNAN",
+                        "Last Name": "SADAWI"
+                    }
+                ],
+                "student_count": 6
             },
             "28238": {
                 "title": "Aviation Basics and Safety",
@@ -1848,6 +5355,76 @@
                 ],
                 "student_count": 11
             },
+            "27288": {
+                "title": "Aircraft Pushback Towbarless",
+                "start_time": "9/16/2025 16:00:00",
+                "end_time": "9/16/2025 23:00:00",
+                "venue": "Ramp Area",
+                "instructor": "Talal Khalaf",
+                "students": [
+                    {
+                        "User ID": 15030656,
+                        "First Name": "ABDULRAHMAN",
+                        "Middle Name": "ABDULLAH",
+                        "Last Name": "ALSATI"
+                    },
+                    {
+                        "User ID": 15033734,
+                        "First Name": "UMESH",
+                        "Middle Name": "BABU",
+                        "Last Name": "NAIR"
+                    },
+                    {
+                        "User ID": 15033736,
+                        "First Name": "PRADEESH",
+                        "Middle Name": "",
+                        "Last Name": "KALLADASSERI"
+                    },
+                    {
+                        "User ID": 15033836,
+                        "First Name": "SUSHANT",
+                        "Middle Name": "",
+                        "Last Name": "HURNEKAR"
+                    },
+                    {
+                        "User ID": 15033839,
+                        "First Name": "SADIKHALI",
+                        "Middle Name": "",
+                        "Last Name": "ALUNGAL"
+                    },
+                    {
+                        "User ID": 15038270,
+                        "First Name": "JOBY",
+                        "Middle Name": "CHIRACKAL",
+                        "Last Name": "PAULOSE"
+                    },
+                    {
+                        "User ID": 15038283,
+                        "First Name": "PARTHEEBAN",
+                        "Middle Name": "",
+                        "Last Name": "SEKAR"
+                    },
+                    {
+                        "User ID": 15038332,
+                        "First Name": "ABDUL RASEED",
+                        "Middle Name": "",
+                        "Last Name": "ABDUL MAJEED"
+                    },
+                    {
+                        "User ID": 15038368,
+                        "First Name": "ROCKWELL",
+                        "Middle Name": "HERNANDEZ",
+                        "Last Name": "JARMIN"
+                    },
+                    {
+                        "User ID": 15038691,
+                        "First Name": "DEXTER",
+                        "Middle Name": "LUMANTAS",
+                        "Last Name": "CASTANO"
+                    }
+                ],
+                "student_count": 10
+            },
             "28079": {
                 "title": "Dangerous Goods Regulations for Personnel Responsible for Accepting Passenger and Crew Baggage, Managing Aircraft Boarding Areas, and other Functions Involving Direct Passenger Contact at an Airport",
                 "start_time": "9/16/2025 16:00:00",
@@ -1878,10 +5455,10 @@
                 "instructor": "Ahmed Alkhanbashi",
                 "students": [
                     {
-                        "User ID": 15042659,
-                        "First Name": "Khlood",
-                        "Middle Name": "Sulaiman",
-                        "Last Name": "Algharbi"
+                        "User ID": 15042509,
+                        "First Name": "Adnan",
+                        "Middle Name": "Salem",
+                        "Last Name": "Alghamdi"
                     },
                     {
                         "User ID": 15042660,
@@ -2075,6 +5652,52 @@
                     }
                 ],
                 "student_count": 11
+            },
+            "28172": {
+                "title": "Dry Run and Coaching of Mindset and Hospitality",
+                "start_time": "9/16/2025 08:30:00",
+                "end_time": "9/16/2025 15:30:00",
+                "venue": "HQ-Training Acadmey",
+                "instructor": "External",
+                "students": [
+                    {
+                        "User ID": 15001812,
+                        "First Name": "ABDULLAH",
+                        "Middle Name": "SAUD",
+                        "Last Name": "AL-HARBI"
+                    },
+                    {
+                        "User ID": 15009754,
+                        "First Name": "MOHAMMED",
+                        "Middle Name": "ASAAD N",
+                        "Last Name": "TURI"
+                    },
+                    {
+                        "User ID": 15016241,
+                        "First Name": "SHAHIN",
+                        "Middle Name": "HAMAD",
+                        "Last Name": "ALAMARI"
+                    },
+                    {
+                        "User ID": 15016677,
+                        "First Name": "ABDULAZIZ",
+                        "Middle Name": "MOHAMMAD",
+                        "Last Name": "TRENGGANU"
+                    },
+                    {
+                        "User ID": 15025689,
+                        "First Name": "RAYAN",
+                        "Middle Name": "ABDULAZIZ",
+                        "Last Name": "FAKHRANI"
+                    },
+                    {
+                        "User ID": 15027134,
+                        "First Name": "RAFA",
+                        "Middle Name": "ADNAN",
+                        "Last Name": "SADAWI"
+                    }
+                ],
+                "student_count": 6
             },
             "28203": {
                 "title": "Passenger Handling Course",
@@ -2527,6 +6150,76 @@
                 ],
                 "student_count": 13
             },
+            "27288": {
+                "title": "Aircraft Pushback Towbarless",
+                "start_time": "9/17/2025 16:00:00",
+                "end_time": "9/17/2025 23:00:00",
+                "venue": "Ramp Area",
+                "instructor": "Talal Khalaf",
+                "students": [
+                    {
+                        "User ID": 15030656,
+                        "First Name": "ABDULRAHMAN",
+                        "Middle Name": "ABDULLAH",
+                        "Last Name": "ALSATI"
+                    },
+                    {
+                        "User ID": 15033734,
+                        "First Name": "UMESH",
+                        "Middle Name": "BABU",
+                        "Last Name": "NAIR"
+                    },
+                    {
+                        "User ID": 15033736,
+                        "First Name": "PRADEESH",
+                        "Middle Name": "",
+                        "Last Name": "KALLADASSERI"
+                    },
+                    {
+                        "User ID": 15033836,
+                        "First Name": "SUSHANT",
+                        "Middle Name": "",
+                        "Last Name": "HURNEKAR"
+                    },
+                    {
+                        "User ID": 15033839,
+                        "First Name": "SADIKHALI",
+                        "Middle Name": "",
+                        "Last Name": "ALUNGAL"
+                    },
+                    {
+                        "User ID": 15038270,
+                        "First Name": "JOBY",
+                        "Middle Name": "CHIRACKAL",
+                        "Last Name": "PAULOSE"
+                    },
+                    {
+                        "User ID": 15038283,
+                        "First Name": "PARTHEEBAN",
+                        "Middle Name": "",
+                        "Last Name": "SEKAR"
+                    },
+                    {
+                        "User ID": 15038332,
+                        "First Name": "ABDUL RASEED",
+                        "Middle Name": "",
+                        "Last Name": "ABDUL MAJEED"
+                    },
+                    {
+                        "User ID": 15038368,
+                        "First Name": "ROCKWELL",
+                        "Middle Name": "HERNANDEZ",
+                        "Last Name": "JARMIN"
+                    },
+                    {
+                        "User ID": 15038691,
+                        "First Name": "DEXTER",
+                        "Middle Name": "LUMANTAS",
+                        "Last Name": "CASTANO"
+                    }
+                ],
+                "student_count": 10
+            },
             "28112": {
                 "title": "Aviation Security Awareness",
                 "start_time": "9/17/2025 16:00:00",
@@ -2535,10 +6228,10 @@
                 "instructor": "Ahmed Alkhanbashi",
                 "students": [
                     {
-                        "User ID": 15042659,
-                        "First Name": "Khlood",
-                        "Middle Name": "Sulaiman",
-                        "Last Name": "Algharbi"
+                        "User ID": 15042509,
+                        "First Name": "Adnan",
+                        "Middle Name": "Salem",
+                        "Last Name": "Alghamdi"
                     },
                     {
                         "User ID": 15042660,
@@ -2665,10 +6358,10 @@
                 "instructor": "Ahmed Alkhanbashi",
                 "students": [
                     {
-                        "User ID": 15042659,
-                        "First Name": "Khlood",
-                        "Middle Name": "Sulaiman",
-                        "Last Name": "Algharbi"
+                        "User ID": 15042509,
+                        "First Name": "Adnan",
+                        "Middle Name": "Salem",
+                        "Last Name": "Alghamdi"
                     },
                     {
                         "User ID": 15042660,
@@ -2863,6 +6556,52 @@
                 ],
                 "student_count": 11
             },
+            "28172": {
+                "title": "Dry Run and Coaching of Mindset and Hospitality",
+                "start_time": "9/17/2025 08:30:00",
+                "end_time": "9/17/2025 15:30:00",
+                "venue": "HQ-Training Acadmey",
+                "instructor": "External",
+                "students": [
+                    {
+                        "User ID": 15001812,
+                        "First Name": "ABDULLAH",
+                        "Middle Name": "SAUD",
+                        "Last Name": "AL-HARBI"
+                    },
+                    {
+                        "User ID": 15009754,
+                        "First Name": "MOHAMMED",
+                        "Middle Name": "ASAAD N",
+                        "Last Name": "TURI"
+                    },
+                    {
+                        "User ID": 15016241,
+                        "First Name": "SHAHIN",
+                        "Middle Name": "HAMAD",
+                        "Last Name": "ALAMARI"
+                    },
+                    {
+                        "User ID": 15016677,
+                        "First Name": "ABDULAZIZ",
+                        "Middle Name": "MOHAMMAD",
+                        "Last Name": "TRENGGANU"
+                    },
+                    {
+                        "User ID": 15025689,
+                        "First Name": "RAYAN",
+                        "Middle Name": "ABDULAZIZ",
+                        "Last Name": "FAKHRANI"
+                    },
+                    {
+                        "User ID": 15027134,
+                        "First Name": "RAFA",
+                        "Middle Name": "ADNAN",
+                        "Last Name": "SADAWI"
+                    }
+                ],
+                "student_count": 6
+            },
             "28203": {
                 "title": "Passenger Handling Course",
                 "start_time": "9/17/2025 08:30:00",
@@ -2944,6 +6683,136 @@
                     }
                 ],
                 "student_count": 12
+            },
+            "28204": {
+                "title": "Dangerous Goods Regulations for Personnel Responsible for Accepting Passenger and Crew Baggage, Managing Aircraft Boarding Areas, and other Functions Involving Direct Passenger Contact at an Airport",
+                "start_time": "9/17/2025 08:30:00",
+                "end_time": "9/17/2025 15:30:00",
+                "venue": "HQ-Training Acadmey",
+                "instructor": "Raed Felemban",
+                "students": [
+                    {
+                        "User ID": 15003407,
+                        "First Name": "MOHAMMED",
+                        "Middle Name": "SAEED",
+                        "Last Name": "ALGHAMDI"
+                    },
+                    {
+                        "User ID": 15003858,
+                        "First Name": "MESFEER",
+                        "Middle Name": "SALOOM",
+                        "Last Name": "AL-MAIMOUNI"
+                    },
+                    {
+                        "User ID": 15003922,
+                        "First Name": "FAISAL",
+                        "Middle Name": "WAHEB",
+                        "Last Name": "ALSABBAN"
+                    },
+                    {
+                        "User ID": 15012472,
+                        "First Name": "MAJED",
+                        "Middle Name": "DHAHER",
+                        "Last Name": "AL-AHMADI"
+                    },
+                    {
+                        "User ID": 15012828,
+                        "First Name": "JUMA",
+                        "Middle Name": "EID",
+                        "Last Name": "ALREHILI"
+                    },
+                    {
+                        "User ID": 15013775,
+                        "First Name": "TALAL",
+                        "Middle Name": "IBRAHIM",
+                        "Last Name": "ALREFAIE"
+                    },
+                    {
+                        "User ID": 15013835,
+                        "First Name": "ABDULLELAH",
+                        "Middle Name": "ATYAH",
+                        "Last Name": "ALSEHLI"
+                    },
+                    {
+                        "User ID": 15013860,
+                        "First Name": "NASSER",
+                        "Middle Name": "HUSSAIN",
+                        "Last Name": "ALABDALI"
+                    },
+                    {
+                        "User ID": 15016481,
+                        "First Name": "ABDULLAH",
+                        "Middle Name": "ZAID",
+                        "Last Name": "AL ROWAITHI"
+                    },
+                    {
+                        "User ID": 15018827,
+                        "First Name": "ABDULRAHMAN",
+                        "Middle Name": "LOAI",
+                        "Last Name": "BAWARETH"
+                    },
+                    {
+                        "User ID": 15019183,
+                        "First Name": "WAHED",
+                        "Middle Name": "SAUD",
+                        "Last Name": "KABLI"
+                    },
+                    {
+                        "User ID": 15019724,
+                        "First Name": "ABDULLRAHMAN",
+                        "Middle Name": "TAWFEEQ",
+                        "Last Name": "ALGHAMDI"
+                    },
+                    {
+                        "User ID": 15019942,
+                        "First Name": "BAHULDEEN",
+                        "Middle Name": "ABDULHAMEED",
+                        "Last Name": "SHIEK"
+                    },
+                    {
+                        "User ID": 15024404,
+                        "First Name": "ABDULRAHMAN",
+                        "Middle Name": "KHALAF ALLAH",
+                        "Last Name": "AL THUBEITI"
+                    },
+                    {
+                        "User ID": 15025369,
+                        "First Name": "ABDULRAHMAN",
+                        "Middle Name": "ABDULLAH",
+                        "Last Name": "BAIK"
+                    },
+                    {
+                        "User ID": 15025696,
+                        "First Name": "ABDALLAH",
+                        "Middle Name": "SAEED",
+                        "Last Name": "BEN GHANEM"
+                    },
+                    {
+                        "User ID": 15025921,
+                        "First Name": "MOHANED",
+                        "Middle Name": "MUTLAG",
+                        "Last Name": "ALKUTHAMI"
+                    },
+                    {
+                        "User ID": 15025929,
+                        "First Name": "ABDULKAREM",
+                        "Middle Name": "ABDULSALAM",
+                        "Last Name": "SEGNAWI"
+                    },
+                    {
+                        "User ID": 15030710,
+                        "First Name": "ZAHRA",
+                        "Middle Name": "AHMED",
+                        "Last Name": "ALNASHRI"
+                    },
+                    {
+                        "User ID": 15030721,
+                        "First Name": "SAFA",
+                        "Middle Name": "AHMED",
+                        "Last Name": "ALGHAMDI"
+                    }
+                ],
+                "student_count": 20
             },
             "28216": {
                 "title": "Baggage Tractor and Non-Motorized GSE",
@@ -3386,6 +7255,76 @@
                 ],
                 "student_count": 13
             },
+            "27288": {
+                "title": "Aircraft Pushback Towbarless",
+                "start_time": "9/18/2025 16:00:00",
+                "end_time": "9/18/2025 23:00:00",
+                "venue": "Ramp Area",
+                "instructor": "Talal Khalaf",
+                "students": [
+                    {
+                        "User ID": 15030656,
+                        "First Name": "ABDULRAHMAN",
+                        "Middle Name": "ABDULLAH",
+                        "Last Name": "ALSATI"
+                    },
+                    {
+                        "User ID": 15033734,
+                        "First Name": "UMESH",
+                        "Middle Name": "BABU",
+                        "Last Name": "NAIR"
+                    },
+                    {
+                        "User ID": 15033736,
+                        "First Name": "PRADEESH",
+                        "Middle Name": "",
+                        "Last Name": "KALLADASSERI"
+                    },
+                    {
+                        "User ID": 15033836,
+                        "First Name": "SUSHANT",
+                        "Middle Name": "",
+                        "Last Name": "HURNEKAR"
+                    },
+                    {
+                        "User ID": 15033839,
+                        "First Name": "SADIKHALI",
+                        "Middle Name": "",
+                        "Last Name": "ALUNGAL"
+                    },
+                    {
+                        "User ID": 15038270,
+                        "First Name": "JOBY",
+                        "Middle Name": "CHIRACKAL",
+                        "Last Name": "PAULOSE"
+                    },
+                    {
+                        "User ID": 15038283,
+                        "First Name": "PARTHEEBAN",
+                        "Middle Name": "",
+                        "Last Name": "SEKAR"
+                    },
+                    {
+                        "User ID": 15038332,
+                        "First Name": "ABDUL RASEED",
+                        "Middle Name": "",
+                        "Last Name": "ABDUL MAJEED"
+                    },
+                    {
+                        "User ID": 15038368,
+                        "First Name": "ROCKWELL",
+                        "Middle Name": "HERNANDEZ",
+                        "Last Name": "JARMIN"
+                    },
+                    {
+                        "User ID": 15038691,
+                        "First Name": "DEXTER",
+                        "Middle Name": "LUMANTAS",
+                        "Last Name": "CASTANO"
+                    }
+                ],
+                "student_count": 10
+            },
             "28114": {
                 "title": "Human Factors",
                 "start_time": "9/18/2025 16:00:00",
@@ -3394,10 +7333,10 @@
                 "instructor": "Ahmed Alkhanbashi",
                 "students": [
                     {
-                        "User ID": 15042659,
-                        "First Name": "Khlood",
-                        "Middle Name": "Sulaiman",
-                        "Last Name": "Algharbi"
+                        "User ID": 15042509,
+                        "First Name": "Adnan",
+                        "Middle Name": "Salem",
+                        "Last Name": "Alghamdi"
                     },
                     {
                         "User ID": 15042660,
@@ -3591,6 +7530,52 @@
                     }
                 ],
                 "student_count": 11
+            },
+            "28172": {
+                "title": "Dry Run and Coaching of Mindset and Hospitality",
+                "start_time": "9/18/2025 08:30:00",
+                "end_time": "9/18/2025 15:30:00",
+                "venue": "HQ-Training Acadmey",
+                "instructor": "External",
+                "students": [
+                    {
+                        "User ID": 15001812,
+                        "First Name": "ABDULLAH",
+                        "Middle Name": "SAUD",
+                        "Last Name": "AL-HARBI"
+                    },
+                    {
+                        "User ID": 15009754,
+                        "First Name": "MOHAMMED",
+                        "Middle Name": "ASAAD N",
+                        "Last Name": "TURI"
+                    },
+                    {
+                        "User ID": 15016241,
+                        "First Name": "SHAHIN",
+                        "Middle Name": "HAMAD",
+                        "Last Name": "ALAMARI"
+                    },
+                    {
+                        "User ID": 15016677,
+                        "First Name": "ABDULAZIZ",
+                        "Middle Name": "MOHAMMAD",
+                        "Last Name": "TRENGGANU"
+                    },
+                    {
+                        "User ID": 15025689,
+                        "First Name": "RAYAN",
+                        "Middle Name": "ABDULAZIZ",
+                        "Last Name": "FAKHRANI"
+                    },
+                    {
+                        "User ID": 15027134,
+                        "First Name": "RAFA",
+                        "Middle Name": "ADNAN",
+                        "Last Name": "SADAWI"
+                    }
+                ],
+                "student_count": 6
             },
             "28203": {
                 "title": "Passenger Handling Course",
