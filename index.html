@@ -19,11 +19,12 @@
     }
 
     .inner-header {
-      height: 65vh;
+      height: 50vh;
       width: 100%;
       display: flex;
       justify-content: center;
       align-items: center;
+      flex-direction: column;
     }
 
     .logo {
@@ -32,10 +33,23 @@
       margin: auto;
     }
 
-    @media (max-width: 768px) {
-      .logo {
-        max-width: 60%;
-      }
+    .national-day-container {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .national-day-img {
+      max-width: 60%;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .national-day-text {
+      margin-top: 10px;
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #fff;
+      text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
     }
 
     .waves {
@@ -58,21 +72,50 @@
       animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
     }
 
-    .parallax > use:nth-child(1) { animation-delay: -2s; animation-duration: 7s; }
-    .parallax > use:nth-child(2) { animation-delay: -3s; animation-duration: 10s; }
-    .parallax > use:nth-child(3) { animation-delay: -4s; animation-duration: 13s; }
-    .parallax > use:nth-child(4) { animation-delay: -5s; animation-duration: 20s; }
+    .parallax > use:nth-child(1) {
+      animation-delay: -2s;
+      animation-duration: 7s;
+    }
+
+    .parallax > use:nth-child(2) {
+      animation-delay: -3s;
+      animation-duration: 10s;
+    }
+
+    .parallax > use:nth-child(3) {
+      animation-delay: -4s;
+      animation-duration: 13s;
+    }
+
+    .parallax > use:nth-child(4) {
+      animation-delay: -5s;
+      animation-duration: 20s;
+    }
 
     @keyframes move-forever {
-      0% { transform: translate3d(-90px, 0, 0); }
-      100% { transform: translate3d(85px, 0, 0); }
+      0% {
+        transform: translate3d(-90px, 0, 0);
+      }
+
+      100% {
+        transform: translate3d(85px, 0, 0);
+      }
     }
 
     @media (max-width: 768px) {
+      .logo {
+        max-width: 60%;
+      }
+
+      .national-day-img {
+        max-width: 80%;
+      }
+
       .waves {
         height: 40px;
         min-height: 40px;
       }
+
       .content {
         height: 30vh;
       }
@@ -83,15 +126,22 @@
 <body onclick="redirectToDashboard()">
   <div class="header">
     <div class="inner-header flex">
-      <!-- Fixed Logo Link -->
+      <!-- SGS Logo -->
       <img src="SGS_Academy_Logo_White.png" alt="Logo" class="logo" />
+
+      <!-- National Day Picture -->
+      <div class="national-day-container">
+        <img src="national_day_pic.png" alt="National Day" class="natinal day.png" />
+      </div>
     </div>
 
     <!-- Waves Container -->
     <div>
-      <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+      <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
         <defs>
-          <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+          <path id="gentle-wave"
+            d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
         </defs>
         <g class="parallax">
           <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7)" />
