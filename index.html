@@ -9,7 +9,7 @@
     body {
       margin: 0;
       padding: 0;
-      background-color: #000; /* fallback if image fails */
+      background-color: #000; /* fallback color */
       display: flex;
       justify-content: center;
       align-items: center;
@@ -20,24 +20,24 @@
     .full-screen-image {
       width: 100%;
       height: 100%;
-      object-fit: cover; /* Ensures image fills screen nicely */
+      object-fit: cover; /* make sure the image fills the screen nicely */
       display: block;
       transition: transform 0.2s ease-in-out;
     }
 
     .full-screen-image:active {
-      transform: scale(0.98); /* Small tap animation */
+      transform: scale(0.98); /* slight click animation */
     }
   </style>
 </head>
 
 <body onclick="redirectToDashboard()">
-  <!-- Full Screen Image -->
+  <!-- Full Screen Clickable Image -->
   <img src="meta.jpg" alt="Tap to Enter" class="full-screen-image">
 
   <script>
     function redirectToDashboard() {
-      window.location.href = "mainFile.html"; // change to your target page
+      window.location.href = "mainFile.html"; // your current SGS attendance page
     }
   </script>
 </body>
