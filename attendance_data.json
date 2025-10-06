@@ -2993,124 +2993,6 @@
                 ],
                 "student_count": 9
             },
-            "28672": {
-                "title": "Mindset and Hospitality Workshop",
-                "start_time": "10/1/2025 08:30:00",
-                "end_time": "10/1/2025 15:30:00",
-                "venue": "HQ-Training Acadmey",
-                "instructor": "External",
-                "students": [
-                    {
-                        "User ID": 15002223,
-                        "First Name": "Saeed",
-                        "Middle Name": "Saleh",
-                        "Last Name": "Alamri"
-                    },
-                    {
-                        "User ID": 15009527,
-                        "First Name": "Hossam",
-                        "Middle Name": "Ahmed",
-                        "Last Name": "Albatari"
-                    },
-                    {
-                        "User ID": 15014280,
-                        "First Name": "Hussain",
-                        "Middle Name": "Saidan",
-                        "Last Name": "Albaqami"
-                    },
-                    {
-                        "User ID": 15016582,
-                        "First Name": "Fahad",
-                        "Middle Name": "Mohamed",
-                        "Last Name": "Aljuaid"
-                    },
-                    {
-                        "User ID": 15018876,
-                        "First Name": "Saad",
-                        "Middle Name": "Abdullah",
-                        "Last Name": "Abaalkhil"
-                    },
-                    {
-                        "User ID": 15020314,
-                        "First Name": "Mohammed",
-                        "Middle Name": "Bin Faisal",
-                        "Last Name": "Alsulimani"
-                    },
-                    {
-                        "User ID": 15029325,
-                        "First Name": "Ibtihaj",
-                        "Middle Name": "Mohammd",
-                        "Last Name": "Daylami"
-                    },
-                    {
-                        "User ID": 15031527,
-                        "First Name": "Arwa",
-                        "Middle Name": "Hashim",
-                        "Last Name": "Alsafi"
-                    },
-                    {
-                        "User ID": 15033269,
-                        "First Name": "Bayader",
-                        "Middle Name": "Hassan",
-                        "Last Name": "AlHindi"
-                    },
-                    {
-                        "User ID": 15033410,
-                        "First Name": "Maryam",
-                        "Middle Name": "Mohammed",
-                        "Last Name": "Alqarni"
-                    },
-                    {
-                        "User ID": 15034290,
-                        "First Name": "Bashaier",
-                        "Middle Name": "Fahad",
-                        "Last Name": "Alotaibi"
-                    },
-                    {
-                        "User ID": 15034593,
-                        "First Name": "Norah",
-                        "Middle Name": "Ibrahim",
-                        "Last Name": "Wanqarawi"
-                    },
-                    {
-                        "User ID": 15037072,
-                        "First Name": "Afnnan",
-                        "Middle Name": "Mohammed",
-                        "Last Name": "Basusan"
-                    },
-                    {
-                        "User ID": 15037162,
-                        "First Name": "Hiba",
-                        "Middle Name": "Khaled",
-                        "Last Name": "Alshafei"
-                    },
-                    {
-                        "User ID": 15037201,
-                        "First Name": "Hanein",
-                        "Middle Name": "Yousef",
-                        "Last Name": "Ismail"
-                    },
-                    {
-                        "User ID": 15040404,
-                        "First Name": "Nada",
-                        "Middle Name": "Naser",
-                        "Last Name": "Alharthi"
-                    },
-                    {
-                        "User ID": 15040463,
-                        "First Name": "Saleh",
-                        "Middle Name": "Ahmed",
-                        "Last Name": "Alghamdi"
-                    },
-                    {
-                        "User ID": 15040557,
-                        "First Name": "Budur",
-                        "Middle Name": "Mohammed",
-                        "Last Name": "Faqih"
-                    }
-                ],
-                "student_count": 18
-            },
             "28673": {
                 "title": "Mindset and Hospitality Workshop",
                 "start_time": "10/1/2025 08:30:00",
@@ -3700,124 +3582,6 @@
                 ],
                 "student_count": 20
             },
-            "28672": {
-                "title": "Mindset and Hospitality Workshop",
-                "start_time": "10/2/2025 08:30:00",
-                "end_time": "10/2/2025 15:30:00",
-                "venue": "HQ-Training Acadmey",
-                "instructor": "External",
-                "students": [
-                    {
-                        "User ID": 15002223,
-                        "First Name": "Saeed",
-                        "Middle Name": "Saleh",
-                        "Last Name": "Alamri"
-                    },
-                    {
-                        "User ID": 15009527,
-                        "First Name": "Hossam",
-                        "Middle Name": "Ahmed",
-                        "Last Name": "Albatari"
-                    },
-                    {
-                        "User ID": 15014280,
-                        "First Name": "Hussain",
-                        "Middle Name": "Saidan",
-                        "Last Name": "Albaqami"
-                    },
-                    {
-                        "User ID": 15016582,
-                        "First Name": "Fahad",
-                        "Middle Name": "Mohamed",
-                        "Last Name": "Aljuaid"
-                    },
-                    {
-                        "User ID": 15018876,
-                        "First Name": "Saad",
-                        "Middle Name": "Abdullah",
-                        "Last Name": "Abaalkhil"
-                    },
-                    {
-                        "User ID": 15020314,
-                        "First Name": "Mohammed",
-                        "Middle Name": "Bin Faisal",
-                        "Last Name": "Alsulimani"
-                    },
-                    {
-                        "User ID": 15029325,
-                        "First Name": "Ibtihaj",
-                        "Middle Name": "Mohammd",
-                        "Last Name": "Daylami"
-                    },
-                    {
-                        "User ID": 15031527,
-                        "First Name": "Arwa",
-                        "Middle Name": "Hashim",
-                        "Last Name": "Alsafi"
-                    },
-                    {
-                        "User ID": 15033269,
-                        "First Name": "Bayader",
-                        "Middle Name": "Hassan",
-                        "Last Name": "AlHindi"
-                    },
-                    {
-                        "User ID": 15033410,
-                        "First Name": "Maryam",
-                        "Middle Name": "Mohammed",
-                        "Last Name": "Alqarni"
-                    },
-                    {
-                        "User ID": 15034290,
-                        "First Name": "Bashaier",
-                        "Middle Name": "Fahad",
-                        "Last Name": "Alotaibi"
-                    },
-                    {
-                        "User ID": 15034593,
-                        "First Name": "Norah",
-                        "Middle Name": "Ibrahim",
-                        "Last Name": "Wanqarawi"
-                    },
-                    {
-                        "User ID": 15037072,
-                        "First Name": "Afnnan",
-                        "Middle Name": "Mohammed",
-                        "Last Name": "Basusan"
-                    },
-                    {
-                        "User ID": 15037162,
-                        "First Name": "Hiba",
-                        "Middle Name": "Khaled",
-                        "Last Name": "Alshafei"
-                    },
-                    {
-                        "User ID": 15037201,
-                        "First Name": "Hanein",
-                        "Middle Name": "Yousef",
-                        "Last Name": "Ismail"
-                    },
-                    {
-                        "User ID": 15040404,
-                        "First Name": "Nada",
-                        "Middle Name": "Naser",
-                        "Last Name": "Alharthi"
-                    },
-                    {
-                        "User ID": 15040463,
-                        "First Name": "Saleh",
-                        "Middle Name": "Ahmed",
-                        "Last Name": "Alghamdi"
-                    },
-                    {
-                        "User ID": 15040557,
-                        "First Name": "Budur",
-                        "Middle Name": "Mohammed",
-                        "Last Name": "Faqih"
-                    }
-                ],
-                "student_count": 18
-            },
             "28673": {
                 "title": "Mindset and Hospitality Workshop",
                 "start_time": "10/2/2025 08:30:00",
@@ -4109,12 +3873,6 @@
                         "Last Name": "SALAHUDDIN"
                     },
                     {
-                        "User ID": 15032229,
-                        "First Name": "RAJESH",
-                        "Middle Name": "SELVARAJ",
-                        "Last Name": "RAJAM"
-                    },
-                    {
                         "User ID": 15032348,
                         "First Name": "JASVEER",
                         "Middle Name": "",
@@ -4175,7 +3933,7 @@
                         "Last Name": "Hussein"
                     }
                 ],
-                "student_count": 20
+                "student_count": 19
             },
             "28330": {
                 "title": "Airport Familiarization",
@@ -4274,124 +4032,6 @@
                     }
                 ],
                 "student_count": 7
-            },
-            "28672": {
-                "title": "Mindset and Hospitality Workshop",
-                "start_time": "10/5/2025 08:30:00",
-                "end_time": "10/5/2025 15:30:00",
-                "venue": "HQ-Training Acadmey",
-                "instructor": "External",
-                "students": [
-                    {
-                        "User ID": 15002223,
-                        "First Name": "Saeed",
-                        "Middle Name": "Saleh",
-                        "Last Name": "Alamri"
-                    },
-                    {
-                        "User ID": 15009527,
-                        "First Name": "Hossam",
-                        "Middle Name": "Ahmed",
-                        "Last Name": "Albatari"
-                    },
-                    {
-                        "User ID": 15014280,
-                        "First Name": "Hussain",
-                        "Middle Name": "Saidan",
-                        "Last Name": "Albaqami"
-                    },
-                    {
-                        "User ID": 15016582,
-                        "First Name": "Fahad",
-                        "Middle Name": "Mohamed",
-                        "Last Name": "Aljuaid"
-                    },
-                    {
-                        "User ID": 15018876,
-                        "First Name": "Saad",
-                        "Middle Name": "Abdullah",
-                        "Last Name": "Abaalkhil"
-                    },
-                    {
-                        "User ID": 15020314,
-                        "First Name": "Mohammed",
-                        "Middle Name": "Bin Faisal",
-                        "Last Name": "Alsulimani"
-                    },
-                    {
-                        "User ID": 15029325,
-                        "First Name": "Ibtihaj",
-                        "Middle Name": "Mohammd",
-                        "Last Name": "Daylami"
-                    },
-                    {
-                        "User ID": 15031527,
-                        "First Name": "Arwa",
-                        "Middle Name": "Hashim",
-                        "Last Name": "Alsafi"
-                    },
-                    {
-                        "User ID": 15033269,
-                        "First Name": "Bayader",
-                        "Middle Name": "Hassan",
-                        "Last Name": "AlHindi"
-                    },
-                    {
-                        "User ID": 15033410,
-                        "First Name": "Maryam",
-                        "Middle Name": "Mohammed",
-                        "Last Name": "Alqarni"
-                    },
-                    {
-                        "User ID": 15034290,
-                        "First Name": "Bashaier",
-                        "Middle Name": "Fahad",
-                        "Last Name": "Alotaibi"
-                    },
-                    {
-                        "User ID": 15034593,
-                        "First Name": "Norah",
-                        "Middle Name": "Ibrahim",
-                        "Last Name": "Wanqarawi"
-                    },
-                    {
-                        "User ID": 15037072,
-                        "First Name": "Afnnan",
-                        "Middle Name": "Mohammed",
-                        "Last Name": "Basusan"
-                    },
-                    {
-                        "User ID": 15037162,
-                        "First Name": "Hiba",
-                        "Middle Name": "Khaled",
-                        "Last Name": "Alshafei"
-                    },
-                    {
-                        "User ID": 15037201,
-                        "First Name": "Hanein",
-                        "Middle Name": "Yousef",
-                        "Last Name": "Ismail"
-                    },
-                    {
-                        "User ID": 15040404,
-                        "First Name": "Nada",
-                        "Middle Name": "Naser",
-                        "Last Name": "Alharthi"
-                    },
-                    {
-                        "User ID": 15040463,
-                        "First Name": "Saleh",
-                        "Middle Name": "Ahmed",
-                        "Last Name": "Alghamdi"
-                    },
-                    {
-                        "User ID": 15040557,
-                        "First Name": "Budur",
-                        "Middle Name": "Mohammed",
-                        "Last Name": "Faqih"
-                    }
-                ],
-                "student_count": 18
             },
             "28673": {
                 "title": "Mindset and Hospitality Workshop",
@@ -4684,12 +4324,6 @@
                         "Last Name": "SALAHUDDIN"
                     },
                     {
-                        "User ID": 15032229,
-                        "First Name": "RAJESH",
-                        "Middle Name": "SELVARAJ",
-                        "Last Name": "RAJAM"
-                    },
-                    {
                         "User ID": 15032348,
                         "First Name": "JASVEER",
                         "Middle Name": "",
@@ -4750,7 +4384,7 @@
                         "Last Name": "Hussein"
                     }
                 ],
-                "student_count": 20
+                "student_count": 19
             },
             "28454": {
                 "title": "Dangerous Goods Regulations for Personnel Responsible for Accepting Passenger and Crew Baggage, Managing Aircraft Boarding Areas, and other Functions Involving Direct Passenger Contact at an Airport",
@@ -4984,6 +4618,12 @@
                         "Last Name": "Zakri"
                     },
                     {
+                        "User ID": 15029274,
+                        "First Name": "Lujain",
+                        "Middle Name": "Rashed",
+                        "Last Name": "Alharbi"
+                    },
+                    {
                         "User ID": 15029509,
                         "First Name": "Maryam",
                         "Middle Name": "Sami",
@@ -5006,6 +4646,12 @@
                         "First Name": "Afrah",
                         "Middle Name": "Salem",
                         "Last Name": "Aljohani"
+                    },
+                    {
+                        "User ID": 15037205,
+                        "First Name": "Bashayr",
+                        "Middle Name": "Abdullah",
+                        "Last Name": "Alokasi"
                     },
                     {
                         "User ID": 15041214,
@@ -5038,7 +4684,7 @@
                         "Last Name": "Alharbi"
                     }
                 ],
-                "student_count": 18
+                "student_count": 20
             },
             "28682": {
                 "title": "Leadership Workshop",
@@ -5085,6 +4731,76 @@
                     }
                 ],
                 "student_count": 6
+            },
+            "28887": {
+                "title": "Emirates Passenger Control-AS Connect",
+                "start_time": "10/6/2025 08:30:00",
+                "end_time": "10/6/2025 15:30:00",
+                "venue": "HQ-Training Acadmey",
+                "instructor": "Emirates EK",
+                "students": [
+                    {
+                        "User ID": 15012328,
+                        "First Name": "Ahmed",
+                        "Middle Name": "Rabee",
+                        "Last Name": "Alsulami"
+                    },
+                    {
+                        "User ID": 15016420,
+                        "First Name": "Mohammad",
+                        "Middle Name": "Yuosef",
+                        "Last Name": "Alyaba"
+                    },
+                    {
+                        "User ID": 15016423,
+                        "First Name": "Ahmed",
+                        "Middle Name": "Abdulhameed",
+                        "Last Name": "Nafa"
+                    },
+                    {
+                        "User ID": 15016545,
+                        "First Name": "Abdulrahman",
+                        "Middle Name": "Ahmed",
+                        "Last Name": "Qaysi"
+                    },
+                    {
+                        "User ID": 15017213,
+                        "First Name": "Mohammad",
+                        "Middle Name": "Abdulaziz",
+                        "Last Name": "Alabbas"
+                    },
+                    {
+                        "User ID": 15019982,
+                        "First Name": "Abdulwahab",
+                        "Middle Name": "Fayez",
+                        "Last Name": "Alhuthayfi"
+                    },
+                    {
+                        "User ID": 15025441,
+                        "First Name": "Waleed",
+                        "Middle Name": "Hatem",
+                        "Last Name": "Jamjoom"
+                    },
+                    {
+                        "User ID": 15028939,
+                        "First Name": "Razan",
+                        "Middle Name": "Abdulrahman",
+                        "Last Name": "Kelantan"
+                    },
+                    {
+                        "User ID": 15028940,
+                        "First Name": "Lamia",
+                        "Middle Name": "Ahmed",
+                        "Last Name": "Mesbah"
+                    },
+                    {
+                        "User ID": 15030618,
+                        "First Name": "Asma",
+                        "Middle Name": "Khallufah",
+                        "Last Name": "Alghamdi"
+                    }
+                ],
+                "student_count": 10
             }
         }
     },
@@ -5605,6 +5321,12 @@
                         "Last Name": "Zakri"
                     },
                     {
+                        "User ID": 15029274,
+                        "First Name": "Lujain",
+                        "Middle Name": "Rashed",
+                        "Last Name": "Alharbi"
+                    },
+                    {
                         "User ID": 15029509,
                         "First Name": "Maryam",
                         "Middle Name": "Sami",
@@ -5627,6 +5349,12 @@
                         "First Name": "Afrah",
                         "Middle Name": "Salem",
                         "Last Name": "Aljohani"
+                    },
+                    {
+                        "User ID": 15037205,
+                        "First Name": "Bashayr",
+                        "Middle Name": "Abdullah",
+                        "Last Name": "Alokasi"
                     },
                     {
                         "User ID": 15041214,
@@ -5659,7 +5387,7 @@
                         "Last Name": "Alharbi"
                     }
                 ],
-                "student_count": 18
+                "student_count": 20
             },
             "28682": {
                 "title": "Leadership Workshop",
@@ -5706,6 +5434,34 @@
                     }
                 ],
                 "student_count": 6
+            },
+            "28885": {
+                "title": "Airside Driving (RDL)",
+                "start_time": "10/7/2025 08:30:00",
+                "end_time": "10/7/2025 15:30:00",
+                "venue": "HQ-Training Acadmey",
+                "instructor": "Samih Elmanasir",
+                "students": [
+                    {
+                        "User ID": 1110697602,
+                        "First Name": "Sohaib Matari",
+                        "Middle Name": "",
+                        "Last Name": ""
+                    },
+                    {
+                        "User ID": 15011969,
+                        "First Name": "ABDULLAH",
+                        "Middle Name": "FAHAD",
+                        "Last Name": "ALTHAQAFI"
+                    },
+                    {
+                        "User ID": 2192409692,
+                        "First Name": "Liton",
+                        "Middle Name": "",
+                        "Last Name": "Mollah"
+                    }
+                ],
+                "student_count": 3
             }
         }
     },
@@ -6258,6 +6014,12 @@
                         "Last Name": "Zakri"
                     },
                     {
+                        "User ID": 15029274,
+                        "First Name": "Lujain",
+                        "Middle Name": "Rashed",
+                        "Last Name": "Alharbi"
+                    },
+                    {
                         "User ID": 15029509,
                         "First Name": "Maryam",
                         "Middle Name": "Sami",
@@ -6280,6 +6042,12 @@
                         "First Name": "Afrah",
                         "Middle Name": "Salem",
                         "Last Name": "Aljohani"
+                    },
+                    {
+                        "User ID": 15037205,
+                        "First Name": "Bashayr",
+                        "Middle Name": "Abdullah",
+                        "Last Name": "Alokasi"
                     },
                     {
                         "User ID": 15041214,
@@ -6312,7 +6080,7 @@
                         "Last Name": "Alharbi"
                     }
                 ],
-                "student_count": 18
+                "student_count": 20
             },
             "28682": {
                 "title": "Leadership Workshop",
@@ -6359,6 +6127,34 @@
                     }
                 ],
                 "student_count": 6
+            },
+            "28885": {
+                "title": "Airside Driving (RDL)",
+                "start_time": "10/8/2025 08:30:00",
+                "end_time": "10/8/2025 15:30:00",
+                "venue": "Ramp Area",
+                "instructor": "Samih Elmanasir",
+                "students": [
+                    {
+                        "User ID": 1110697602,
+                        "First Name": "Sohaib Matari",
+                        "Middle Name": "",
+                        "Last Name": ""
+                    },
+                    {
+                        "User ID": 15011969,
+                        "First Name": "ABDULLAH",
+                        "Middle Name": "FAHAD",
+                        "Last Name": "ALTHAQAFI"
+                    },
+                    {
+                        "User ID": 2192409692,
+                        "First Name": "Liton",
+                        "Middle Name": "",
+                        "Last Name": "Mollah"
+                    }
+                ],
+                "student_count": 3
             }
         }
     },
