@@ -1754,13 +1754,19 @@
                         "Last Name": "Alharbi"
                     },
                     {
+                        "User ID": 15041451,
+                        "First Name": "Zyad",
+                        "Middle Name": "Abdulmagid",
+                        "Last Name": "Mohammed"
+                    },
+                    {
                         "User ID": 15041465,
                         "First Name": "Abdullah",
                         "Middle Name": "Abdulqader",
                         "Last Name": "Baqais"
                     }
                 ],
-                "student_count": 10
+                "student_count": 11
             },
             "28471": {
                 "title": "Emergency Response Awareness",
@@ -1982,6 +1988,12 @@
                         "Last Name": "Alabdali"
                     },
                     {
+                        "User ID": 15016389,
+                        "First Name": "Sultan",
+                        "Middle Name": "Mohammed",
+                        "Last Name": "Aashi"
+                    },
+                    {
                         "User ID": 15021122,
                         "First Name": "Salman",
                         "Middle Name": "Shafiq",
@@ -2048,7 +2060,7 @@
                         "Last Name": "MOHANAN"
                     }
                 ],
-                "student_count": 20
+                "student_count": 21
             },
             "28476": {
                 "title": "Aircraft Marshalling - Theory",
@@ -2104,6 +2116,12 @@
                 "instructor": "Hattan Toukhi",
                 "students": [
                     {
+                        "User ID": 15042530,
+                        "First Name": "Hassan",
+                        "Middle Name": "Ali",
+                        "Last Name": "Althagafi"
+                    },
+                    {
                         "User ID": 15042917,
                         "First Name": "Ghazal",
                         "Middle Name": "Khaled",
@@ -2260,7 +2278,7 @@
                         "Last Name": "Alam"
                     }
                 ],
-                "student_count": 26
+                "student_count": 27
             },
             "28657": {
                 "title": "Emergency Response Awareness",
@@ -2270,6 +2288,12 @@
                 "instructor": "Hattan Toukhi",
                 "students": [
                     {
+                        "User ID": 15042530,
+                        "First Name": "Hassan",
+                        "Middle Name": "Ali",
+                        "Last Name": "Althagafi"
+                    },
+                    {
                         "User ID": 15042917,
                         "First Name": "Ghazal",
                         "Middle Name": "Khaled",
@@ -2426,7 +2450,7 @@
                         "Last Name": "Alam"
                     }
                 ],
-                "student_count": 26
+                "student_count": 27
             },
             "28668": {
                 "title": "Passenger Handling Course",
@@ -2578,12 +2602,6 @@
                 "instructor": "Samih Elmanasir",
                 "students": [
                     {
-                        "User ID": 15002008,
-                        "First Name": "Hani",
-                        "Middle Name": "Ahmed",
-                        "Last Name": "Taki"
-                    },
-                    {
                         "User ID": 15002960,
                         "First Name": "Ahmed",
                         "Middle Name": "Mhmoed",
@@ -2650,7 +2668,7 @@
                         "Last Name": "Nulloh"
                     }
                 ],
-                "student_count": 12
+                "student_count": 11
             },
             "29201": {
                 "title": "Emirates Services Standards and System (ESSS)",
@@ -3013,6 +3031,12 @@
                         "Last Name": "Alabdali"
                     },
                     {
+                        "User ID": 15016389,
+                        "First Name": "Sultan",
+                        "Middle Name": "Mohammed",
+                        "Last Name": "Aashi"
+                    },
+                    {
                         "User ID": 15021122,
                         "First Name": "Salman",
                         "Middle Name": "Shafiq",
@@ -3079,7 +3103,7 @@
                         "Last Name": "MOHANAN"
                     }
                 ],
-                "student_count": 20
+                "student_count": 21
             },
             "28477": {
                 "title": "Dangerous Goods Regulations for Personnel Responsible for transporting cargo loading and unloading ULDs and aircraft cargo compartments",
@@ -3179,12 +3203,6 @@
                         "Last Name": "PARIYARAN"
                     },
                     {
-                        "User ID": 15031214,
-                        "First Name": "KRISHNAPRASAD",
-                        "Middle Name": "KARAMALA",
-                        "Last Name": "OMANAKUTTAN"
-                    },
-                    {
                         "User ID": 15031233,
                         "First Name": "AMAR",
                         "Middle Name": "DATTATRAY",
@@ -3215,7 +3233,7 @@
                         "Last Name": "LAGUERTA"
                     }
                 ],
-                "student_count": 21
+                "student_count": 20
             },
             "28478": {
                 "title": "Human Factors",
@@ -3307,6 +3325,12 @@
                         "Last Name": "Ishaq"
                     },
                     {
+                        "User ID": 15013863,
+                        "First Name": "SAMI",
+                        "Middle Name": "ABDULLAH",
+                        "Last Name": "SHAMI"
+                    },
+                    {
                         "User ID": 15013871,
                         "First Name": "Hassan",
                         "Middle Name": "Jamil",
@@ -3361,7 +3385,7 @@
                         "Last Name": "FAREED"
                     }
                 ],
-                "student_count": 16
+                "student_count": 17
             },
             "28658": {
                 "title": "Human Factors",
@@ -3370,6 +3394,12 @@
                 "venue": "HQ-Training Acadmey",
                 "instructor": "Hattan Toukhi",
                 "students": [
+                    {
+                        "User ID": 15042530,
+                        "First Name": "Hassan",
+                        "Middle Name": "Ali",
+                        "Last Name": "Althagafi"
+                    },
                     {
                         "User ID": 15042917,
                         "First Name": "Ghazal",
@@ -3527,7 +3557,7 @@
                         "Last Name": "Alam"
                     }
                 ],
-                "student_count": 26
+                "student_count": 27
             },
             "28668": {
                 "title": "Passenger Handling Course",
@@ -3679,12 +3709,6 @@
                 "instructor": "Samih Elmanasir",
                 "students": [
                     {
-                        "User ID": 15002008,
-                        "First Name": "Hani",
-                        "Middle Name": "Ahmed",
-                        "Last Name": "Taki"
-                    },
-                    {
                         "User ID": 15002960,
                         "First Name": "Ahmed",
                         "Middle Name": "Mhmoed",
@@ -3751,7 +3775,7 @@
                         "Last Name": "Nulloh"
                     }
                 ],
-                "student_count": 12
+                "student_count": 11
             },
             "29201": {
                 "title": "Emirates Services Standards and System (ESSS)",
@@ -4380,6 +4404,12 @@
                         "Last Name": "Alabdali"
                     },
                     {
+                        "User ID": 15016389,
+                        "First Name": "Sultan",
+                        "Middle Name": "Mohammed",
+                        "Last Name": "Aashi"
+                    },
+                    {
                         "User ID": 15021122,
                         "First Name": "Salman",
                         "Middle Name": "Shafiq",
@@ -4446,7 +4476,7 @@
                         "Last Name": "MOHANAN"
                     }
                 ],
-                "student_count": 20
+                "student_count": 21
             },
             "28477": {
                 "title": "Dangerous Goods Regulations for Personnel Responsible for transporting cargo loading and unloading ULDs and aircraft cargo compartments",
@@ -4546,12 +4576,6 @@
                         "Last Name": "PARIYARAN"
                     },
                     {
-                        "User ID": 15031214,
-                        "First Name": "KRISHNAPRASAD",
-                        "Middle Name": "KARAMALA",
-                        "Last Name": "OMANAKUTTAN"
-                    },
-                    {
                         "User ID": 15031233,
                         "First Name": "AMAR",
                         "Middle Name": "DATTATRAY",
@@ -4582,7 +4606,7 @@
                         "Last Name": "LAGUERTA"
                     }
                 ],
-                "student_count": 21
+                "student_count": 20
             },
             "28482": {
                 "title": "Regulatory Awareness (Introduction to GACARs)",
@@ -4626,12 +4650,6 @@
                         "First Name": "Ali",
                         "Middle Name": "Othman",
                         "Last Name": "Alsuhayml"
-                    },
-                    {
-                        "User ID": 15031215,
-                        "First Name": "DHANESH",
-                        "Middle Name": "",
-                        "Last Name": "PANNIYODAN"
                     },
                     {
                         "User ID": 15031230,
@@ -4712,7 +4730,7 @@
                         "Last Name": "Aljadaani"
                     }
                 ],
-                "student_count": 20
+                "student_count": 19
             },
             "28659": {
                 "title": "Regulatory Awareness (Introduction to GACARs)",
