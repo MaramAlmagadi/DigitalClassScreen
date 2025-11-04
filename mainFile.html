@@ -22,7 +22,6 @@
     .venue-message,.day-message{font-size:18px;font-weight:500;color:#fff;margin-bottom:20px;transition:.6s}
     .venue-message.hidden,.day-message.hidden{opacity:0;pointer-events:none;height:0;margin:0;overflow:hidden}
 
-    /* Pushback scrollbar */
     .button-section{display:flex;flex-direction:column;align-items:stretch;gap:12px;width:100%;max-width:600px;height:70vh;overflow-y:auto;padding-right:5px}
     .button-section::-webkit-scrollbar{width:40px}
     .button-section::-webkit-scrollbar-thumb{background:url('Picture1.png') no-repeat center center;background-size:contain;border-radius:10px;border:none}
@@ -57,22 +56,26 @@
     .panel-hero img{width:72px;height:72px;border-radius:50%;object-fit:cover;border:3px solid #cdebf5}
     .who{font-size:16px;font-weight:900}
     .muted{font-size:12px;color:#517b89;font-weight:700}
-    .chip{display:inline-block;border-radius:999px;margin:3px 5px 0 0;font-weight:700;background:#e6f6fb;color:#0E4B64;transform:scale(0.85);font-size:11px;opacity:0;animation:growWave .6s ease forwards}
+    .chip{display:inline-block;border-radius:999px;margin:3px 5px 0 0;font-weight:700;background:#e6f6fb;color:#0E4B64;transform:scale(0.85);font-size:11px;opacity:0;animation:growWave .6s ease forwards;padding:4px 8px}
     @keyframes growWave{0%{transform:scale(.85);opacity:0}60%{transform:scale(1.08);opacity:1}100%{transform:scale(1);opacity:1}}
 
     .collapsible-title{font-size:13px;font-weight:500;color:#0E4B64;margin-top:8px;margin-bottom:6px;cursor:pointer;transition:color .3s ease}
     .collapsible-title:hover{color:#155d78}
     .collapsible-content{max-height:0;overflow:hidden;transition:max-height .4s ease}
-    .collapsible-content.active{max-height:300px}
+    .collapsible-content.active{max-height:500px}
+    
+    .loading{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);font-size:20px;font-weight:bold}
+    .error-message{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);background:rgba(255,0,0,0.9);color:#fff;padding:20px;border-radius:10px;max-width:80%;text-align:center}
   </style>
 </head>
 <body>
-  <img src="SGS_Academy_Logo_White.png" class="logo" alt="Logo">
-  <div id="venueMessage" class="venue-message">📍 Please choose a venue to continue</div>
+  <div id="loadingMessage" class="loading">⏳ Loading data...</div>
+  <img src="SGS_Academy_Logo_White.png" class="logo hidden" alt="Logo" id="logo">
+  <div id="venueMessage" class="venue-message hidden">📍 Please choose a venue to continue</div>
   <div id="dayMessage" class="day-message hidden">📅 Please choose a day to continue</div>
   <div id="breadcrumb" class="breadcrumb hidden"></div>
   <button id="backButton" class="hidden" onclick="goBack()">← Back</button>
-  <div class="button-section" id="venueButtons"></div>
+  <div class="button-section hidden" id="venueButtons"></div>
   <div class="button-section hidden" id="dayButtons"></div>
   <div class="button-section hidden" id="classButtons"></div>
 
@@ -95,132 +98,229 @@
     <div id="panelContent" class="panel-content"></div>
   </div>
 
-  <!-- instructorsMap must be defined in this file -->
+  <!-- Load instructors first -->
   <script src="./instructors.js"></script>
 
   <script>
-    // Auto-refresh interval (in minutes)
-    const REFRESH_INTERVAL_MIN = 10; // Change as needed
-    
-    let scheduleData = {};
-    let selectedVenue = '', selectedDate = '', currentLevel = 'venue';
-    let refreshTimer;
+    var scheduleData = {};
+    var selectedVenue = '';
+    var selectedDate = '';
+    var currentLevel = 'venue';
 
-    document.addEventListener("DOMContentLoaded", async () => {
+    // Universal data loader - tries multiple methods
+    function loadJSON(callback) {
+      console.log('🔄 Attempting to load attendance_data.json...');
+      
+      // Method 1: Try fetch first (modern browsers)
+      if (typeof fetch !== 'undefined') {
+        console.log('📡 Trying fetch API...');
+        fetch('attendance_data.json?v=' + Date.now())
+          .then(function(response) {
+            if (!response.ok) throw new Error('HTTP ' + response.status);
+            return response.json();
+          })
+          .then(function(data) {
+            console.log('✅ Fetch successful! Data loaded.');
+            callback(null, data);
+          })
+          .catch(function(err) {
+            console.warn('⚠️ Fetch failed:', err.message);
+            tryXHR();
+          });
+      } else {
+        console.log('⚠️ Fetch not available, trying XHR...');
+        tryXHR();
+      }
+      
+      // Method 2: XMLHttpRequest (older browsers, MagicInfo)
+      function tryXHR() {
+        if (typeof XMLHttpRequest === 'undefined') {
+          console.error('❌ No XMLHttpRequest available');
+          callback(new Error('Cannot load data - no method available'));
+          return;
+        }
+        
+        console.log('📡 Trying XMLHttpRequest...');
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', 'attendance_data.json?v=' + Date.now(), true);
+        xhr.timeout = 10000;
+        
+        xhr.onload = function() {
+          if (xhr.status === 200) {
+            try {
+              var data = JSON.parse(xhr.responseText);
+              console.log('✅ XHR successful! Data loaded.');
+              callback(null, data);
+            } catch (e) {
+              console.error('❌ JSON parse error:', e);
+              callback(e);
+            }
+          } else {
+            console.error('❌ XHR HTTP error:', xhr.status);
+            callback(new Error('HTTP ' + xhr.status));
+          }
+        };
+        
+        xhr.onerror = function() {
+          console.error('❌ XHR network error');
+          callback(new Error('Network error - file not found or blocked'));
+        };
+        
+        xhr.ontimeout = function() {
+          console.error('❌ XHR timeout');
+          callback(new Error('Request timeout'));
+        };
+        
+        xhr.send();
+      }
+    }
+
+    // Initialize
+    function init() {
+      console.log('🚀 App initializing...');
+      
+      // Check instructors
       if (!window.instructorsMap) {
-        console.error("⚠️ instructors.js not loaded. Check file path or name.");
-        alert("⚠️ instructors.js not loaded — check file name or location.");
+        console.error('❌ instructors.js not loaded!');
+        showError('Error: instructors.js file not found or failed to load.<br>Please ensure it\'s in the same folder.');
         return;
       }
-      await init();
-    });
-
-    async function fetchData() {
-      try {
-        // Always bust cache so MagicINFO or browsers get the newest file
-        const res = await fetch("attendance_data.json?ts=" + Date.now(), { cache: "no-store" });
-        if (!res.ok) throw new Error("Failed to fetch attendance_data.json");
-        const newData = await res.json();
-        
-        // Check if data actually changed before rebuilding
-        if (JSON.stringify(newData) !== JSON.stringify(scheduleData)) {
-          scheduleData = newData;
-          rebuildVenueButtons();
-          console.log("✅ Data refreshed at", new Date().toLocaleTimeString());
-          showStatusMessage("✅ Data updated successfully");
-        } else {
-          console.log("ℹ️ No change detected at", new Date().toLocaleTimeString());
+      console.log('✅ Instructors loaded:', Object.keys(window.instructorsMap).length, 'instructors');
+      
+      // Load attendance data
+      loadJSON(function(err, data) {
+        if (err) {
+          console.error('❌ Failed to load data:', err);
+          showError('Error loading attendance_data.json:<br>' + err.message + '<br><br>Please ensure the file is in the same folder as this HTML file.');
+          return;
         }
-      } catch (err) {
-        console.error("❌ Error loading data:", err);
-        showStatusMessage("⚠️ Using cached data");
-      }
+        
+        if (!data || typeof data !== 'object') {
+          console.error('❌ Invalid data format');
+          showError('Error: attendance_data.json contains invalid data');
+          return;
+        }
+        
+        scheduleData = data;
+        console.log('✅ Schedule data loaded:', Object.keys(scheduleData).length, 'dates');
+        
+        // Hide loading, show app
+        document.getElementById('loadingMessage').style.display = 'none';
+        document.getElementById('logo').classList.remove('hidden');
+        document.getElementById('venueMessage').classList.remove('hidden');
+        document.getElementById('venueButtons').classList.remove('hidden');
+        
+        rebuildVenueButtons();
+        console.log('✅ App ready!');
+      });
     }
 
-    function showStatusMessage(msg) {
-      let msgBox = document.getElementById("statusMessage");
-      if (!msgBox) {
-        msgBox = document.createElement("div");
-        msgBox.id = "statusMessage";
-        msgBox.style.position = "fixed";
-        msgBox.style.bottom = "10px";
-        msgBox.style.left = "50%";
-        msgBox.style.transform = "translateX(-50%)";
-        msgBox.style.background = "rgba(0,0,0,0.6)";
-        msgBox.style.color = "#fff";
-        msgBox.style.fontSize = "13px";
-        msgBox.style.padding = "5px 12px";
-        msgBox.style.borderRadius = "8px";
-        msgBox.style.zIndex = "9999";
-        document.body.appendChild(msgBox);
-      }
-      msgBox.textContent = msg;
-      setTimeout(() => msgBox.remove(), 5000);
-    }
-
-    async function init() {
-      await fetchData();
-      if (refreshTimer) clearInterval(refreshTimer);
-      refreshTimer = setInterval(fetchData, REFRESH_INTERVAL_MIN * 60 * 1000);
+    function showError(msg) {
+      var loading = document.getElementById('loadingMessage');
+      if (loading) loading.style.display = 'none';
+      
+      var errorDiv = document.createElement('div');
+      errorDiv.className = 'error-message';
+      errorDiv.innerHTML = '<h2>⚠️ Loading Error</h2><p>' + msg + '</p>';
+      document.body.appendChild(errorDiv);
     }
 
     function rebuildVenueButtons() {
-      const venues = new Set();
-      Object.values(scheduleData).forEach(d => {
-        Object.values(d.classes).forEach(c => {
-          const v = (c.venue || '').trim() || 'Unassigned Venue';
-          venues.add(v);
-          c.venue = v;
-        });
-      });
-      const vEl = document.getElementById('venueButtons');
+      var venues = [];
+      var venueSeen = {};
+      
+      for (var date in scheduleData) {
+        var dayData = scheduleData[date];
+        for (var classId in dayData.classes) {
+          var cls = dayData.classes[classId];
+          var v = (cls.venue || '').trim() || 'Unassigned Venue';
+          cls.venue = v;
+          if (!venueSeen[v]) {
+            venues.push(v);
+            venueSeen[v] = true;
+          }
+        }
+      }
+      
+      venues.sort();
+      var vEl = document.getElementById('venueButtons');
       vEl.innerHTML = '';
-      [...venues].sort().forEach(v => {
-        const b = document.createElement('button');
+      
+      console.log('🏢 Found', venues.length, 'venues:', venues);
+      
+      for (var i = 0; i < venues.length; i++) {
+        var v = venues[i];
+        var b = document.createElement('button');
         b.className = 'filter-button';
         b.textContent = v;
-        b.onclick = () => showDaysForVenue(v);
+        b.onclick = (function(venue) {
+          return function() { showDaysForVenue(venue); };
+        })(v);
         vEl.appendChild(b);
-      });
+      }
     }
 
     function showDaysForVenue(v) {
-      selectedVenue = v; currentLevel = 'day'; selectedDate = '';
+      selectedVenue = v;
+      currentLevel = 'day';
+      selectedDate = '';
+      
       document.getElementById('venueButtons').classList.add('hidden');
       document.getElementById('dayButtons').classList.remove('hidden');
       document.getElementById('backButton').classList.remove('hidden');
-      document.getElementById('breadcrumb').classList.remove('hidden');
       document.getElementById('venueMessage').classList.add('hidden');
       document.getElementById('dayMessage').classList.remove('hidden');
-      const dayB = document.getElementById('dayButtons'); dayB.innerHTML = '';
-      Object.entries(scheduleData).forEach(([date, info]) => {
-        const has = Object.values(info.classes).some(c => c.venue === v);
+      
+      var dayB = document.getElementById('dayButtons');
+      dayB.innerHTML = '';
+      
+      for (var date in scheduleData) {
+        var info = scheduleData[date];
+        var has = false;
+        
+        for (var classId in info.classes) {
+          if (info.classes[classId].venue === v) {
+            has = true;
+            break;
+          }
+        }
+        
         if (has) {
-          const b = document.createElement('button');
+          var b = document.createElement('button');
           b.className = 'filter-button';
-          b.textContent = `${date} - ${info.day}`;
-          b.onclick = () => showClassesOnDay(date);
+          b.textContent = date + ' - ' + info.day;
+          b.onclick = (function(d) {
+            return function() { showClassesOnDay(d); };
+          })(date);
           dayB.appendChild(b);
         }
-      });
+      }
     }
 
     function showClassesOnDay(d) {
-      currentLevel = 'class'; selectedDate = d;
+      currentLevel = 'class';
+      selectedDate = d;
+      
       document.getElementById('dayButtons').classList.add('hidden');
       document.getElementById('classButtons').classList.remove('hidden');
       document.getElementById('dayMessage').classList.add('hidden');
-      const cB = document.getElementById('classButtons'); cB.innerHTML = '';
-      const info = scheduleData[d];
-      Object.entries(info.classes).forEach(([id, cls]) => {
+      
+      var cB = document.getElementById('classButtons');
+      cB.innerHTML = '';
+      var info = scheduleData[d];
+      
+      for (var id in info.classes) {
+        var cls = info.classes[id];
         if (cls.venue === selectedVenue) {
-          const b = document.createElement('button');
+          var b = document.createElement('button');
           b.className = 'filter-button';
           b.textContent = cls.title;
-          b.onclick = () => showClassDetails(cls, id);
+          b.onclick = (function(c, cid) {
+            return function() { showClassDetails(c, cid); };
+          })(cls, id);
           cB.appendChild(b);
         }
-      });
+      }
     }
 
     function goBack() {
@@ -234,198 +334,162 @@
         document.getElementById('dayButtons').classList.add('hidden');
         document.getElementById('venueButtons').classList.remove('hidden');
         document.getElementById('backButton').classList.add('hidden');
-        document.getElementById('breadcrumb').classList.add('hidden');
         document.getElementById('venueMessage').classList.remove('hidden');
         document.getElementById('dayMessage').classList.add('hidden');
       }
     }
 
     function toCamelCase(str) {
-      return (str || '')
+      if (!str) return '';
+      return str
         .toLowerCase()
         .split(/\s+/)
-        .filter(Boolean)
-        .map(w => w.charAt(0).toUpperCase() + w.slice(1))
+        .filter(function(w) { return w; })
+        .map(function(w) { return w.charAt(0).toUpperCase() + w.slice(1); })
         .join(' ');
     }
 
     function showClassDetails(cls, id) {
-      const emp = (cls.students || []).map(s => {
-        const fullName = [s["First Name"], s["Middle Name"], s["Last Name"]].filter(Boolean).join(" ");
-        const formattedName = toCamelCase(fullName);
-        return `<div><strong>${s["User ID"]}</strong> - ${formattedName}</div>`;
-      }).join('');
-      const inst = cls.instructor || '';
-      const link = inst
-        ? `<a href="#" onclick="openInstructorPanel('${inst.replace(/'/g, "\\'")}');return false;">${toCamelCase(inst)}</a>`
+      var students = cls.students || [];
+      var emp = '';
+      
+      for (var i = 0; i < students.length; i++) {
+        var s = students[i];
+        var parts = [s["First Name"], s["Middle Name"], s["Last Name"]].filter(function(p) { return p; });
+        var fullName = parts.join(" ");
+        var formattedName = toCamelCase(fullName);
+        emp += '<div><strong>' + s["User ID"] + '</strong> - ' + formattedName + '</div>';
+      }
+      
+      var inst = cls.instructor || '';
+      var link = inst
+        ? '<a href="#" onclick="openInstructorPanel(\'' + inst.replace(/'/g, "\\'") + '\');return false;">' + toCamelCase(inst) + '</a>'
         : '';
-      document.getElementById('classDetails').innerHTML = `
-        <div style="text-align:center;margin-bottom:10px;">
-          <img src="SGS_Academy_Logo_Blue.png" alt="Logo" style="max-height:60px;margin-bottom:10px;">
-        </div>
-        <h3 style="color:#144F5F;text-align:center;">${cls.title} (ID: ${id})</h3>
-        <table>
-          <tr><th>Instructor</th><td>${link}</td></tr>
-          <tr><th>Start Time</th><td>${cls.start_time || ''}</td></tr>
-          <tr><th>End Time</th><td>${cls.end_time || ''}</td></tr>
-          <tr><th>Venue</th><td>${cls.venue || ''}</td></tr>
-          <tr><th>Employee Count</th><td>${cls.student_count || (cls.students?.length ?? 0)}</td></tr>
-          <tr><th>Employees</th><td>${emp}</td></tr>
-        </table>`;
+        
+      document.getElementById('classDetails').innerHTML = 
+        '<div style="text-align:center;margin-bottom:10px;">' +
+        '<img src="SGS_Academy_Logo_Blue.png" alt="Logo" style="max-height:60px;margin-bottom:10px;" onerror="this.style.display=\'none\'">' +
+        '</div>' +
+        '<h3 style="color:#144F5F;text-align:center;">' + cls.title + ' (ID: ' + id + ')</h3>' +
+        '<table>' +
+        '<tr><th>Instructor</th><td>' + link + '</td></tr>' +
+        '<tr><th>Start Time</th><td>' + (cls.start_time || '') + '</td></tr>' +
+        '<tr><th>End Time</th><td>' + (cls.end_time || '') + '</td></tr>' +
+        '<tr><th>Venue</th><td>' + (cls.venue || '') + '</td></tr>' +
+        '<tr><th>Employee Count</th><td>' + (cls.student_count || students.length) + '</td></tr>' +
+        '<tr><th>Employees</th><td>' + emp + '</td></tr>' +
+        '</table>';
+        
       document.getElementById('classModal').style.display = 'flex';
     }
 
-    function closeModal(){ document.getElementById('classModal').style.display='none'; }
-
-    /* ---------- Robust Instructor Matching ---------- */
-
-    function normSlug(s){
-      return (s || '')
-        .normalize('NFD').replace(/[\u0300-\u036f]/g,'')   // remove diacritics
-        .toLowerCase()
-        .replace(/[^a-z0-9\s]/g,' ')                      // keep letters/digits/spaces
-        .replace(/\s+/g,' ')                               // collapse spaces
-        .trim();
+    function closeModal() {
+      document.getElementById('classModal').style.display = 'none';
     }
 
-    function tokenSet(s){ return new Set(normSlug(s).split(' ').filter(Boolean)); }
-
-    function jaccard(a,b){
-      const A = tokenSet(a), B = tokenSet(b);
-      const inter = new Set([...A].filter(x => B.has(x))).size;
-      const denom = Math.max(A.size, B.size) || 1;
-      return inter / denom;
+    function normSlug(s) {
+      if (!s) return '';
+      return s.toLowerCase().replace(/[^a-z0-9\s]/g, ' ').replace(/\s+/g, ' ').trim();
     }
 
-    function levenshtein(a,b){
-      a = normSlug(a); b = normSlug(b);
-      const m = a.length, n = b.length;
-      if(!m) return n; if(!n) return m;
-      const dp = new Array(n+1).fill(0);
-      for(let j=0;j<=n;j++) dp[j]=j;
-      for(let i=1;i<=m;i++){
-        let prev = dp[0]; dp[0]=i;
-        for(let j=1;j<=n;j++){
-          const tmp = dp[j];
-          dp[j] = Math.min(
-            dp[j] + 1,
-            dp[j-1] + 1,
-            prev + (a[i-1] === b[j-1] ? 0 : 1)
-          );
-          prev = tmp;
+    function findBestInstructor(name) {
+      var map = window.instructorsMap || {};
+      var qSlug = normSlug(name);
+      
+      for (var k in map) {
+        if (normSlug(k) === qSlug) {
+          return { key: k, info: map[k], score: 100 };
         }
       }
-      return dp[n];
-    }
-
-    function scoreCandidate(query, candidate){
-      const qSlug = normSlug(query), cSlug = normSlug(candidate);
-      if(!cSlug) return -Infinity;
-
-      // Strong exacts first
-      if(qSlug === cSlug) return 100;
-
-      const qTok = qSlug.split(' '), cTok = cSlug.split(' ');
-      const sameSet = qTok.length === cTok.length &&
-                      new Set(qTok).size === new Set([...qTok, ...cTok]).size;
-      let score = 0;
-      if(sameSet) score += 90;
-
-      const jac = jaccard(query, candidate);     // 0..1
-      score += jac * 40;
-
-      // first/last name boosts
-      const qFirst = qTok[0], qLast = qTok[qTok.length-1];
-      const cFirst = cTok[0], cLast = cTok[cTok.length-1];
-      if(qFirst && qFirst === cFirst) score += 8;
-      if(qLast && qLast === cLast)   score += 12;
-
-      // small edit distance bonus (closer → bigger)
-      const dist = levenshtein(query, candidate);
-      score += Math.max(0, 30 - dist); // cap bonus
-
-      return score;
-    }
-
-    function findBestInstructor(name){
-      const map = window.instructorsMap || {};
-      const keys = Object.keys(map);
-      if(keys.length === 0) return null;
-
-      // 1) exact (case/space-insensitive) match
-      const qSlug = normSlug(name);
-      for(const k of keys){
-        if(normSlug(k) === qSlug) return { key: k, info: map[k], score: 100 };
+      
+      for (var k in map) {
+        if (normSlug(k).indexOf(qSlug) !== -1 || qSlug.indexOf(normSlug(k)) !== -1) {
+          return { key: k, info: map[k], score: 80 };
+        }
       }
-
-      // 2) best-scored candidate
-      let best = { key: null, info: null, score: -Infinity };
-      for(const k of keys){
-        const sc = scoreCandidate(name, k);
-        if(sc > best.score) best = { key: k, info: map[k], score: sc };
-      }
-
-      // accept only if strong enough
-      if(best.score >= 50) return best;
-      console.warn('Low-confidence instructor match', { query: name, best });
+      
       return null;
     }
 
     function openInstructorPanel(rawName) {
-      const p = document.getElementById('instructorPanel');
-      const t = document.getElementById('panelTitle');
-      const c = document.getElementById('panelContent');
+      var p = document.getElementById('instructorPanel');
+      var t = document.getElementById('panelTitle');
+      var c = document.getElementById('panelContent');
 
-      const match = findBestInstructor(rawName);
-      const displayName = match?.key || toCamelCase(rawName);
+      var match = findBestInstructor(rawName);
+      var displayName = match ? match.key : toCamelCase(rawName);
 
-      p.classList.remove('minimized','maximized');
-      t.textContent = `Our Instructor: ${displayName}`;
+      p.classList.remove('minimized', 'maximized');
+      t.textContent = 'Our Instructor: ' + displayName;
 
-      if(!match){
-        c.innerHTML = `
-          <div class='panel-hero'>
-            <img src='default_avatar.png'>
-            <div>
-              <div class='who'>${displayName}</div>
-              <div class='muted'>No profile found.</div>
-            </div>
-          </div>`;
-      }else{
-        const info = match.info;
-        const ph = info.photo || 'defaultInstructor.png';
-        const role = info.role || '';
-        const sortedAuth = (info.authorized_for || []).slice().sort((a,b)=>a.length-b.length);
-        const chips = sortedAuth.map((a,i)=>`<span class='chip' style="animation-delay:${i*0.1}s">${a}</span>`).join(' ');
-        c.innerHTML = `
-          <div class='panel-hero'>
-            <img src='${ph}' onerror="this.src='defaultInstructor.png'">
-            <div>
-              <div class='who'>${displayName}</div>
-              <div class='muted'>${role}</div>
-            </div>
-          </div>
-          ${chips ? `
-            <div>
-              <div class="collapsible-title" onclick="toggleCollapsible(this)">Certified to teach ▾</div>
-              <div class="collapsible-content">${chips}</div>
-            </div>` : '' }
-        `;
+      if (!match) {
+        c.innerHTML = 
+          '<div class="panel-hero">' +
+          '<img src="defaultInstructor.png" onerror="this.src=\'data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'72\' height=\'72\'%3E%3Ccircle cx=\'36\' cy=\'36\' r=\'36\' fill=\'%23ccc\'/%3E%3C/svg%3E\'">' +
+          '<div>' +
+          '<div class="who">' + displayName + '</div>' +
+          '<div class="muted">No profile found.</div>' +
+          '</div>' +
+          '</div>';
+      } else {
+        var info = match.info;
+        var ph = info.photo || 'defaultInstructor.png';
+        var role = info.role || '';
+        var auth = info.authorized_for || [];
+        var chips = '';
+        
+        for (var i = 0; i < auth.length; i++) {
+          chips += '<span class="chip" style="animation-delay:' + (i * 0.1) + 's">' + auth[i] + '</span> ';
+        }
+        
+        c.innerHTML = 
+          '<div class="panel-hero">' +
+          '<img src="' + ph + '" onerror="this.src=\'defaultInstructor.png\'">' +
+          '<div>' +
+          '<div class="who">' + displayName + '</div>' +
+          '<div class="muted">' + role + '</div>' +
+          '</div>' +
+          '</div>' +
+          (chips ? '<div>' +
+          '<div class="collapsible-title" onclick="toggleCollapsible(this)">Certified to teach ▾</div>' +
+          '<div class="collapsible-content">' + chips + '</div>' +
+          '</div>' : '');
       }
-      p.style.display='block';
+      
+      p.style.display = 'block';
     }
 
-    function toggleCollapsible(title){
-      const content = title.nextElementSibling;
-      content.classList.toggle('active');
-      title.innerHTML = content.classList.contains('active')
-        ? 'Certified to teach ▴'
-        : 'Certified to teach ▾';
+    function toggleCollapsible(title) {
+      var content = title.nextElementSibling;
+      var isActive = content.classList.contains('active');
+      
+      if (isActive) {
+        content.classList.remove('active');
+        title.innerHTML = 'Certified to teach ▾';
+      } else {
+        content.classList.add('active');
+        title.innerHTML = 'Certified to teach ▴';
+      }
     }
 
-    function closePanel(){ document.getElementById('instructorPanel').style.display='none'; }
-    function toggleMinimize(){ document.getElementById('instructorPanel').classList.toggle('minimized'); }
-    function toggleMaximize(){ document.getElementById('instructorPanel').classList.toggle('maximized'); }
+    function closePanel() {
+      document.getElementById('instructorPanel').style.display = 'none';
+    }
+
+    function toggleMinimize() {
+      document.getElementById('instructorPanel').classList.toggle('minimized');
+    }
+
+    function toggleMaximize() {
+      document.getElementById('instructorPanel').classList.toggle('maximized');
+    }
+
+    // Start app when ready
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', init);
+    } else {
+      init();
+    }
   </script>
 </body>
 </html>
