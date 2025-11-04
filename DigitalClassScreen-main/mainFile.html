@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Attendance Sheet + Instructor Panel</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet" />
+  <style>
+    html,body{
+      margin:0;padding:0;height:100%;
+      font-family:'Lato',sans-serif;
+      background:linear-gradient(70deg,rgba(61,110,53,1),rgba(14,75,100,1));
+      color:#fff;overflow:hidden;
+    }
+    body{display:flex;flex-direction:column;align-items:center;height:100vh;padding:20px;box-sizing:border-box;overflow:hidden}
+
+    .logo{max-width:30%;height:auto;margin:20px 0 40px}
+    .breadcrumb{margin-bottom:20px;font-size:16px;font-weight:bold;color:#fff}
+    .breadcrumb span{cursor:pointer;text-decoration:underline;color:#cdebf5}
+    .breadcrumb span:hover{color:#fff}
+
+    .venue-message,.day-message{font-size:18px;font-weight:500;color:#fff;margin-bottom:20px;transition:.6s}
+    .venue-message.hidden,.day-message.hidden{opacity:0;pointer-events:none;height:0;margin:0;overflow:hidden}
+
+    /* Pushback scrollbar */
+    .button-section{display:flex;flex-direction:column;align-items:stretch;gap:12px;width:100%;max-width:600px;height:70vh;overflow-y:auto;padding-right:5px}
+    .button-section::-webkit-scrollbar{width:40px}
+    .button-section::-webkit-scrollbar-thumb{background:url('Picture1.png') no-repeat center center;background-size:contain;border-radius:10px;border:none}
+
+    .modal-content::-webkit-scrollbar,.panel-content::-webkit-scrollbar{width:40px}
+    .modal-content::-webkit-scrollbar-thumb,.panel-content::-webkit-scrollbar-thumb{background:url('Picture1.png') no-repeat center center;background-size:contain;border-radius:10px;border:none}
+
+    .filter-button{padding:10px 16px;background:#fff;color:#144F5F;border:none;border-radius:6px;cursor:pointer;font-weight:600;font-size:14px;width:100%;max-height:48px;text-align:left}
+    .filter-button:hover{background:#144F5F;color:#fff}
+    #backButton{padding:8px 16px;font-size:14px;max-width:150px;background:#fff;color:#144F5F;border:none;border-radius:6px;cursor:pointer;font-weight:600;margin-bottom:20px}
+    #backButton:hover{background:#144F5F;color:#fff}
+    .hidden{display:none}
+
+    .modal{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.5);justify-content:center;align-items:center;z-index:1000}
+    .modal-content{background:#fff;color:#0E4B64;padding:20px;border-radius:10px;max-width:90%;width:900px;max-height:90vh;overflow-y:auto;box-shadow:0 4px 15px rgba(0,0,0,.3)}
+    .modal-close{float:right;font-size:20px;cursor:pointer}
+
+    table{width:100%;border-collapse:collapse;margin-top:12px;font-size:14px;color:#0E4B64;border:1px solid #cdebf5}
+    th,td{border:1px solid #cdebf5;padding:10px;vertical-align:top;background:#fff}
+    th{color:#0E4B64;font-weight:800;text-align:left;width:25%}
+
+    .panel{position:fixed;right:16px;bottom:16px;width:360px;background:#fff;color:#0E4B64;border-radius:16px;box-shadow:0 10px 28px rgba(0,0,0,.35);overflow:hidden;display:none;z-index:1200;transition:all .3s}
+    .panel.minimized{width:300px;height:50px}
+    .panel.maximized{width:500px;max-height:80vh}
+    .panel-header{display:flex;justify-content:space-between;align-items:center;background:#0E4B64;color:#fff;padding:8px 12px;font-weight:800}
+    .panel-header-buttons{display:flex;gap:8px}
+    .panel-header-buttons button{background:none;border:none;color:#fff;font-weight:bold;cursor:pointer;font-size:16px;padding:0 4px}
+    .panel-content{padding:12px;overflow-y:auto;max-height:58vh}
+    .panel.minimized .panel-content{display:none}
+
+    .panel-hero{display:flex;align-items:center;gap:12px;margin-bottom:12px}
+    .panel-hero img{width:72px;height:72px;border-radius:50%;object-fit:cover;border:3px solid #cdebf5}
+    .who{font-size:16px;font-weight:900}
+    .muted{font-size:12px;color:#517b89;font-weight:700}
+    .chip{display:inline-block;border-radius:999px;margin:3px 5px 0 0;font-weight:700;background:#e6f6fb;color:#0E4B64;transform:scale(0.85);font-size:11px;opacity:0;animation:growWave .6s ease forwards}
+    @keyframes growWave{0%{transform:scale(.85);opacity:0}60%{transform:scale(1.08);opacity:1}100%{transform:scale(1);opacity:1}}
+
+    .collapsible-title{font-size:13px;font-weight:500;color:#0E4B64;margin-top:8px;margin-bottom:6px;cursor:pointer;transition:color .3s ease}
+    .collapsible-title:hover{color:#155d78}
+    .collapsible-content{max-height:0;overflow:hidden;transition:max-height .4s ease}
+    .collapsible-content.active{max-height:300px}
+  </style>
+</head>
+<body>
+  <img src="SGS_Academy_Logo_White.png" class="logo" alt="Logo">
+  <div id="venueMessage" class="venue-message">📍 Please choose a venue to continue</div>
+  <div id="dayMessage" class="day-message hidden">📅 Please choose a day to continue</div>
+  <div id="breadcrumb" class="breadcrumb hidden"></div>
+  <button id="backButton" class="hidden" onclick="goBack()">← Back</button>
+  <div class="button-section" id="venueButtons"></div>
+  <div class="button-section hidden" id="dayButtons"></div>
+  <div class="button-section hidden" id="classButtons"></div>
+
+  <div class="modal" id="classModal">
+    <div class="modal-content">
+      <span class="modal-close" onclick="closeModal()">&times;</span>
+      <div id="classDetails"></div>
+    </div>
+  </div>
+
+  <div id="instructorPanel" class="panel">
+    <div class="panel-header">
+      <span id="panelTitle">Instructor</span>
+      <div class="panel-header-buttons">
+        <button onclick="toggleMinimize()" id="minimizeBtn">−</button>
+        <button onclick="toggleMaximize()" id="maximizeBtn">□</button>
+        <button onclick="closePanel()">✕</button>
+      </div>
+    </div>
+    <div id="panelContent" class="panel-content"></div>
+  </div>
+
+  <!-- instructorsMap must be defined in this file -->
+  <script src="./instructors.js"></script>
+
+  <script>
+    let scheduleData = {};
+    let selectedVenue = '', selectedDate = '', currentLevel = 'venue';
+
+    document.addEventListener("DOMContentLoaded", async () => {
+      if (!window.instructorsMap) {
+        console.error("⚠️ instructors.js not loaded. Check file path or name.");
+        alert("⚠️ instructors.js not loaded — check file name or location.");
+        return;
+      }
+      await init();
+    });
+
+    async function fetchData() {
+      try {
+        const res = await fetch('attendance_data.json?ts=' + new Date().getTime());
+        return await res.json();
+      } catch (e) {
+        console.error("❌ Failed to load attendance_data.json", e);
+        return {};
+      }
+    }
+
+    async function init() {
+      scheduleData = await fetchData();
+      rebuildVenueButtons();
+    }
+
+    function rebuildVenueButtons() {
+      const venues = new Set();
+      Object.values(scheduleData).forEach(d => {
+        Object.values(d.classes).forEach(c => {
+          const v = (c.venue || '').trim() || 'Unassigned Venue';
+          venues.add(v);
+          c.venue = v;
+        });
+      });
+      const vEl = document.getElementById('venueButtons');
+      vEl.innerHTML = '';
+      [...venues].sort().forEach(v => {
+        const b = document.createElement('button');
+        b.className = 'filter-button';
+        b.textContent = v;
+        b.onclick = () => showDaysForVenue(v);
+        vEl.appendChild(b);
+      });
+    }
+
+    function showDaysForVenue(v) {
+      selectedVenue = v; currentLevel = 'day'; selectedDate = '';
+      document.getElementById('venueButtons').classList.add('hidden');
+      document.getElementById('dayButtons').classList.remove('hidden');
+      document.getElementById('backButton').classList.remove('hidden');
+      document.getElementById('breadcrumb').classList.remove('hidden');
+      document.getElementById('venueMessage').classList.add('hidden');
+      document.getElementById('dayMessage').classList.remove('hidden');
+      const dayB = document.getElementById('dayButtons'); dayB.innerHTML = '';
+      Object.entries(scheduleData).forEach(([date, info]) => {
+        const has = Object.values(info.classes).some(c => c.venue === v);
+        if (has) {
+          const b = document.createElement('button');
+          b.className = 'filter-button';
+          b.textContent = `${date} - ${info.day}`;
+          b.onclick = () => showClassesOnDay(date);
+          dayB.appendChild(b);
+        }
+      });
+    }
+
+    function showClassesOnDay(d) {
+      currentLevel = 'class'; selectedDate = d;
+      document.getElementById('dayButtons').classList.add('hidden');
+      document.getElementById('classButtons').classList.remove('hidden');
+      document.getElementById('dayMessage').classList.add('hidden');
+      const cB = document.getElementById('classButtons'); cB.innerHTML = '';
+      const info = scheduleData[d];
+      Object.entries(info.classes).forEach(([id, cls]) => {
+        if (cls.venue === selectedVenue) {
+          const b = document.createElement('button');
+          b.className = 'filter-button';
+          b.textContent = cls.title;
+          b.onclick = () => showClassDetails(cls, id);
+          cB.appendChild(b);
+        }
+      });
+    }
+
+    function goBack() {
+      if (currentLevel === 'class') {
+        currentLevel = 'day';
+        document.getElementById('classButtons').classList.add('hidden');
+        document.getElementById('dayButtons').classList.remove('hidden');
+        document.getElementById('dayMessage').classList.remove('hidden');
+      } else if (currentLevel === 'day') {
+        currentLevel = 'venue';
+        document.getElementById('dayButtons').classList.add('hidden');
+        document.getElementById('venueButtons').classList.remove('hidden');
+        document.getElementById('backButton').classList.add('hidden');
+        document.getElementById('breadcrumb').classList.add('hidden');
+        document.getElementById('venueMessage').classList.remove('hidden');
+        document.getElementById('dayMessage').classList.add('hidden');
+      }
+    }
+
+    function toCamelCase(str) {
+      return (str || '')
+        .toLowerCase()
+        .split(/\s+/)
+        .filter(Boolean)
+        .map(w => w.charAt(0).toUpperCase() + w.slice(1))
+        .join(' ');
+    }
+
+    function showClassDetails(cls, id) {
+      const emp = (cls.students || []).map(s => {
+        const fullName = [s["First Name"], s["Middle Name"], s["Last Name"]].filter(Boolean).join(" ");
+        const formattedName = toCamelCase(fullName);
+        return `<div><strong>${s["User ID"]}</strong> - ${formattedName}</div>`;
+      }).join('');
+      const inst = cls.instructor || '';
+      const link = inst
+        ? `<a href="#" onclick="openInstructorPanel('${inst.replace(/'/g, "\\'")}');return false;">${toCamelCase(inst)}</a>`
+        : '';
+      document.getElementById('classDetails').innerHTML = `
+        <div style="text-align:center;margin-bottom:10px;">
+          <img src="SGS_Academy_Logo_Blue.png" alt="Logo" style="max-height:60px;margin-bottom:10px;">
+        </div>
+        <h3 style="color:#144F5F;text-align:center;">${cls.title} (ID: ${id})</h3>
+        <table>
+          <tr><th>Instructor</th><td>${link}</td></tr>
+          <tr><th>Start Time</th><td>${cls.start_time || ''}</td></tr>
+          <tr><th>End Time</th><td>${cls.end_time || ''}</td></tr>
+          <tr><th>Venue</th><td>${cls.venue || ''}</td></tr>
+          <tr><th>Employee Count</th><td>${cls.student_count || (cls.students?.length ?? 0)}</td></tr>
+          <tr><th>Employees</th><td>${emp}</td></tr>
+        </table>`;
+      document.getElementById('classModal').style.display = 'flex';
+    }
+
+    function closeModal(){ document.getElementById('classModal').style.display='none'; }
+
+    /* ---------- Robust Instructor Matching ---------- */
+
+    function normSlug(s){
+      return (s || '')
+        .normalize('NFD').replace(/[\u0300-\u036f]/g,'')   // remove diacritics
+        .toLowerCase()
+        .replace(/[^a-z0-9\s]/g,' ')                      // keep letters/digits/spaces
+        .replace(/\s+/g,' ')                               // collapse spaces
+        .trim();
+    }
+
+    function tokenSet(s){ return new Set(normSlug(s).split(' ').filter(Boolean)); }
+
+    function jaccard(a,b){
+      const A = tokenSet(a), B = tokenSet(b);
+      const inter = new Set([...A].filter(x => B.has(x))).size;
+      const denom = Math.max(A.size, B.size) || 1;
+      return inter / denom;
+    }
+
+    function levenshtein(a,b){
+      a = normSlug(a); b = normSlug(b);
+      const m = a.length, n = b.length;
+      if(!m) return n; if(!n) return m;
+      const dp = new Array(n+1).fill(0);
+      for(let j=0;j<=n;j++) dp[j]=j;
+      for(let i=1;i<=m;i++){
+        let prev = dp[0]; dp[0]=i;
+        for(let j=1;j<=n;j++){
+          const tmp = dp[j];
+          dp[j] = Math.min(
+            dp[j] + 1,
+            dp[j-1] + 1,
+            prev + (a[i-1] === b[j-1] ? 0 : 1)
+          );
+          prev = tmp;
+        }
+      }
+      return dp[n];
+    }
+
+    function scoreCandidate(query, candidate){
+      const qSlug = normSlug(query), cSlug = normSlug(candidate);
+      if(!cSlug) return -Infinity;
+
+      // Strong exacts first
+      if(qSlug === cSlug) return 100;
+
+      const qTok = qSlug.split(' '), cTok = cSlug.split(' ');
+      const sameSet = qTok.length === cTok.length &&
+                      new Set(qTok).size === new Set([...qTok, ...cTok]).size;
+      let score = 0;
+      if(sameSet) score += 90;
+
+      const jac = jaccard(query, candidate);     // 0..1
+      score += jac * 40;
+
+      // first/last name boosts
+      const qFirst = qTok[0], qLast = qTok[qTok.length-1];
+      const cFirst = cTok[0], cLast = cTok[cTok.length-1];
+      if(qFirst && qFirst === cFirst) score += 8;
+      if(qLast && qLast === cLast)   score += 12;
+
+      // small edit distance bonus (closer → bigger)
+      const dist = levenshtein(query, candidate);
+      score += Math.max(0, 30 - dist); // cap bonus
+
+      return score;
+    }
+
+    function findBestInstructor(name){
+      const map = window.instructorsMap || {};
+      const keys = Object.keys(map);
+      if(keys.length === 0) return null;
+
+      // 1) exact (case/space-insensitive) match
+      const qSlug = normSlug(name);
+      for(const k of keys){
+        if(normSlug(k) === qSlug) return { key: k, info: map[k], score: 100 };
+      }
+
+      // 2) best-scored candidate
+      let best = { key: null, info: null, score: -Infinity };
+      for(const k of keys){
+        const sc = scoreCandidate(name, k);
+        if(sc > best.score) best = { key: k, info: map[k], score: sc };
+      }
+
+      // accept only if strong enough
+      if(best.score >= 50) return best;
+      console.warn('Low-confidence instructor match', { query: name, best });
+      return null;
+    }
+
+    function openInstructorPanel(rawName) {
+      const p = document.getElementById('instructorPanel');
+      const t = document.getElementById('panelTitle');
+      const c = document.getElementById('panelContent');
+
+      const match = findBestInstructor(rawName);
+      const displayName = match?.key || toCamelCase(rawName);
+
+      p.classList.remove('minimized','maximized');
+      t.textContent = `Our Instructor: ${displayName}`;
+
+      if(!match){
+        c.innerHTML = `
+          <div class='panel-hero'>
+            <img src='default_avatar.png'>
+            <div>
+              <div class='who'>${displayName}</div>
+              <div class='muted'>No profile found.</div>
+            </div>
+          </div>`;
+      }else{
+        const info = match.info;
+        const ph = info.photo || 'defaultInstructor.png';
+        const role = info.role || '';
+        const sortedAuth = (info.authorized_for || []).slice().sort((a,b)=>a.length-b.length);
+        const chips = sortedAuth.map((a,i)=>`<span class='chip' style="animation-delay:${i*0.1}s">${a}</span>`).join(' ');
+        c.innerHTML = `
+          <div class='panel-hero'>
+            <img src='${ph}' onerror="this.src='defaultInstructor.png'">
+            <div>
+              <div class='who'>${displayName}</div>
+              <div class='muted'>${role}</div>
+            </div>
+          </div>
+          ${chips ? `
+            <div>
+              <div class="collapsible-title" onclick="toggleCollapsible(this)"> Certified to teach ▾</div>
+              <div class="collapsible-content">${chips}</div>
+            </div>` : '' }
+        `;
+      }
+      p.style.display='block';
+    }
+
+    function toggleCollapsible(title){
+      const content = title.nextElementSibling;
+      content.classList.toggle('active');
+      title.innerHTML = content.classList.contains('active')
+        ? 'Authorized to teach ▴'
+        : 'Authorized to teach ▾';
+    }
+
+    function closePanel(){ document.getElementById('instructorPanel').style.display='none'; }
+    function toggleMinimize(){ document.getElementById('instructorPanel').classList.toggle('minimized'); }
+    function toggleMaximize(){ document.getElementById('instructorPanel').classList.toggle('maximized'); }
+  </script>
+</body>
+</html>
