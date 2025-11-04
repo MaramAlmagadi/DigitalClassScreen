@@ -99,8 +99,12 @@
   <script src="./instructors.js"></script>
 
   <script>
+    // Auto-refresh interval (in minutes)
+    const REFRESH_INTERVAL_MIN = 10; // Change as needed
+    
     let scheduleData = {};
     let selectedVenue = '', selectedDate = '', currentLevel = 'venue';
+    let refreshTimer;
 
     document.addEventListener("DOMContentLoaded", async () => {
       if (!window.instructorsMap) {
@@ -113,17 +117,51 @@
 
     async function fetchData() {
       try {
-        const res = await fetch('attendance_data.json?ts=' + new Date().getTime());
-        return await res.json();
-      } catch (e) {
-        console.error("❌ Failed to load attendance_data.json", e);
-        return {};
+        // Always bust cache so MagicINFO or browsers get the newest file
+        const res = await fetch("attendance_data.json?ts=" + Date.now(), { cache: "no-store" });
+        if (!res.ok) throw new Error("Failed to fetch attendance_data.json");
+        const newData = await res.json();
+        
+        // Check if data actually changed before rebuilding
+        if (JSON.stringify(newData) !== JSON.stringify(scheduleData)) {
+          scheduleData = newData;
+          rebuildVenueButtons();
+          console.log("✅ Data refreshed at", new Date().toLocaleTimeString());
+          showStatusMessage("✅ Data updated successfully");
+        } else {
+          console.log("ℹ️ No change detected at", new Date().toLocaleTimeString());
+        }
+      } catch (err) {
+        console.error("❌ Error loading data:", err);
+        showStatusMessage("⚠️ Using cached data");
       }
     }
 
+    function showStatusMessage(msg) {
+      let msgBox = document.getElementById("statusMessage");
+      if (!msgBox) {
+        msgBox = document.createElement("div");
+        msgBox.id = "statusMessage";
+        msgBox.style.position = "fixed";
+        msgBox.style.bottom = "10px";
+        msgBox.style.left = "50%";
+        msgBox.style.transform = "translateX(-50%)";
+        msgBox.style.background = "rgba(0,0,0,0.6)";
+        msgBox.style.color = "#fff";
+        msgBox.style.fontSize = "13px";
+        msgBox.style.padding = "5px 12px";
+        msgBox.style.borderRadius = "8px";
+        msgBox.style.zIndex = "9999";
+        document.body.appendChild(msgBox);
+      }
+      msgBox.textContent = msg;
+      setTimeout(() => msgBox.remove(), 5000);
+    }
+
     async function init() {
-      scheduleData = await fetchData();
-      rebuildVenueButtons();
+      await fetchData();
+      if (refreshTimer) clearInterval(refreshTimer);
+      refreshTimer = setInterval(fetchData, REFRESH_INTERVAL_MIN * 60 * 1000);
     }
 
     function rebuildVenueButtons() {
@@ -369,7 +407,7 @@
           </div>
           ${chips ? `
             <div>
-              <div class="collapsible-title" onclick="toggleCollapsible(this)"> Certified to teach ▾</div>
+              <div class="collapsible-title" onclick="toggleCollapsible(this)">Certified to teach ▾</div>
               <div class="collapsible-content">${chips}</div>
             </div>` : '' }
         `;
@@ -381,8 +419,8 @@
       const content = title.nextElementSibling;
       content.classList.toggle('active');
       title.innerHTML = content.classList.contains('active')
-        ? 'Authorized to teach ▴'
-        : 'Authorized to teach ▾';
+        ? 'Certified to teach ▴'
+        : 'Certified to teach ▾';
     }
 
     function closePanel(){ document.getElementById('instructorPanel').style.display='none'; }
