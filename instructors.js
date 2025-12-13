@@ -329,7 +329,7 @@ window.instructorsMap = {
     ]
   },
   "Mohammed Alsamiti": {
-    photo: "placeholder",
+    photo: "Mohammed.jpeg",
     authorized_for: [
       "RM003 - Basic Ramp Hand Signals",
       "RM101 - Basic GSE Operation Airside",
@@ -372,7 +372,7 @@ window.instructorsMap = {
     ]
   },
   "Mohammed Turi": {
-    photo: "placeholder",
+    photo: "MohammedTuri.jpeg",
     authorized_for: [
       "PX000 - Passenger Handling Course",
       "PX001 - Passenger Handling-Meet and Greet",
@@ -442,7 +442,7 @@ window.instructorsMap = {
     ]
   },
   "Omar Albarakati": {
-    photo: "placeholder",
+    photo: "Omar.jpeg",
     authorized_for: [
       "AB001 - General Aviation & Safety Fundamentals",
       "GN001 - Basic Aviation, Safety and SMS",
@@ -455,7 +455,7 @@ window.instructorsMap = {
     ]
   },
   "Prakash Balram": {
-    photo: "placeholder",
+    photo: "Prakash Balram.jpeg",
     authorized_for: [
       "RM101 - Basic GSE Operation Airside",
       "RM103 - Conveyer Belt Loader",
@@ -478,7 +478,7 @@ window.instructorsMap = {
   },
 
   "Rafa Sadawi": {
-    photo: "placeholder",
+    photo: "Rafa.jpeg",
     authorized_for: [
       "PX000 - Passenger Handling Course",
       "PX001 - Passenger Handling-Meet and Greet",
@@ -500,7 +500,7 @@ window.instructorsMap = {
     ]
   },
   "Rayan Fakhrani": {
-    photo: "placeholder",
+    photo: "Rayann.jpeg",
     authorized_for: [
       "PX000 - Passenger Handling Course",
       "PX001 - Passenger Handling-Meet and Greet",
@@ -529,7 +529,7 @@ window.instructorsMap = {
     ]
   },
   "Safwan A. Alakhdari": {
-    photo: "placeholder",
+    photo: "Safwan.jpeg",
     authorized_for: [
       "AB001 - General Aviation & Safety Fundamentals",
       "AD002 - Dangerous Goods Regulations for personnel responsible for supporting loading and unloading ULDs, and aircraft cargo compartments activities",
@@ -553,7 +553,7 @@ window.instructorsMap = {
     ]
   },
   "Saleh Mahallawi": {
-    photo: "placeholder",
+    photo: "Saleh M.jpeg",
     authorized_for: [
       "RM003 - Basic Ramp Hand Signals",
       "RM101 - Basic GSE Operation Airside",
@@ -580,7 +580,7 @@ window.instructorsMap = {
     ]
   },
   "Saleh Manfaloti": {
-    photo: "placeholder",
+    photo: "Saleh M.jpeg",
     authorized_for: [
       "AB001 - General Aviation & Safety Fundamentals",
       "GN001 - Basic Aviation, Safety and SMS",
@@ -639,7 +639,7 @@ window.instructorsMap = {
     ]
   },
   "Talal  Almutairi": {
-    photo: "placeholder",
+    photo: "Talal OW.jpeg",
     authorized_for: [
       "RM003 - Basic Ramp Hand Signals",
       "RM101 - Basic GSE Operation Airside",
@@ -670,7 +670,7 @@ window.instructorsMap = {
     ]
   },
   "Tariq Aloitaibi": {
-    photo: "placeholder",
+    photo: "Tariq M.Alotaibi.jpeg",
     authorized_for: [
       "RM003 - Basic Ramp Hand Signals",
       "RM100 - Airside Driving",
@@ -752,7 +752,7 @@ window.instructorsMap = {
     ]
   },
   "Abdulaziz Trengganu": {
-    photo: "placeholder",
+    photo: "Abdulaziz.jpeg",
     authorized_for: [
       "AB002 - Aircraft Loading/Unloading Awareness",
       "AB003 - Baggage Handling Awareness",
@@ -771,7 +771,7 @@ window.instructorsMap = {
     ]
   },
   "Abdulelah Nasir": {
-    photo: "placeholder",
+    photo: "Abdulelah.jpeg",
     authorized_for: [
       "PX000 - Passenger Handling Course",
       "PX001 - Passenger Handling-Meet and Greet",
@@ -796,7 +796,7 @@ window.instructorsMap = {
     ]
   },
   "Abdullah Abo Asker": {
-    photo: "placeholder",
+    photo: "Abduallah",
     authorized_for: [
       "AB001 - General Aviation & Safety Fundamentals",
       "AB002 - Aircraft Loading/Unloading Awareness",
@@ -845,7 +845,7 @@ window.instructorsMap = {
     ]
   },
   "Abdullah Alshabaan": {
-    photo: "placeholder",
+    photo: "Abduallah Alshabaan.jpeg",
     authorized_for: [
       "RM100 - Airside Driving",
       "RM101 - Basic GSE Operation Airside",
@@ -880,7 +880,7 @@ window.instructorsMap = {
     ]
   },
   "Ahmed Aba Hussain": {
-    photo: "placeholder",
+    photo: "Ahmed S.jpeg",
     authorized_for: [
       "AB001 - General Aviation & Safety Fundamentals",
       "AB002 - Aircraft Loading/Unloading Awareness",
