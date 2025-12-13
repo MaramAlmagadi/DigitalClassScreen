@@ -78,7 +78,7 @@ window.instructorsMap = {
     ]
   },
   "Hattan Abdullah": {
-    photo: "placeholder",
+    photo: "Hattan A.jpeg",
     authorized_for: [
       "RM003 - Basic Ramp Hand Signals",
       "RM101 - Basic GSE Operation Airside",
@@ -177,7 +177,7 @@ window.instructorsMap = {
     ]
   },
   "Khaled Yaldash": {
-    photo: "placeholder",
+    photo: "Khaled.png",
     authorized_for: [
       "AB001 - General Aviation & Safety Fundamentals",
       "AB002 - Aircraft Loading/Unloading Awareness",
@@ -264,7 +264,7 @@ window.instructorsMap = {
     ]
   },
   "Masad Al-Sulami": {
-    photo: "placeholder",
+    photo: "Masad M.jpeg",
     authorized_for: [
       "GN101 - Safety Management System (SMS)",
       "RM003 - Basic Ramp Hand Signals",
@@ -398,7 +398,7 @@ window.instructorsMap = {
     ]
   },
   "Mustafa Kolagote": {
-    photo: "Mustafa.jpg",
+    photo: "Musthafa.jpg",
     authorized_for: [
       "RM003 - Basic Ramp Hand Signals",
       "RM101 - Basic GSE Operation Airside",
@@ -500,7 +500,7 @@ window.instructorsMap = {
     ]
   },
   "Rayan Fakhrani": {
-    photo: "Rayann.jpeg",
+    photo: "Rayan.jpeg",
     authorized_for: [
       "PX000 - Passenger Handling Course",
       "PX001 - Passenger Handling-Meet and Greet",
@@ -553,7 +553,7 @@ window.instructorsMap = {
     ]
   },
   "Saleh Mahallawi": {
-    photo: "Saleh M.jpeg",
+    photo: "Saleh H.jpeg",
     authorized_for: [
       "RM003 - Basic Ramp Hand Signals",
       "RM101 - Basic GSE Operation Airside",
@@ -726,7 +726,7 @@ window.instructorsMap = {
     ]
   },
   "Wesam K. Zainiy": {
-    photo: "Wesam Zainy.jpg",
+    photo: "Wesam Zainiy.jpg",
     authorized_for: [
       "AB001 - General Aviation & Safety Fundamentals",
       "AB002 - Aircraft Loading/Unloading Awareness",
@@ -796,7 +796,7 @@ window.instructorsMap = {
     ]
   },
   "Abdullah Abo Asker": {
-    photo: "Abduallah",
+    photo: "Abduallah.jpeg",
     authorized_for: [
       "AB001 - General Aviation & Safety Fundamentals",
       "AB002 - Aircraft Loading/Unloading Awareness",
