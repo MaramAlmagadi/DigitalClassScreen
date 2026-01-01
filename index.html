@@ -11,24 +11,22 @@
       margin: 0;
     }
 
-    .full-image {
+    img {
       width: 100vw;
       height: 100vh;
       object-fit: cover;
-      cursor: pointer;
       display: block;
+      cursor: pointer;
     }
   </style>
 </head>
 
 <body>
 
-  <img src="X.png"
-       alt="Redirect Image"
-       class="full-image"
-       onclick="window.location.href='mainFile.html'">
+  <a href="mainFile.html">
+    <img src="X.png" alt="Redirect Image">
+  </a>
 
 </body>
 
 </html>
-
