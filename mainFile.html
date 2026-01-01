@@ -136,8 +136,9 @@
     <div id="panelContent" class="panel-content"></div>
   </div>
 
-  <!-- Load instructors first -->
+  <!-- Load instructors & subjects -->
   <script src="./instructors.js"></script>
+  <script src="./subjects.js"></script>
 
   <script>
     var scheduleData = {};
@@ -145,6 +146,42 @@
     var selectedDate = '';
     var currentLevel = 'venue';
     var allInstructors = []; // Store processed instructor data
+
+    // ====== COURSE DESCRIPTION HELPER (uses window.subjectsMap) ======
+    function getSubjectDescription(cls, id) {
+      if (!window.subjectsMap || !cls) return '';
+
+      var map = window.subjectsMap;
+      var subjectCode = (cls.subject_code || cls.code || '').toString().trim();
+      var title = (cls.title || '').toLowerCase();
+
+      // 1) Direct key match by subject code (e.g. WS001, GN001)
+      if (subjectCode && map[subjectCode]) {
+        return map[subjectCode].description || '';
+      }
+
+      // 2) Try find a map key that appears in the title (e.g. "GN001 - Airport...")
+      for (var key in map) {
+        if (!map.hasOwnProperty(key)) continue;
+        var keyLower = key.toLowerCase();
+        if (keyLower && title.indexOf(keyLower) !== -1) {
+          return map[key].description || '';
+        }
+      }
+
+      // 3) Try match by title text vs subjectsMap.title
+      for (var k in map) {
+        if (!map.hasOwnProperty(k)) continue;
+        var subj = map[k];
+        if (!subj || !subj.title) continue;
+        var subjTitle = subj.title.toLowerCase();
+        if (title.indexOf(subjTitle) !== -1 || subjTitle.indexOf(title) !== -1) {
+          return subj.description || '';
+        }
+      }
+
+      return '';
+    }
 
     // ========== INSTRUCTOR POOL FUNCTIONS ==========
     
@@ -542,6 +579,7 @@
       }
       
       var inst = cls.instructor || '';
+      var courseDesc = getSubjectDescription(cls, id);
       var link = inst
         ? '<a href="#" onclick="openInstructorPanel(\'' + inst.replace(/'/g, "\\'") + '\');return false;">' + toCamelCase(inst) + '</a>'
         : '';
@@ -557,6 +595,7 @@
         '<tr><th>End Time</th><td>' + (cls.end_time || '') + '</td></tr>' +
         '<tr><th>Venue</th><td>' + (cls.venue || '') + '</td></tr>' +
         '<tr><th>Employee Count</th><td>' + (cls.student_count || students.length) + '</td></tr>' +
+        '<tr><th>Course Description</th><td>' + (courseDesc || '—') + '</td></tr>' +
         '<tr><th>Employees</th><td>' + emp + '</td></tr>' +
         '</table>';
         
