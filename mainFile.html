@@ -12,75 +12,170 @@
       background:linear-gradient(70deg,rgba(61,110,53,1),rgba(14,75,100,1));
       color:#fff;overflow:hidden;
     }
-    body{display:flex;flex-direction:column;align-items:center;height:100vh;padding:20px;box-sizing:border-box;overflow:hidden}
+    body{
+      display:flex;flex-direction:column;align-items:center;
+      height:100vh;padding:20px;box-sizing:border-box;overflow:hidden
+    }
 
     .logo{max-width:30%;height:auto;margin:20px 0 40px}
     .breadcrumb{margin-bottom:20px;font-size:16px;font-weight:bold;color:#fff}
     .breadcrumb span{cursor:pointer;text-decoration:underline;color:#cdebf5}
     .breadcrumb span:hover{color:#fff}
 
-    .venue-message,.day-message{font-size:18px;font-weight:500;color:#fff;margin-bottom:20px;transition:.6s}
-    .venue-message.hidden,.day-message.hidden{opacity:0;pointer-events:none;height:0;margin:0;overflow:hidden}
+    .venue-message,.day-message{
+      font-size:18px;font-weight:500;color:#fff;margin-bottom:20px;transition:.6s
+    }
+    .venue-message.hidden,.day-message.hidden{
+      opacity:0;pointer-events:none;height:0;margin:0;overflow:hidden
+    }
 
-    .button-section{display:flex;flex-direction:column;align-items:stretch;gap:12px;width:100%;max-width:600px;height:70vh;overflow-y:auto;padding-right:5px}
+    .button-section{
+      display:flex;flex-direction:column;align-items:stretch;gap:12px;
+      width:100%;max-width:600px;height:70vh;overflow-y:auto;padding-right:5px
+    }
     .button-section::-webkit-scrollbar{width:40px}
-    .button-section::-webkit-scrollbar-thumb{background:url('Picture1.png') no-repeat center center;background-size:contain;border-radius:10px;border:none}
+    .button-section::-webkit-scrollbar-thumb{
+      background:url('Picture1.png') no-repeat center center;
+      background-size:contain;border-radius:10px;border:none
+    }
 
     .modal-content::-webkit-scrollbar,.panel-content::-webkit-scrollbar{width:40px}
-    .modal-content::-webkit-scrollbar-thumb,.panel-content::-webkit-scrollbar-thumb{background:url('Picture1.png') no-repeat center center;background-size:contain;border-radius:10px;border:none}
+    .modal-content::-webkit-scrollbar-thumb,.panel-content::-webkit-scrollbar-thumb{
+      background:url('Picture1.png') no-repeat center center;
+      background-size:contain;border-radius:10px;border:none
+    }
 
-    .filter-button{padding:10px 16px;background:#fff;color:#144F5F;border:none;border-radius:6px;cursor:pointer;font-weight:600;font-size:14px;width:100%;max-height:48px;text-align:left}
+    .filter-button{
+      padding:10px 16px;background:#fff;color:#144F5F;border:none;border-radius:6px;
+      cursor:pointer;font-weight:600;font-size:14px;width:100%;max-height:48px;
+      text-align:left
+    }
     .filter-button:hover{background:#144F5F;color:#fff}
-    #backButton{padding:8px 16px;font-size:14px;max-width:150px;background:#fff;color:#144F5F;border:none;border-radius:6px;cursor:pointer;font-weight:600;margin-bottom:20px}
+    #backButton{
+      padding:8px 16px;font-size:14px;max-width:150px;background:#fff;color:#144F5F;
+      border:none;border-radius:6px;cursor:pointer;font-weight:600;margin-bottom:20px
+    }
     #backButton:hover{background:#144F5F;color:#fff}
     .hidden{display:none}
 
-    .modal{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.5);justify-content:center;align-items:center;z-index:1000}
-    .modal-content{background:#fff;color:#0E4B64;padding:20px;border-radius:10px;max-width:90%;width:900px;max-height:90vh;overflow-y:auto;box-shadow:0 4px 15px rgba(0,0,0,.3)}
+    .modal{
+      display:none;position:fixed;top:0;left:0;width:100%;height:100%;
+      background:rgba(0,0,0,.5);justify-content:center;align-items:center;z-index:1000
+    }
+    .modal-content{
+      background:#fff;color:#0E4B64;padding:20px;border-radius:10px;
+      max-width:90%;width:900px;max-height:90vh;overflow-y:auto;
+      box-shadow:0 4px 15px rgba(0,0,0,.3)
+    }
     .modal-close{float:right;font-size:20px;cursor:pointer}
 
-    table{width:100%;border-collapse:collapse;margin-top:12px;font-size:14px;color:#0E4B64;border:1px solid #cdebf5}
-    th,td{border:1px solid #cdebf5;padding:10px;vertical-align:top;background:#fff}
+    table{
+      width:100%;border-collapse:collapse;margin-top:12px;font-size:14px;
+      color:#0E4B64;border:1px solid #cdebf5
+    }
+    th,td{
+      border:1px solid #cdebf5;padding:10px;vertical-align:top;background:#fff
+    }
     th{color:#0E4B64;font-weight:800;text-align:left;width:25%}
 
-    .panel{position:fixed;right:16px;bottom:16px;width:360px;background:#fff;color:#0E4B64;border-radius:16px;box-shadow:0 10px 28px rgba(0,0,0,.35);overflow:hidden;display:none;z-index:1200;transition:all .3s}
-    .panel.minimized{width:300px;height:50px}
-    .panel.maximized{width:500px;max-height:80vh}
-    .panel-header{display:flex;justify-content:space-between;align-items:center;background:#0E4B64;color:#fff;padding:8px 12px;font-weight:800}
+    .panel{
+      position:fixed;right:16px;background:#fff;color:#0E4B64;border-radius:16px;
+      box-shadow:0 10px 28px rgba(0,0,0,.35);overflow:hidden;display:none;
+      z-index:1200;transition:all .3s
+    }
+    /* Instructor panel = bottom right (original) */
+    #instructorPanel{bottom:16px}
+    #instructorPanel.minimized{width:300px;height:50px}
+    #instructorPanel.maximized{width:500px;max-height:80vh}
+
+    /* Subject panel = top right */
+    #subjectPanel{top:16px}
+    #subjectPanel.minimized{width:300px;height:50px}
+    #subjectPanel.maximized{width:500px;max-height:80vh}
+
+    .panel-header{
+      display:flex;justify-content:space-between;align-items:center;
+      background:#0E4B64;color:#fff;padding:8px 12px;font-weight:800
+    }
     .panel-header-buttons{display:flex;gap:8px}
-    .panel-header-buttons button{background:none;border:none;color:#fff;font-weight:bold;cursor:pointer;font-size:16px;padding:0 4px}
+    .panel-header-buttons button{
+      background:none;border:none;color:#fff;font-weight:bold;cursor:pointer;
+      font-size:16px;padding:0 4px
+    }
     .panel-content{padding:12px;overflow-y:auto;max-height:58vh}
     .panel.minimized .panel-content{display:none}
 
     .panel-hero{display:flex;align-items:center;gap:12px;margin-bottom:12px}
-    .panel-hero img{width:72px;height:72px;border-radius:50%;object-fit:cover;border:3px solid #cdebf5}
+    .panel-hero img{
+      width:72px;height:72px;border-radius:50%;object-fit:cover;border:3px solid #cdebf5
+    }
     .who{font-size:16px;font-weight:900}
     .muted{font-size:12px;color:#517b89;font-weight:700}
-    .chip{display:inline-block;border-radius:999px;margin:3px 5px 0 0;font-weight:700;background:#e6f6fb;color:#0E4B64;transform:scale(0.85);font-size:11px;opacity:0;animation:growWave .6s ease forwards;padding:4px 8px}
-    @keyframes growWave{0%{transform:scale(.85);opacity:0}60%{transform:scale(1.08);opacity:1}100%{transform:scale(1);opacity:1}}
+    .chip{
+      display:inline-block;border-radius:999px;margin:3px 5px 0 0;font-weight:700;
+      background:#e6f6fb;color:#0E4B64;transform:scale(0.85);font-size:11px;
+      opacity:0;animation:growWave .6s ease forwards;padding:4px 8px
+    }
+    @keyframes growWave{
+      0%{transform:scale(.85);opacity:0}
+      60%{transform:scale(1.08);opacity:1}
+      100%{transform:scale(1);opacity:1}
+    }
 
-    .collapsible-title{font-size:13px;font-weight:500;color:#0E4B64;margin-top:8px;margin-bottom:6px;cursor:pointer;transition:color .3s ease}
+    .collapsible-title{
+      font-size:13px;font-weight:500;color:#0E4B64;margin-top:8px;margin-bottom:6px;
+      cursor:pointer;transition:color .3s ease
+    }
     .collapsible-title:hover{color:#155d78}
     .collapsible-content{max-height:0;overflow:hidden;transition:max-height .4s ease}
     .collapsible-content.active{max-height:500px}
     
-    .loading{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);font-size:20px;font-weight:bold}
-    .error-message{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);background:rgba(255,0,0,0.9);color:#fff;padding:20px;border-radius:10px;max-width:80%;text-align:center}
+    .loading{
+      position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);
+      font-size:20px;font-weight:bold
+    }
+    .error-message{
+      position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);
+      background:rgba(255,0,0,0.9);color:#fff;padding:20px;border-radius:10px;
+      max-width:80%;text-align:center
+    }
     
     #instructorPoolContent::-webkit-scrollbar{width:40px}
-    #instructorPoolContent::-webkit-scrollbar-thumb{background:url('Picture1.png') no-repeat center center;background-size:contain;border-radius:10px;border:none}
+    #instructorPoolContent::-webkit-scrollbar-thumb{
+      background:url('Picture1.png') no-repeat center center;
+      background-size:contain;border-radius:10px;border:none
+    }
+    #subjectPoolContent::-webkit-scrollbar{width:40px}
+    #subjectPoolContent::-webkit-scrollbar-thumb{
+      background:url('Picture1.png') no-repeat center center;
+      background-size:contain;border-radius:10px;border:none
+    }
     
-    #instructorPoolBtn:hover{background:#144F5F;color:#fff;transform:scale(1.05);transition:all 0.2s}
+    #instructorPoolBtn:hover,
+    #subjectPoolBtn:hover{
+      background:#144F5F;color:#fff;transform:scale(1.05);transition:all 0.2s
+    }
     
-    #instructorSearch:focus{outline:none;border-color:#0E4B64;box-shadow:0 0 0 3px rgba(14,75,100,0.1)}
+    #instructorSearch:focus,#subjectSearch:focus{
+      outline:none;border-color:#0E4B64;box-shadow:0 0 0 3px rgba(14,75,100,0.1)
+    }
   </style>
 </head>
 <body>
   <div id="loadingMessage" class="loading">⏳ Loading data...</div>
   <img src="SGS_Academy_Logo_White.png" class="logo hidden" alt="Logo" id="logo">
   
-  <!-- Instructor Pool Button -->
-  <button id="instructorPoolBtn" class="hidden" onclick="showInstructorPool()" style="position:fixed;top:20px;right:20px;padding:10px 20px;background:#fff;color:#144F5F;border:none;border-radius:8px;cursor:pointer;font-weight:700;font-size:14px;box-shadow:0 4px 10px rgba(0,0,0,0.2);z-index:999">
+  <!-- Subject Pool Button (left) -->
+  <button id="subjectPoolBtn" class="hidden"
+    onclick="showSubjectPool()"
+    style="position:fixed;top:20px;right:190px;padding:10px 20px;background:#fff;color:#144F5F;border:none;border-radius:8px;cursor:pointer;font-weight:700;font-size:14px;box-shadow:0 4px 10px rgba(0,0,0,0.2);z-index:999">
+    📚 Our Courses
+  </button>
+
+  <!-- Instructor Pool Button (right) -->
+  <button id="instructorPoolBtn" class="hidden"
+    onclick="showInstructorPool()"
+    style="position:fixed;top:20px;right:20px;padding:10px 20px;background:#fff;color:#144F5F;border:none;border-radius:8px;cursor:pointer;font-weight:700;font-size:14px;box-shadow:0 4px 10px rgba(0,0,0,0.2);z-index:999">
     👥 Our Instructors
   </button>
   
@@ -104,81 +199,104 @@
     <div class="modal-content" style="max-width:1000px">
       <span class="modal-close" onclick="closeInstructorPool()">&times;</span>
       <div style="text-align:center;margin-bottom:20px">
-        <img src="SGS_Academy_Logo_Blue.png" alt="Logo" style="max-height:60px;margin-bottom:10px;" onerror="this.style.display='none'">
+        <img src="SGS_Academy_Logo_Blue.png" alt="Logo"
+             style="max-height:60px;margin-bottom:10px;" onerror="this.style.display='none'">
         <h2 style="color:#144F5F;margin:10px 0">👥 Our Instructors</h2>
         <p style="color:#517b89;font-size:14px">All available instructors</p>
       </div>
       
       <!-- Search Box -->
       <div style="margin-bottom:20px">
-        <input type="text" id="instructorSearch" placeholder="🔍 Search instructors by name or course..." 
+        <input type="text" id="instructorSearch"
+          placeholder="🔍 Search instructors by name or course..."
           style="width:100%;padding:12px;border:2px solid #cdebf5;border-radius:6px;font-size:14px;box-sizing:border-box"
           onkeyup="filterInstructors()">
       </div>
       
       <!-- Stats -->
-      <div id="instructorStats" style="display:flex;gap:15px;margin-bottom:20px;flex-wrap:wrap"></div>
+      <div id="instructorStats"
+           style="display:flex;gap:15px;margin-bottom:20px;flex-wrap:wrap"></div>
       
       <!-- Instructor Grid -->
-      <div id="instructorPoolContent" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:15px;max-height:60vh;overflow-y:auto"></div>
+      <div id="instructorPoolContent"
+           style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:15px;max-height:60vh;overflow-y:auto"></div>
     </div>
   </div>
 
+  <!-- Subject Pool Modal -->
+  <div class="modal" id="subjectPoolModal">
+    <div class="modal-content" style="max-width:1000px">
+      <span class="modal-close" onclick="closeSubjectPool()">&times;</span>
+      <div style="text-align:center;margin-bottom:20px">
+        <img src="SGS_Academy_Logo_Blue.png" alt="Logo"
+             style="max-height:60px;margin-bottom:10px;" onerror="this.style.display='none'">
+        <h2 style="color:#144F5F;margin:10px 0">📚 Our Courses</h2>
+        <p style="color:#517b89;font-size:14px">All available subjects</p>
+      </div>
+      
+      <!-- Search Box -->
+      <div style="margin-bottom:20px">
+        <input type="text" id="subjectSearch"
+          placeholder="🔍 Search courses by code or title..."
+          style="width:100%;padding:12px;border:2px solid #cdebf5;border-radius:6px;font-size:14px;box-sizing:border-box"
+          onkeyup="filterSubjects()">
+      </div>
+      
+      <!-- Stats -->
+      <div id="subjectStats"
+           style="display:flex;gap:15px;margin-bottom:20px;flex-wrap:wrap"></div>
+      
+      <!-- Subject Grid -->
+      <div id="subjectPoolContent"
+           style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:15px;max-height:60vh;overflow-y:auto"></div>
+    </div>
+  </div>
+
+  <!-- Instructor Panel (bottom-right) -->
   <div id="instructorPanel" class="panel">
     <div class="panel-header">
       <span id="panelTitle">Instructor</span>
       <div class="panel-header-buttons">
-        <button onclick="toggleMinimize()" id="minimizeBtn">−</button>
-        <button onclick="toggleMaximize()" id="maximizeBtn">□</button>
+        <button onclick="toggleMinimize()">−</button>
+        <button onclick="toggleMaximize()">□</button>
         <button onclick="closePanel()">✕</button>
       </div>
     </div>
     <div id="panelContent" class="panel-content"></div>
   </div>
 
-  <!-- Load instructors first -->
+  <!-- Subject Panel (top-right) -->
+  <div id="subjectPanel" class="panel">
+    <div class="panel-header">
+      <span id="subjectPanelTitle">Course</span>
+      <div class="panel-header-buttons">
+        <button onclick="toggleSubjectMinimize()">−</button>
+        <button onclick="toggleSubjectMaximize()">□</button>
+        <button onclick="closeSubjectPanel()">✕</button>
+      </div>
+    </div>
+    <div id="subjectPanelContent" class="panel-content"></div>
+  </div>
+
+  <!-- Load JS maps -->
   <script src="./instructors.js"></script>
-  <script src="./subjects.js"></script> <!-- subjects.js with window.subjectsMap -->
+  <script src="./subjects.js"></script>
 
   <script>
     var scheduleData = {};
     var selectedVenue = '';
     var selectedDate = '';
     var currentLevel = 'venue';
-    var allInstructors = []; // Store processed instructor data
-
-    // ======= COURSE DESCRIPTION HELPER (subjects.js) =======
-    function getSubjectDescription(keyOrTitle) {
-      if (!window.subjectsMap) return '';
-      if (!keyOrTitle) return '';
-
-      // Try direct key (e.g., WS001)
-      if (window.subjectsMap[keyOrTitle]) {
-        return window.subjectsMap[keyOrTitle].description || '';
-      }
-
-      // Try match by title substring
-      var t = String(keyOrTitle).toLowerCase();
-      for (var code in window.subjectsMap) {
-        var subj = window.subjectsMap[code];
-        if (subj && subj.title && t.indexOf(subj.title.toLowerCase()) !== -1) {
-          return subj.description || '';
-        }
-      }
-      return '';
-    }
-    // =======================================================
+    var allInstructors = [];
+    var allSubjects = [];
 
     // ========== INSTRUCTOR POOL FUNCTIONS ==========
-    
     function showInstructorPool() {
       var modal = document.getElementById('instructorPoolModal');
       if (!window.instructorsMap) {
         alert('Instructor data not loaded');
         return;
       }
-      
-      // Prepare instructor data
       allInstructors = [];
       for (var name in window.instructorsMap) {
         var info = window.instructorsMap[name];
@@ -190,43 +308,33 @@
           searchText: (name + ' ' + (info.authorized_for || []).join(' ')).toLowerCase()
         });
       }
-      
-      // Sort by name
       allInstructors.sort(function(a, b) {
         return a.name.localeCompare(b.name);
       });
-      
       renderInstructorPool();
       updateInstructorStats();
       modal.style.display = 'flex';
-      
-      // Focus search box
       setTimeout(function() {
         document.getElementById('instructorSearch').focus();
       }, 100);
     }
-    
+
     function closeInstructorPool() {
       document.getElementById('instructorPoolModal').style.display = 'none';
       document.getElementById('instructorSearch').value = '';
     }
-    
+
     function updateInstructorStats() {
       var total = allInstructors.length;
-      var totalCourses = 0;
       var courseSet = {};
-      
       for (var i = 0; i < allInstructors.length; i++) {
         var courses = allInstructors[i].authorized_for;
-        totalCourses += courses.length;
         for (var j = 0; j < courses.length; j++) {
           courseSet[courses[j]] = true;
         }
       }
-      
       var uniqueCourses = Object.keys(courseSet).length;
-      
-      document.getElementById('instructorStats').innerHTML = 
+      document.getElementById('instructorStats').innerHTML =
         '<div style="flex:1;background:#e6f6fb;padding:12px;border-radius:6px;text-align:center">' +
         '<div style="font-size:24px;font-weight:900;color:#0E4B64">' + total + '</div>' +
         '<div style="font-size:12px;color:#517b89;font-weight:600">Total Instructors</div>' +
@@ -236,73 +344,150 @@
         '<div style="font-size:12px;color:#517b89;font-weight:600">Courses</div>' +
         '</div>';
     }
-    
+
     function renderInstructorPool(filteredList) {
       var list = filteredList || allInstructors;
       var container = document.getElementById('instructorPoolContent');
-      
       if (list.length === 0) {
-        container.innerHTML = '<div style="grid-column:1/-1;text-align:center;padding:40px;color:#517b89">' +
+        container.innerHTML =
+          '<div style="grid-column:1/-1;text-align:center;padding:40px;color:#517b89">' +
           '😔 No instructors found matching your search</div>';
         return;
       }
-      
       var html = '';
       for (var i = 0; i < list.length; i++) {
         var inst = list[i];
         var courseCount = inst.authorized_for.length;
-        
-        html += 
+        html +=
           '<div style="background:#fff;border:2px solid #cdebf5;border-radius:8px;padding:15px;cursor:pointer;transition:all 0.2s" ' +
           'onmouseover="this.style.borderColor=\'#0E4B64\';this.style.boxShadow=\'0 4px 12px rgba(0,0,0,0.1)\'" ' +
           'onmouseout="this.style.borderColor=\'#cdebf5\';this.style.boxShadow=\'none\'" ' +
           'onclick="openInstructorPanel(\'' + inst.name.replace(/'/g, "\\'") + '\')">' +
-          
-          '<div style="display:flex;align-items:center;gap:12px;margin-bottom:12px">' +
-          '<img src="' + inst.photo + '" style="width:60px;height:60px;border-radius:50%;object-fit:cover;border:3px solid #cdebf5" ' +
-          'onerror="this.src=\'defaultInstructor.png\'">' +
-          '<div style="flex:1">' +
-          '<div style="font-weight:900;color:#0E4B64;font-size:14px;margin-bottom:4px">' + toCamelCase(inst.name) + '</div>' +
-          '<div style="font-size:11px;color:#517b89;font-weight:600">' + inst.role + '</div>' +
-          '</div>' +
-          '</div>' +
-          
-          '<div style="text-align:center;background:#e6f6fb;padding:8px;border-radius:6px">' +
-          '<div style="font-size:20px;font-weight:900;color:#0E4B64">' + courseCount + '</div>' +
-          '<div style="font-size:10px;color:#517b89;font-weight:600">CERTIFIED COURSES</div>' +
-          '</div>' +
-          
+            '<div style="display:flex;align-items:center;gap:12px;margin-bottom:12px">' +
+              '<img src="' + inst.photo + '" style="width:60px;height:60px;border-radius:50%;object-fit:cover;border:3px solid #cdebf5" ' +
+              'onerror="this.src=\'defaultInstructor.png\'">' +
+              '<div style="flex:1">' +
+                '<div style="font-weight:900;color:#0E4B64;font-size:14px;margin-bottom:4px">' +
+                   toCamelCase(inst.name) + '</div>' +
+                '<div style="font-size:11px;color:#517b89;font-weight:600">' + inst.role + '</div>' +
+              '</div>' +
+            '</div>' +
+            '<div style="text-align:center;background:#e6f6fb;padding:8px;border-radius:6px">' +
+              '<div style="font-size:20px;font-weight:900;color:#0E4B64">' + courseCount + '</div>' +
+              '<div style="font-size:10px;color:#517b89;font-weight:600">CERTIFIED COURSES</div>' +
+            '</div>' +
           '</div>';
       }
-      
       container.innerHTML = html;
     }
-    
+
     function filterInstructors() {
       var searchText = document.getElementById('instructorSearch').value.toLowerCase().trim();
-      
       if (!searchText) {
         renderInstructorPool();
         return;
       }
-      
       var filtered = [];
       for (var i = 0; i < allInstructors.length; i++) {
         if (allInstructors[i].searchText.indexOf(searchText) !== -1) {
           filtered.push(allInstructors[i]);
         }
       }
-      
       renderInstructorPool(filtered);
     }
-    
     // ========== END INSTRUCTOR POOL FUNCTIONS ==========
+
+    // ========== SUBJECT POOL FUNCTIONS ==========
+    function buildAllSubjects() {
+      allSubjects = [];
+      if (!window.subjectsMap) return;
+      for (var code in window.subjectsMap) {
+        var info = window.subjectsMap[code] || {};
+        allSubjects.push({
+          code: code,
+          title: info.title || code,
+          description: info.description || '',
+          searchText: (code + ' ' + (info.title || '') + ' ' + (info.description || '')).toLowerCase()
+        });
+      }
+      allSubjects.sort(function(a, b) {
+        return a.code.localeCompare(b.code);
+      });
+    }
+
+    function showSubjectPool() {
+      if (!window.subjectsMap) {
+        alert('Course catalog not loaded');
+        return;
+      }
+      if (!allSubjects.length) buildAllSubjects();
+      renderSubjectPool();
+      updateSubjectStats();
+      document.getElementById('subjectPoolModal').style.display = 'flex';
+      setTimeout(function() {
+        document.getElementById('subjectSearch').focus();
+      }, 100);
+    }
+
+    function closeSubjectPool() {
+      document.getElementById('subjectPoolModal').style.display = 'none';
+      document.getElementById('subjectSearch').value = '';
+    }
+
+    function updateSubjectStats() {
+      var total = allSubjects.length;
+      document.getElementById('subjectStats').innerHTML =
+        '<div style="flex:1;background:#e6f6fb;padding:12px;border-radius:6px;text-align:center">' +
+        '<div style="font-size:24px;font-weight:900;color:#0E4B64">' + total + '</div>' +
+        '<div style="font-size:12px;color:#517b89;font-weight:600">Total Courses</div>' +
+        '</div>';
+    }
+
+    function renderSubjectPool(filteredList) {
+      var list = filteredList || allSubjects;
+      var container = document.getElementById('subjectPoolContent');
+      if (list.length === 0) {
+        container.innerHTML =
+          '<div style="grid-column:1/-1;text-align:center;padding:40px;color:#517b89">' +
+          '😔 No courses found matching your search</div>';
+        return;
+      }
+      var html = '';
+      for (var i = 0; i < list.length; i++) {
+        var s = list[i];
+        var shortDesc = s.description ? s.description.substring(0, 140) + (s.description.length > 140 ? '…' : '') : '';
+        html +=
+          '<div style="background:#fff;border:2px solid #cdebf5;border-radius:8px;padding:15px;cursor:pointer;transition:all 0.2s" ' +
+          'onmouseover="this.style.borderColor=\'#0E4B64\';this.style.boxShadow=\'0 4px 12px rgba(0,0,0,0.1)\'" ' +
+          'onmouseout="this.style.borderColor=\'#cdebf5\';this.style.boxShadow=\'none\'" ' +
+          'onclick="openSubjectPanel(\'' + s.code.replace(/'/g, "\\'") + '\')">' +
+            '<div style="font-size:11px;color:#517b89;font-weight:700;margin-bottom:4px">' + s.code + '</div>' +
+            '<div style="font-weight:900;color:#0E4B64;font-size:14px;margin-bottom:8px">' + s.title + '</div>' +
+            '<div style="font-size:11px;color:#517b89;line-height:1.4">' + shortDesc + '</div>' +
+          '</div>';
+      }
+      container.innerHTML = html;
+    }
+
+    function filterSubjects() {
+      var searchText = document.getElementById('subjectSearch').value.toLowerCase().trim();
+      if (!searchText) {
+        renderSubjectPool();
+        return;
+      }
+      var filtered = [];
+      for (var i = 0; i < allSubjects.length; i++) {
+        if (allSubjects[i].searchText.indexOf(searchText) !== -1) {
+          filtered.push(allSubjects[i]);
+        }
+      }
+      renderSubjectPool(filtered);
+    }
+    // ========== END SUBJECT POOL FUNCTIONS ==========
 
     // Universal data loader - tries multiple methods
     function loadJSON(callback) {
       console.log('🔄 Attempting to load attendance_data.json...');
-      
-      // Method 1: Try fetch first (modern browsers)
       if (typeof fetch !== 'undefined') {
         console.log('📡 Trying fetch API...');
         fetch('attendance_data.json?v=' + Date.now())
@@ -322,20 +507,16 @@
         console.log('⚠️ Fetch not available, trying XHR...');
         tryXHR();
       }
-      
-      // Method 2: XMLHttpRequest (older browsers, MagicInfo)
       function tryXHR() {
         if (typeof XMLHttpRequest === 'undefined') {
           console.error('❌ No XMLHttpRequest available');
           callback(new Error('Cannot load data - no method available'));
           return;
         }
-        
         console.log('📡 Trying XMLHttpRequest...');
         var xhr = new XMLHttpRequest();
         xhr.open('GET', 'attendance_data.json?v=' + Date.now(), true);
         xhr.timeout = 10000;
-        
         xhr.onload = function() {
           if (xhr.status === 200) {
             try {
@@ -351,17 +532,14 @@
             callback(new Error('HTTP ' + xhr.status));
           }
         };
-        
         xhr.onerror = function() {
           console.error('❌ XHR network error');
           callback(new Error('Network error - file not found or blocked'));
         };
-        
         xhr.ontimeout = function() {
           console.error('❌ XHR timeout');
           callback(new Error('Request timeout'));
         };
-        
         xhr.send();
       }
     }
@@ -369,50 +547,43 @@
     // Initialize
     function init() {
       console.log('🚀 App initializing...');
-      
-      // Check instructors
       if (!window.instructorsMap) {
         console.error('❌ instructors.js not loaded!');
         showError('Error: instructors.js file not found or failed to load.<br>Please ensure it\'s in the same folder.');
         return;
       }
-      
       var instructorCount = Object.keys(window.instructorsMap).length;
       console.log('✅ Instructors loaded:', instructorCount, 'instructors in pool');
       console.log('📋 Instructor names:', Object.keys(window.instructorsMap).join(', '));
-      
-      // Count total certifications
-      var totalCerts = 0;
-      for (var key in window.instructorsMap) {
-        var auth = window.instructorsMap[key].authorized_for || [];
-        totalCerts += auth.length;
+
+      if (window.subjectsMap) {
+        console.log('✅ Subjects loaded:', Object.keys(window.subjectsMap).length, 'courses');
+        buildAllSubjects();
+        document.getElementById('subjectPoolBtn').classList.remove('hidden');
+      } else {
+        console.warn('⚠️ subjects.js not loaded – course catalog features disabled');
       }
-      console.log('📜 Total certifications in pool:', totalCerts);
-      
-      // Load attendance data
+
       loadJSON(function(err, data) {
         if (err) {
           console.error('❌ Failed to load data:', err);
           showError('Error loading attendance_data.json:<br>' + err.message + '<br><br>Please ensure the file is in the same folder as this HTML file.');
           return;
         }
-        
         if (!data || typeof data !== 'object') {
           console.error('❌ Invalid data format');
           showError('Error: attendance_data.json contains invalid data');
           return;
         }
-        
         scheduleData = data;
         console.log('✅ Schedule data loaded:', Object.keys(scheduleData).length, 'dates');
-        
-        // Hide loading, show app
+
         document.getElementById('loadingMessage').style.display = 'none';
         document.getElementById('logo').classList.remove('hidden');
         document.getElementById('venueMessage').classList.remove('hidden');
         document.getElementById('venueButtons').classList.remove('hidden');
         document.getElementById('instructorPoolBtn').classList.remove('hidden');
-        
+
         rebuildVenueButtons();
         console.log('✅ App ready!');
       });
@@ -421,7 +592,6 @@
     function showError(msg) {
       var loading = document.getElementById('loadingMessage');
       if (loading) loading.style.display = 'none';
-      
       var errorDiv = document.createElement('div');
       errorDiv.className = 'error-message';
       errorDiv.innerHTML = '<h2>⚠️ Loading Error</h2><p>' + msg + '</p>';
@@ -431,7 +601,6 @@
     function rebuildVenueButtons() {
       var venues = [];
       var venueSeen = {};
-      
       for (var date in scheduleData) {
         var dayData = scheduleData[date];
         for (var classId in dayData.classes) {
@@ -444,13 +613,10 @@
           }
         }
       }
-      
       venues.sort();
       var vEl = document.getElementById('venueButtons');
       vEl.innerHTML = '';
-      
       console.log('🏢 Found', venues.length, 'venues:', venues);
-      
       for (var i = 0; i < venues.length; i++) {
         var v = venues[i];
         var b = document.createElement('button');
@@ -467,27 +633,22 @@
       selectedVenue = v;
       currentLevel = 'day';
       selectedDate = '';
-      
       document.getElementById('venueButtons').classList.add('hidden');
       document.getElementById('dayButtons').classList.remove('hidden');
       document.getElementById('backButton').classList.remove('hidden');
       document.getElementById('venueMessage').classList.add('hidden');
       document.getElementById('dayMessage').classList.remove('hidden');
-      
       var dayB = document.getElementById('dayButtons');
       dayB.innerHTML = '';
-      
       for (var date in scheduleData) {
         var info = scheduleData[date];
         var has = false;
-        
         for (var classId in info.classes) {
           if (info.classes[classId].venue === v) {
             has = true;
             break;
           }
         }
-        
         if (has) {
           var b = document.createElement('button');
           b.className = 'filter-button';
@@ -503,15 +664,12 @@
     function showClassesOnDay(d) {
       currentLevel = 'class';
       selectedDate = d;
-      
       document.getElementById('dayButtons').classList.add('hidden');
       document.getElementById('classButtons').classList.remove('hidden');
       document.getElementById('dayMessage').classList.add('hidden');
-      
       var cB = document.getElementById('classButtons');
       cB.innerHTML = '';
       var info = scheduleData[d];
-      
       for (var id in info.classes) {
         var cls = info.classes[id];
         if (cls.venue === selectedVenue) {
@@ -544,64 +702,19 @@
 
     function toCamelCase(str) {
       if (!str) return '';
-      return str
-        .toLowerCase()
+      return str.toLowerCase()
         .split(/\s+/)
         .filter(function(w) { return w; })
         .map(function(w) { return w.charAt(0).toUpperCase() + w.slice(1); })
         .join(' ');
     }
 
-    function showClassDetails(cls, id) {
-      var students = cls.students || [];
-      var emp = '';
-      
-      for (var i = 0; i < students.length; i++) {
-        var s = students[i];
-        var parts = [s["First Name"], s["Middle Name"], s["Last Name"]].filter(function(p) { return p; });
-        var fullName = parts.join(" ");
-        var formattedName = toCamelCase(fullName);
-        emp += '<div><strong>' + s["User ID"] + '</strong> - ' + formattedName + '</div>';
-      }
-      
-      var inst = cls.instructor || '';
-      var link = inst
-        ? '<a href="#" onclick="openInstructorPanel(\'' + inst.replace(/'/g, "\\'") + '\');return false;">' + toCamelCase(inst) + '</a>'
-        : '';
-
-      // 🔹 Get course description from subjects.js using ID first, then title
-      var courseDesc = getSubjectDescription(id) || getSubjectDescription(cls.title);
-      if (!courseDesc) {
-        courseDesc = '—';
-      }
-        
-      document.getElementById('classDetails').innerHTML = 
-        '<div style="text-align:center;margin-bottom:10px;">' +
-        '<img src="SGS_Academy_Logo_Blue.png" alt="Logo" style="max-height:60px;margin-bottom:10px;" onerror="this.style.display=\'none\'">' +
-        '</div>' +
-        '<h3 style="color:#144F5F;text-align:center;">' + cls.title + ' (ID: ' + id + ')</h3>' +
-        '<table>' +
-        '<tr><th>Instructor</th><td>' + link + '</td></tr>' +
-        '<tr><th>Start Time</th><td>' + (cls.start_time || '') + '</td></tr>' +
-        '<tr><th>End Time</th><td>' + (cls.end_time || '') + '</td></tr>' +
-        '<tr><th>Venue</th><td>' + (cls.venue || '') + '</td></tr>' +
-        '<tr><th>Employee Count</th><td>' + (cls.student_count || students.length) + '</td></tr>' +
-        '<tr><th>Course Description</th><td>' + courseDesc + '</td></tr>' +
-        '<tr><th>Employees</th><td>' + emp + '</td></tr>' +
-        '</table>';
-        
-      document.getElementById('classModal').style.display = 'flex';
-    }
-
-    function closeModal() {
-      document.getElementById('classModal').style.display = 'none';
-    }
-
+    // ===== SUBJECT MATCHING =====
     function normSlug(s) {
       if (!s) return '';
       return s.toLowerCase()
-        .replace(/\./g, '') // Remove periods (for initials like "A.")
-        .replace(/,/g, '') // Remove commas
+        .replace(/\./g, '')
+        .replace(/,/g, '')
         .replace(/[^a-z0-9\s]/g, ' ')
         .replace(/\s+/g, ' ')
         .trim();
@@ -609,116 +722,192 @@
 
     function tokenize(s) {
       var tokens = normSlug(s).split(' ').filter(function(t) { return t.length > 0; });
-      // Remove single letter tokens (middle initials) for better matching
       return tokens.filter(function(t) { return t.length > 1; });
     }
 
+    function findBestSubject(query) {
+      if (!window.subjectsMap) return null;
+      var qSlug = normSlug(query);
+      var qTokens = tokenize(query);
+      var keys = Object.keys(window.subjectsMap);
+      if (keys.length === 0) return null;
+
+      // Exact code match
+      if (window.subjectsMap[query]) {
+        return { key: query, info: window.subjectsMap[query], score: 100 };
+      }
+
+      var best = null;
+      var bestScore = 0;
+
+      for (var i = 0; i < keys.length; i++) {
+        var code = keys[i];
+        var info = window.subjectsMap[code];
+        var title = info.title || code;
+
+        var kTokens = tokenize(title + ' ' + code);
+        var matched = 0;
+        var total = Math.max(qTokens.length, kTokens.length);
+
+        for (var j = 0; j < qTokens.length; j++) {
+          var qt = qTokens[j];
+          var bestTokenMatch = 0;
+          for (var k = 0; k < kTokens.length; k++) {
+            var kt = kTokens[k];
+            if (qt === kt) {
+              bestTokenMatch = 1;
+              break;
+            }
+            if (qt.length >= 4 && kt.length >= 4) {
+              var minLen = Math.min(qt.length, kt.length);
+              var maxLen = Math.max(qt.length, kt.length);
+              var matches = 0;
+              for (var c = 0; c < minLen; c++) {
+                if (qt[c] === kt[c]) matches++;
+              }
+              var sim = matches / maxLen;
+              if (sim >= 0.8) bestTokenMatch = Math.max(bestTokenMatch, sim);
+            }
+          }
+          matched += bestTokenMatch;
+        }
+
+        var score = total ? (matched / total) * 100 : 0;
+        if (score > bestScore) {
+          bestScore = score;
+          best = { key: code, info: info, score: score };
+        }
+      }
+
+      if (best && bestScore >= 60) return best;
+      return null;
+    }
+
+    // ===== CLASS DETAILS (with course description + click to open subject panel) =====
+    function showClassDetails(cls, id) {
+      var students = cls.students || [];
+      var emp = '';
+      for (var i = 0; i < students.length; i++) {
+        var s = students[i];
+        var parts = [s["First Name"], s["Middle Name"], s["Last Name"]]
+          .filter(function(p) { return p; });
+        var fullName = parts.join(" ");
+        var formattedName = toCamelCase(fullName);
+        emp += '<div><strong>' + s["User ID"] + '</strong> - ' + formattedName + '</div>';
+      }
+
+      var inst = cls.instructor || '';
+      var instLink = inst
+        ? '<a href="#" onclick="openInstructorPanel(\'' +
+            inst.replace(/'/g, "\\'") +
+            '\');return false;">' + toCamelCase(inst) + '</a>'
+        : '';
+
+      var subjectMatch = findBestSubject(cls.title || '');
+      var courseDesc = subjectMatch && subjectMatch.info.description
+        ? subjectMatch.info.description
+        : '';
+
+      var safeTitle = (cls.title || '').replace(/'/g, "\\'");
+      var titleHtml =
+        '<a href="#" onclick="openSubjectPanel(\'' + safeTitle +
+        '\');return false;" style="color:#144F5F;text-decoration:underline;">' +
+        (cls.title || '') + '</a>';
+
+      var rows =
+        '<tr><th>Instructor</th><td>' + instLink + '</td></tr>' +
+        '<tr><th>Start Time</th><td>' + (cls.start_time || '') + '</td></tr>' +
+        '<tr><th>End Time</th><td>' + (cls.end_time || '') + '</td></tr>' +
+        '<tr><th>Venue</th><td>' + (cls.venue || '') + '</td></tr>' +
+        '<tr><th>Employee Count</th><td>' +
+          (cls.student_count || students.length) + '</td></tr>';
+
+      if (courseDesc) {
+        rows += '<tr><th>Course Description</th><td>' + courseDesc + '</td></tr>';
+      }
+
+      rows += '<tr><th>Employees</th><td>' + emp + '</td></tr>';
+
+      document.getElementById('classDetails').innerHTML =
+        '<div style="text-align:center;margin-bottom:10px;">' +
+          '<img src="SGS_Academy_Logo_Blue.png" alt="Logo" ' +
+          'style="max-height:60px;margin-bottom:10px;" ' +
+          'onerror="this.style.display=\'none\'">' +
+        '</div>' +
+        '<h3 style="color:#144F5F;text-align:center;">' +
+        titleHtml + ' (ID: ' + id + ')</h3>' +
+        '<table>' + rows + '</table>';
+
+      document.getElementById('classModal').style.display = 'flex';
+    }
+
+    function closeModal() {
+      document.getElementById('classModal').style.display = 'none';
+    }
+
+    // ===== INSTRUCTOR MATCHING & PANEL =====
     function findBestInstructor(name) {
       var map = window.instructorsMap || {};
       var keys = Object.keys(map);
-      
       if (keys.length === 0) {
         console.warn('⚠️ No instructors in pool');
         return null;
       }
-      
       var qSlug = normSlug(name);
       var qTokens = tokenize(name);
-      
-      console.log('🔍 Searching for instructor:', name);
-      console.log('   Normalized:', qSlug);
-      console.log('   Tokens:', qTokens);
-      
-      // 1. Exact match (normalized, ignoring middle initials)
+      // Exact match
       for (var i = 0; i < keys.length; i++) {
         var kSlug = normSlug(keys[i]);
         if (kSlug === qSlug) {
-          console.log('✅ Exact match found:', keys[i]);
           return { key: keys[i], info: map[keys[i]], score: 100 };
         }
       }
-      
-      // 2. Token-based matching (handles name variations and middle initials)
       var bestMatch = null;
       var bestScore = 0;
-      
       for (var i = 0; i < keys.length; i++) {
         var key = keys[i];
-        var kSlug = normSlug(key);
         var kTokens = tokenize(key);
-        var score = 0;
-        
-        console.log('   Checking:', key, '| tokens:', kTokens);
-        
-        // Count matching tokens
         var matchedTokens = 0;
         var totalTokens = Math.max(qTokens.length, kTokens.length);
-        
         for (var j = 0; j < qTokens.length; j++) {
           var qToken = qTokens[j];
           var bestTokenMatch = 0;
-          
           for (var k = 0; k < kTokens.length; k++) {
             var kToken = kTokens[k];
-            
-            // Exact token match
             if (qToken === kToken) {
               bestTokenMatch = 1;
               break;
             }
-            
-            // Very close match (like "musthafa" vs "mustafa")
             if (qToken.length >= 4 && kToken.length >= 4) {
               var minLen = Math.min(qToken.length, kToken.length);
               var maxLen = Math.max(qToken.length, kToken.length);
               var matches = 0;
-              
               for (var c = 0; c < minLen; c++) {
                 if (qToken[c] === kToken[c]) matches++;
               }
-              
               var similarity = matches / maxLen;
-              if (similarity >= 0.8) { // 80% similar
+              if (similarity >= 0.8) {
                 bestTokenMatch = Math.max(bestTokenMatch, similarity);
               }
             }
-            
-            // Partial match (first 4 chars for longer names)
             if (qToken.length >= 4 && kToken.length >= 4 &&
-                qToken.substring(0, 4) === kToken.substring(0, 4)) {
+                qToken.substring(0,4) === kToken.substring(0,4)) {
               bestTokenMatch = Math.max(bestTokenMatch, 0.7);
             }
           }
-          
           matchedTokens += bestTokenMatch;
         }
-        
-        if (matchedTokens > 0) {
-          score = (matchedTokens / totalTokens) * 100;
-          
-          // Bonus for matching first and last names
-          if (qTokens.length >= 2 && kTokens.length >= 2) {
-            if (qTokens[0] === kTokens[0]) score += 5; // First name match
-            if (qTokens[qTokens.length - 1] === kTokens[kTokens.length - 1]) score += 10; // Last name match
-          }
-          
-          console.log('   Score:', score.toFixed(1));
+        var score = totalTokens ? (matchedTokens / totalTokens) * 100 : 0;
+        if (qTokens.length >= 2 && kTokens.length >= 2) {
+          if (qTokens[0] === kTokens[0]) score += 5;
+          if (qTokens[qTokens.length-1] === kTokens[kTokens.length-1]) score += 10;
         }
-        
         if (score > bestScore) {
           bestScore = score;
-          bestMatch = { key: key, info: map[key], score: score };
+          bestMatch = { key:key, info:map[key], score:score };
         }
       }
-      
-      // Accept matches with score >= 60
-      if (bestMatch && bestScore >= 60) {
-        console.log('✅ Best match found:', bestMatch.key, '(score:', bestScore.toFixed(1) + ')');
-        return bestMatch;
-      }
-      
-      console.warn('⚠️ No good match found for:', name, '(best score:', bestScore ? bestScore.toFixed(1) : '0' + ')');
-      console.log('💡 Top 5 instructors in pool:', keys.slice(0, 5).join(', '));
+      if (bestMatch && bestScore >= 60) return bestMatch;
       return null;
     }
 
@@ -726,60 +915,50 @@
       var p = document.getElementById('instructorPanel');
       var t = document.getElementById('panelTitle');
       var c = document.getElementById('panelContent');
-
       var match = findBestInstructor(rawName);
       var displayName = match ? match.key : toCamelCase(rawName);
-
-      p.classList.remove('minimized', 'maximized');
+      p.classList.remove('minimized','maximized');
       t.textContent = 'Our Instructor: ' + displayName;
-
       if (!match) {
-        c.innerHTML = 
+        c.innerHTML =
           '<div class="panel-hero">' +
-          '<img src="defaultInstructor.png" onerror="this.src=\'data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'72\' height=\'72\'%3E%3Ccircle cx=\'36\' cy=\'36\' r=\'36\' fill=\'%23ccc\'/%3E%3C/svg%3E\'">' +
-          '<div>' +
-          '<div class="who">' + displayName + '</div>' +
-          '<div class="muted">No profile found.</div>' +
-          '</div>' +
+            '<img src="defaultInstructor.png" ' +
+            "onerror=\"this.src='data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='72' height='72'%3E%3Ccircle cx='36' cy='36' r='36' fill='%23ccc'/%3E%3C/svg%3E'\">" +
+            '<div>' +
+              '<div class="who">' + displayName + '</div>' +
+              '<div class="muted">No profile found.</div>' +
+            '</div>' +
           '</div>';
       } else {
         var info = match.info;
         var ph = info.photo || 'defaultInstructor.png';
         var role = info.role || '';
         var auth = info.authorized_for || [];
-        
-        // Sort certifications by length (shortest to longest)
-        auth.sort(function(a, b) {
-          return a.length - b.length;
-        });
-        
+        auth.sort(function(a,b){return a.length-b.length;});
         var chips = '';
-        
         for (var i = 0; i < auth.length; i++) {
-          chips += '<span class="chip" style="animation-delay:' + (i * 0.1) + 's">' + auth[i] + '</span> ';
+          chips += '<span class="chip" style="animation-delay:' + (i*0.1) + 's">' +
+                    auth[i] + '</span> ';
         }
-        
-        c.innerHTML = 
+        c.innerHTML =
           '<div class="panel-hero">' +
-          '<img src="' + ph + '" onerror="this.src=\'defaultInstructor.png\'">' +
-          '<div>' +
-          '<div class="who">' + displayName + '</div>' +
-          '<div class="muted">' + role + '</div>' +
-          '</div>' +
+            '<img src="' + ph + '" onerror="this.src=\'defaultInstructor.png\'">' +
+            '<div>' +
+              '<div class="who">' + displayName + '</div>' +
+              '<div class="muted">' + role + '</div>' +
+            '</div>' +
           '</div>' +
           (chips ? '<div>' +
-          '<div class="collapsible-title" onclick="toggleCollapsible(this)">Certified to teach ▾</div>' +
-          '<div class="collapsible-content">' + chips + '</div>' +
+            '<div class="collapsible-title" onclick="toggleCollapsible(this)">Certified to teach ▾</div>' +
+            '<div class="collapsible-content">' + chips + '</div>' +
           '</div>' : '');
       }
-      
       p.style.display = 'block';
     }
 
     function toggleCollapsible(title) {
       var content = title.nextElementSibling;
       var isActive = content.classList.contains('active');
-      
       if (isActive) {
         content.classList.remove('active');
         title.innerHTML = 'Certified to teach ▾';
@@ -799,6 +978,39 @@
 
     function toggleMaximize() {
       document.getElementById('instructorPanel').classList.toggle('maximized');
+    }
+
+    // ===== SUBJECT PANEL =====
+    function openSubjectPanel(query) {
+      if (!window.subjectsMap) {
+        alert('Course catalog not loaded');
+        return;
+      }
+      var p = document.getElementById('subjectPanel');
+      var t = document.getElementById('subjectPanelTitle');
+      var c = document.getElementById('subjectPanelContent');
+
+      var match = findBestSubject(query);
+      var code = match ? match.key : '';
+      var info = match ? match.info : { title: query, description: '' };
+      var title = info.title || query;
+      var desc = info.description || 'No description available for this course.';
+
+      p.classList.remove('minimized','maximized');
+      t.textContent = code ? code + ' – ' + title : title;
+      c.innerHTML = '<p style="font-size:13px;line-height:1.5;margin:0;">' +
+                    desc + '</p>';
+      p.style.display = 'block';
+    }
+
+    function closeSubjectPanel() {
+      document.getElementById('subjectPanel').style.display = 'none';
+    }
+    function toggleSubjectMinimize() {
+      document.getElementById('subjectPanel').classList.toggle('minimized');
+    }
+    function toggleSubjectMaximize() {
+      document.getElementById('subjectPanel').classList.toggle('maximized');
     }
 
     // Start app when ready
