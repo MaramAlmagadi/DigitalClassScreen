@@ -241,7 +241,7 @@ window.subjectsMap = {
   },
 
   GN007: {
-    title: "Introduction to GACAR",
+    title: "Regulatory Awarness (Introduction to GACAR)",
     description:
       "This program prepares participants to understand the role of GACA, applicable regulations in KSA, and requirements for certificated ground services personnel."
   },
@@ -397,3 +397,4 @@ window.subjectsMap = {
   },
 
 };
+
