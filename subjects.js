@@ -241,7 +241,7 @@ window.subjectsMap = {
   },
 
   GN007: {
-    title: "Regulatory Awarness (Introduction to GACAR)",
+    title: "Introduction to GACAR",
     description:
       "This program prepares participants to understand the role of GACA, applicable regulations in KSA, and requirements for certificated ground services personnel."
   },
@@ -277,43 +277,43 @@ window.subjectsMap = {
   },
 
   PX000: {
-    title: "Passenger Handling Overview",
+    title: "Passenger Handling Course ",
     description:
       "This program prepares participants to manage passenger and baggage check-in procedures, boarding processes, flight close-out, and messaging while ensuring efficient passenger facilitation."
   },
 
   PX001: {
-    title: "MEET AND GREET PRINCIPLES",
+    title: "Passenger Services Meet and Greet Principles",
     description:
       "This program prepares participants to maintain efficient passenger flow at check-in by providing clear directions, basic customer service, and assistance at self-service kiosks and bag-drop areas."
   },
 
   PX002: {
-    title: "Passenger Handling – Check-In",
+    title: "Passenger Services Check-in Principles",
     description:
       "This program prepares participants to manage check-in operations from counter setup to flight closure, including passenger acceptance, baggage handling, and irregular operations."
   },
 
   PX003: {
-    title: "Passenger Handling – Arrivals/Departure",
+    title: "Passenger Services Gate Principles" ,
     description:
       "This program prepares participants to manage gate operations from aircraft arrival to flight departure, ensuring timely boarding and compliance with procedures."
   },
 
   PX004: {
-    title: "Passenger Handling - Baggage Services, Claims and Settlement",
+    title: "Passenger Services Baggage Irregularities Principles ",
     description:
       "This program prepares participants to manage baggage reclaim activities and assist passengers with mishandled baggage."
   },
 
   PX006: {
-    title: "Passenger Handling - Special Category Passengers and Passengers with Disabilities",
+    title: "Passenger Services Special Category Passengers and Passengers with Reduced Mobility Principles ",
     description:
       "This program prepares participants to recognize and assist special-category passengers and passengers with reduced mobility across all passenger touchpoints."
   },
 
   PX101: {
-    title: "Passenger Handling Transit, Transfer and Connection",
+    title: "Passenger Services Meet & Assist Local, Transit and Transfer Principles ",
     description:
       "This program prepares participants to assist passengers requiring special assistance, including transfer and transit passengers."
   },
@@ -367,34 +367,33 @@ window.subjectsMap = {
   },
 
   AD002: {
-    title: "Dangerous Goods Regulations (Operational Assistants)",
+    title: "Dangerous Goods Regulations for Personnel Responsible for supporting loading and unloading ULDs, and aircraft cargo compartments activities ",
     description:
       "This program prepares participants to meet Dangerous Goods (DG) CBTA requirements for operational assistants in assigned functions, supporting the safe transportation of DG."
   },
 
   DG201: {
-    title: "Dangerous Goods Regulations (Transporting & Loading Personnel)",
+    title: "Dangerous Goods Regulations for Personnel Responsible for transporting cargo loading and unloading ULDs and aircraft cargo compartments ",
     description:
       "This program prepares participants to meet DG CBTA requirements for baggage GSE operators and baggage handling personnel in assigned functions, supporting the safe transportation of DG."
   },
 
   DG202: {
-    title: "Dangerous Goods Regulations (Passenger Handling Personnel)",
+    title: "	Dangerous Goods Regulations for Personnel Responsible for Accepting Passenger and Crew Baggage, Managing Aircraft Boarding Areas, and other Functions Involving Direct Passenger Contact at an Airport ",
     description:
       "This program prepares participants to meet DG CBTA requirements for passenger handling personnel in assigned functions, supporting the safe transportation of DG."
   },
 
   DG203: {
-    title: "Dangerous Goods Regulations (Load Planning Personnel)",
+    title: "Dangerous Goods Regulations for Personnel Responsible for the Planning of Aircraft Loading",
     description:
       "This program prepares participants to meet DG CBTA requirements for load control personnel in assigned functions, supporting the safe transportation of DG."
   },
 
   DG204: {
-    title: "Dangerous Goods Regulations (Transporting & Loading Supervision)",
+    title: "Dangerous Goods Regulations for Personnel Responsible for supervising loading and unloading ULDs and aircraft cargo compartments",
     description:
       "This program prepares participants to meet DG CBTA requirements for baggage representatives and aircraft turnaround coordinators in assigned functions, supporting the safe transportation of DG."
   },
 
 };
-
