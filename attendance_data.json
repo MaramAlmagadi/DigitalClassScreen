@@ -877,9 +877,85 @@
                         "First Name": "Mahmoud",
                         "Middle Name": "Reda",
                         "Last Name": "Abdelaal"
+                    },
+                    {
+                        "User ID": 15046318,
+                        "First Name": "Mahmoud",
+                        "Middle Name": "Yehia",
+                        "Last Name": "Ahmed"
                     }
                 ],
-                "student_count": 6
+                "student_count": 7
+            },
+            "34696": {
+                "title": "Business Email Excellence course",
+                "start_time": "7/8/2026 08:00:00",
+                "end_time": "7/8/2026 16:00:00",
+                "venue": "HQ-Training Acadmey",
+                "instructor": "Hussain",
+                "students": [
+                    {
+                        "User ID": 15012258,
+                        "First Name": "MOHAMMED",
+                        "Middle Name": "WALEED",
+                        "Last Name": "BASAAD"
+                    },
+                    {
+                        "User ID": 15027945,
+                        "First Name": "Samar",
+                        "Middle Name": "Awad",
+                        "Last Name": "Aliessa"
+                    },
+                    {
+                        "User ID": 15035458,
+                        "First Name": "Danyah",
+                        "Middle Name": "Hamed",
+                        "Last Name": "Albarakati"
+                    },
+                    {
+                        "User ID": 15037690,
+                        "First Name": "Dina",
+                        "Middle Name": "Mohammed",
+                        "Last Name": "Hassan"
+                    },
+                    {
+                        "User ID": 15038387,
+                        "First Name": "AYAH",
+                        "Middle Name": "SAMI",
+                        "Last Name": "AMJADD"
+                    },
+                    {
+                        "User ID": 15040492,
+                        "First Name": "Noran",
+                        "Middle Name": "Mohammed",
+                        "Last Name": "Gari"
+                    },
+                    {
+                        "User ID": 15042530,
+                        "First Name": "Hassan",
+                        "Middle Name": "Ali",
+                        "Last Name": "Althagafi"
+                    },
+                    {
+                        "User ID": 15044391,
+                        "First Name": "Maha",
+                        "Middle Name": "Naser",
+                        "Last Name": "Alqahtani"
+                    },
+                    {
+                        "User ID": 15044677,
+                        "First Name": "Reham",
+                        "Middle Name": "Fawzi",
+                        "Last Name": "Alharbi"
+                    },
+                    {
+                        "User ID": 15045461,
+                        "First Name": "Abdullah",
+                        "Middle Name": "Abdullatif",
+                        "Last Name": "AlHussami"
+                    }
+                ],
+                "student_count": 10
             }
         }
     },
@@ -928,9 +1004,85 @@
                         "First Name": "Mahmoud",
                         "Middle Name": "Reda",
                         "Last Name": "Abdelaal"
+                    },
+                    {
+                        "User ID": 15046318,
+                        "First Name": "Mahmoud",
+                        "Middle Name": "Yehia",
+                        "Last Name": "Ahmed"
                     }
                 ],
-                "student_count": 6
+                "student_count": 7
+            },
+            "34696": {
+                "title": "Business Email Excellence course",
+                "start_time": "7/9/2026 08:00:00",
+                "end_time": "7/9/2026 16:00:00",
+                "venue": "HQ-Training Acadmey",
+                "instructor": "Hussain",
+                "students": [
+                    {
+                        "User ID": 15012258,
+                        "First Name": "MOHAMMED",
+                        "Middle Name": "WALEED",
+                        "Last Name": "BASAAD"
+                    },
+                    {
+                        "User ID": 15027945,
+                        "First Name": "Samar",
+                        "Middle Name": "Awad",
+                        "Last Name": "Aliessa"
+                    },
+                    {
+                        "User ID": 15035458,
+                        "First Name": "Danyah",
+                        "Middle Name": "Hamed",
+                        "Last Name": "Albarakati"
+                    },
+                    {
+                        "User ID": 15037690,
+                        "First Name": "Dina",
+                        "Middle Name": "Mohammed",
+                        "Last Name": "Hassan"
+                    },
+                    {
+                        "User ID": 15038387,
+                        "First Name": "AYAH",
+                        "Middle Name": "SAMI",
+                        "Last Name": "AMJADD"
+                    },
+                    {
+                        "User ID": 15040492,
+                        "First Name": "Noran",
+                        "Middle Name": "Mohammed",
+                        "Last Name": "Gari"
+                    },
+                    {
+                        "User ID": 15042530,
+                        "First Name": "Hassan",
+                        "Middle Name": "Ali",
+                        "Last Name": "Althagafi"
+                    },
+                    {
+                        "User ID": 15044391,
+                        "First Name": "Maha",
+                        "Middle Name": "Naser",
+                        "Last Name": "Alqahtani"
+                    },
+                    {
+                        "User ID": 15044677,
+                        "First Name": "Reham",
+                        "Middle Name": "Fawzi",
+                        "Last Name": "Alharbi"
+                    },
+                    {
+                        "User ID": 15045461,
+                        "First Name": "Abdullah",
+                        "Middle Name": "Abdullatif",
+                        "Last Name": "AlHussami"
+                    }
+                ],
+                "student_count": 10
             }
         }
     }
