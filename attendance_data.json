@@ -450,10 +450,10 @@
                 ],
                 "student_count": 20
             },
-            "34749": {
-                "title": "Advanced Excel",
+            "34887": {
+                "title": "Mastering Microsoft Excel",
                 "start_time": "7/12/2026 12:00:00",
-                "end_time": "7/12/2026 16:00:00",
+                "end_time": "7/12/2026 20:00:00",
                 "venue": "HQ-Training Acadmey",
                 "instructor": "Amani Khafaji",
                 "students": [
@@ -524,6 +524,12 @@
                         "Last Name": "ALHARBI"
                     },
                     {
+                        "User ID": 15042200,
+                        "First Name": "Azzam",
+                        "Middle Name": "Adel",
+                        "Last Name": "Halawani"
+                    },
+                    {
                         "User ID": 15042346,
                         "First Name": "Reenad",
                         "Middle Name": "Ali",
@@ -560,7 +566,7 @@
                         "Last Name": "Qurban"
                     }
                 ],
-                "student_count": 17
+                "student_count": 18
             }
         }
     },
@@ -1014,118 +1020,6 @@
                     }
                 ],
                 "student_count": 15
-            },
-            "34749": {
-                "title": "Advanced Excel",
-                "start_time": "7/13/2026 12:00:00",
-                "end_time": "7/13/2026 16:00:00",
-                "venue": "HQ-Training Acadmey",
-                "instructor": "Amani Khafaji",
-                "students": [
-                    {
-                        "User ID": 15000010,
-                        "First Name": "AYMAN",
-                        "Middle Name": "MOHAMMED IBRAHIM",
-                        "Last Name": "NAGSHABANDI"
-                    },
-                    {
-                        "User ID": 15003838,
-                        "First Name": "TARIQ",
-                        "Middle Name": "AMEEN",
-                        "Last Name": "JAN"
-                    },
-                    {
-                        "User ID": 15013602,
-                        "First Name": "MAHER",
-                        "Middle Name": "OMER",
-                        "Last Name": "BIN GURSAIN"
-                    },
-                    {
-                        "User ID": 15025402,
-                        "First Name": "SULTAN",
-                        "Middle Name": "SAJIAD",
-                        "Last Name": "HAMAD"
-                    },
-                    {
-                        "User ID": 15029526,
-                        "First Name": "ABDULMAJEED",
-                        "Middle Name": "SAEED",
-                        "Last Name": "BAHWAL"
-                    },
-                    {
-                        "User ID": 15029835,
-                        "First Name": "LUJAIN",
-                        "Middle Name": "ALI",
-                        "Last Name": "ABDULLAH"
-                    },
-                    {
-                        "User ID": 15029967,
-                        "First Name": "Nourh",
-                        "Middle Name": "Atiah",
-                        "Last Name": "Almuabadi"
-                    },
-                    {
-                        "User ID": 15030111,
-                        "First Name": "Hanan",
-                        "Middle Name": "Fawzi",
-                        "Last Name": "Halawani"
-                    },
-                    {
-                        "User ID": 15030113,
-                        "First Name": "Hatoon",
-                        "Middle Name": "Ibrahim",
-                        "Last Name": "Mahboob"
-                    },
-                    {
-                        "User ID": 15033476,
-                        "First Name": "SAFIAH",
-                        "Middle Name": "ABDULRHEM",
-                        "Last Name": "ALHABIB"
-                    },
-                    {
-                        "User ID": 15033549,
-                        "First Name": "RADEYAH",
-                        "Middle Name": "SALEH",
-                        "Last Name": "ALHARBI"
-                    },
-                    {
-                        "User ID": 15042346,
-                        "First Name": "Reenad",
-                        "Middle Name": "Ali",
-                        "Last Name": "Alhumaidan"
-                    },
-                    {
-                        "User ID": 15042358,
-                        "First Name": "Shahad",
-                        "Middle Name": "Fahad",
-                        "Last Name": "Alowais"
-                    },
-                    {
-                        "User ID": 15042465,
-                        "First Name": "Manar",
-                        "Middle Name": "Saad",
-                        "Last Name": "Barefah"
-                    },
-                    {
-                        "User ID": 15045375,
-                        "First Name": "Razan",
-                        "Middle Name": "Mazen",
-                        "Last Name": "Madani"
-                    },
-                    {
-                        "User ID": 15045461,
-                        "First Name": "Abdullah",
-                        "Middle Name": "Abdullatif",
-                        "Last Name": "AlHussami"
-                    },
-                    {
-                        "User ID": 15045733,
-                        "First Name": "Samaher",
-                        "Middle Name": "Abdulsattar",
-                        "Last Name": "Qurban"
-                    }
-                ],
-                "student_count": 17
             }
         }
     },
@@ -1561,7 +1455,7 @@
                 "start_time": "7/14/2026 16:00:00",
                 "end_time": "7/14/2026 23:00:00",
                 "venue": "HQ-Training Acadmey",
-                "instructor": "Hazim Alhazmi",
+                "instructor": "Ahmed Alkhanbashi",
                 "students": [
                     {
                         "User ID": 15046317,
@@ -1571,118 +1465,6 @@
                     }
                 ],
                 "student_count": 1
-            },
-            "34749": {
-                "title": "Advanced Excel",
-                "start_time": "7/14/2026 12:00:00",
-                "end_time": "7/14/2026 16:00:00",
-                "venue": "HQ-Training Acadmey",
-                "instructor": "Amani Khafaji",
-                "students": [
-                    {
-                        "User ID": 15000010,
-                        "First Name": "AYMAN",
-                        "Middle Name": "MOHAMMED IBRAHIM",
-                        "Last Name": "NAGSHABANDI"
-                    },
-                    {
-                        "User ID": 15003838,
-                        "First Name": "TARIQ",
-                        "Middle Name": "AMEEN",
-                        "Last Name": "JAN"
-                    },
-                    {
-                        "User ID": 15013602,
-                        "First Name": "MAHER",
-                        "Middle Name": "OMER",
-                        "Last Name": "BIN GURSAIN"
-                    },
-                    {
-                        "User ID": 15025402,
-                        "First Name": "SULTAN",
-                        "Middle Name": "SAJIAD",
-                        "Last Name": "HAMAD"
-                    },
-                    {
-                        "User ID": 15029526,
-                        "First Name": "ABDULMAJEED",
-                        "Middle Name": "SAEED",
-                        "Last Name": "BAHWAL"
-                    },
-                    {
-                        "User ID": 15029835,
-                        "First Name": "LUJAIN",
-                        "Middle Name": "ALI",
-                        "Last Name": "ABDULLAH"
-                    },
-                    {
-                        "User ID": 15029967,
-                        "First Name": "Nourh",
-                        "Middle Name": "Atiah",
-                        "Last Name": "Almuabadi"
-                    },
-                    {
-                        "User ID": 15030111,
-                        "First Name": "Hanan",
-                        "Middle Name": "Fawzi",
-                        "Last Name": "Halawani"
-                    },
-                    {
-                        "User ID": 15030113,
-                        "First Name": "Hatoon",
-                        "Middle Name": "Ibrahim",
-                        "Last Name": "Mahboob"
-                    },
-                    {
-                        "User ID": 15033476,
-                        "First Name": "SAFIAH",
-                        "Middle Name": "ABDULRHEM",
-                        "Last Name": "ALHABIB"
-                    },
-                    {
-                        "User ID": 15033549,
-                        "First Name": "RADEYAH",
-                        "Middle Name": "SALEH",
-                        "Last Name": "ALHARBI"
-                    },
-                    {
-                        "User ID": 15042346,
-                        "First Name": "Reenad",
-                        "Middle Name": "Ali",
-                        "Last Name": "Alhumaidan"
-                    },
-                    {
-                        "User ID": 15042358,
-                        "First Name": "Shahad",
-                        "Middle Name": "Fahad",
-                        "Last Name": "Alowais"
-                    },
-                    {
-                        "User ID": 15042465,
-                        "First Name": "Manar",
-                        "Middle Name": "Saad",
-                        "Last Name": "Barefah"
-                    },
-                    {
-                        "User ID": 15045375,
-                        "First Name": "Razan",
-                        "Middle Name": "Mazen",
-                        "Last Name": "Madani"
-                    },
-                    {
-                        "User ID": 15045461,
-                        "First Name": "Abdullah",
-                        "Middle Name": "Abdullatif",
-                        "Last Name": "AlHussami"
-                    },
-                    {
-                        "User ID": 15045733,
-                        "First Name": "Samaher",
-                        "Middle Name": "Abdulsattar",
-                        "Last Name": "Qurban"
-                    }
-                ],
-                "student_count": 17
             },
             "34849": {
                 "title": "Dangerous Goods Regulations (DGR) for Handling and Loading Personnel",
@@ -2029,118 +1811,6 @@
                 ],
                 "student_count": 12
             },
-            "34749": {
-                "title": "Advanced Excel",
-                "start_time": "7/15/2026 12:00:00",
-                "end_time": "7/15/2026 16:00:00",
-                "venue": "HQ-Training Acadmey",
-                "instructor": "Amani Khafaji",
-                "students": [
-                    {
-                        "User ID": 15000010,
-                        "First Name": "AYMAN",
-                        "Middle Name": "MOHAMMED IBRAHIM",
-                        "Last Name": "NAGSHABANDI"
-                    },
-                    {
-                        "User ID": 15003838,
-                        "First Name": "TARIQ",
-                        "Middle Name": "AMEEN",
-                        "Last Name": "JAN"
-                    },
-                    {
-                        "User ID": 15013602,
-                        "First Name": "MAHER",
-                        "Middle Name": "OMER",
-                        "Last Name": "BIN GURSAIN"
-                    },
-                    {
-                        "User ID": 15025402,
-                        "First Name": "SULTAN",
-                        "Middle Name": "SAJIAD",
-                        "Last Name": "HAMAD"
-                    },
-                    {
-                        "User ID": 15029526,
-                        "First Name": "ABDULMAJEED",
-                        "Middle Name": "SAEED",
-                        "Last Name": "BAHWAL"
-                    },
-                    {
-                        "User ID": 15029835,
-                        "First Name": "LUJAIN",
-                        "Middle Name": "ALI",
-                        "Last Name": "ABDULLAH"
-                    },
-                    {
-                        "User ID": 15029967,
-                        "First Name": "Nourh",
-                        "Middle Name": "Atiah",
-                        "Last Name": "Almuabadi"
-                    },
-                    {
-                        "User ID": 15030111,
-                        "First Name": "Hanan",
-                        "Middle Name": "Fawzi",
-                        "Last Name": "Halawani"
-                    },
-                    {
-                        "User ID": 15030113,
-                        "First Name": "Hatoon",
-                        "Middle Name": "Ibrahim",
-                        "Last Name": "Mahboob"
-                    },
-                    {
-                        "User ID": 15033476,
-                        "First Name": "SAFIAH",
-                        "Middle Name": "ABDULRHEM",
-                        "Last Name": "ALHABIB"
-                    },
-                    {
-                        "User ID": 15033549,
-                        "First Name": "RADEYAH",
-                        "Middle Name": "SALEH",
-                        "Last Name": "ALHARBI"
-                    },
-                    {
-                        "User ID": 15042346,
-                        "First Name": "Reenad",
-                        "Middle Name": "Ali",
-                        "Last Name": "Alhumaidan"
-                    },
-                    {
-                        "User ID": 15042358,
-                        "First Name": "Shahad",
-                        "Middle Name": "Fahad",
-                        "Last Name": "Alowais"
-                    },
-                    {
-                        "User ID": 15042465,
-                        "First Name": "Manar",
-                        "Middle Name": "Saad",
-                        "Last Name": "Barefah"
-                    },
-                    {
-                        "User ID": 15045375,
-                        "First Name": "Razan",
-                        "Middle Name": "Mazen",
-                        "Last Name": "Madani"
-                    },
-                    {
-                        "User ID": 15045461,
-                        "First Name": "Abdullah",
-                        "Middle Name": "Abdullatif",
-                        "Last Name": "AlHussami"
-                    },
-                    {
-                        "User ID": 15045733,
-                        "First Name": "Samaher",
-                        "Middle Name": "Abdulsattar",
-                        "Last Name": "Qurban"
-                    }
-                ],
-                "student_count": 17
-            },
             "34850": {
                 "title": "Dangerous Goods Regulations for Passenger Handling Personnel",
                 "start_time": "7/15/2026 08:30:00",
@@ -2373,118 +2043,6 @@
                     }
                 ],
                 "student_count": 12
-            },
-            "34749": {
-                "title": "Advanced Excel",
-                "start_time": "7/16/2026 12:00:00",
-                "end_time": "7/16/2026 16:00:00",
-                "venue": "HQ-Training Acadmey",
-                "instructor": "Amani Khafaji",
-                "students": [
-                    {
-                        "User ID": 15000010,
-                        "First Name": "AYMAN",
-                        "Middle Name": "MOHAMMED IBRAHIM",
-                        "Last Name": "NAGSHABANDI"
-                    },
-                    {
-                        "User ID": 15003838,
-                        "First Name": "TARIQ",
-                        "Middle Name": "AMEEN",
-                        "Last Name": "JAN"
-                    },
-                    {
-                        "User ID": 15013602,
-                        "First Name": "MAHER",
-                        "Middle Name": "OMER",
-                        "Last Name": "BIN GURSAIN"
-                    },
-                    {
-                        "User ID": 15025402,
-                        "First Name": "SULTAN",
-                        "Middle Name": "SAJIAD",
-                        "Last Name": "HAMAD"
-                    },
-                    {
-                        "User ID": 15029526,
-                        "First Name": "ABDULMAJEED",
-                        "Middle Name": "SAEED",
-                        "Last Name": "BAHWAL"
-                    },
-                    {
-                        "User ID": 15029835,
-                        "First Name": "LUJAIN",
-                        "Middle Name": "ALI",
-                        "Last Name": "ABDULLAH"
-                    },
-                    {
-                        "User ID": 15029967,
-                        "First Name": "Nourh",
-                        "Middle Name": "Atiah",
-                        "Last Name": "Almuabadi"
-                    },
-                    {
-                        "User ID": 15030111,
-                        "First Name": "Hanan",
-                        "Middle Name": "Fawzi",
-                        "Last Name": "Halawani"
-                    },
-                    {
-                        "User ID": 15030113,
-                        "First Name": "Hatoon",
-                        "Middle Name": "Ibrahim",
-                        "Last Name": "Mahboob"
-                    },
-                    {
-                        "User ID": 15033476,
-                        "First Name": "SAFIAH",
-                        "Middle Name": "ABDULRHEM",
-                        "Last Name": "ALHABIB"
-                    },
-                    {
-                        "User ID": 15033549,
-                        "First Name": "RADEYAH",
-                        "Middle Name": "SALEH",
-                        "Last Name": "ALHARBI"
-                    },
-                    {
-                        "User ID": 15042346,
-                        "First Name": "Reenad",
-                        "Middle Name": "Ali",
-                        "Last Name": "Alhumaidan"
-                    },
-                    {
-                        "User ID": 15042358,
-                        "First Name": "Shahad",
-                        "Middle Name": "Fahad",
-                        "Last Name": "Alowais"
-                    },
-                    {
-                        "User ID": 15042465,
-                        "First Name": "Manar",
-                        "Middle Name": "Saad",
-                        "Last Name": "Barefah"
-                    },
-                    {
-                        "User ID": 15045375,
-                        "First Name": "Razan",
-                        "Middle Name": "Mazen",
-                        "Last Name": "Madani"
-                    },
-                    {
-                        "User ID": 15045461,
-                        "First Name": "Abdullah",
-                        "Middle Name": "Abdullatif",
-                        "Last Name": "AlHussami"
-                    },
-                    {
-                        "User ID": 15045733,
-                        "First Name": "Samaher",
-                        "Middle Name": "Abdulsattar",
-                        "Last Name": "Qurban"
-                    }
-                ],
-                "student_count": 17
             },
             "34851": {
                 "title": "Dangerous Goods Regulations (DGR) for Loadmasters and Load Planners",
